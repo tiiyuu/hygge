@@ -15,4 +15,5 @@ fields:
   name: postImage
   label: postImage
 pages:
+- content/blog/test-blog.md
 - content/blog/you-must-know-this-before-becoming-a-designer.md
