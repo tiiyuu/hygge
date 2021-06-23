@@ -140,14 +140,14 @@
                   widget: "string"
               }
           ],
-          pattern: /{{< Embed >}}\n.*\n{{< \/Embed >}}/,
+          pattern: /{{< embed >}}\n.*\n{{< \/embed >}}/,
           fromBlock: function(match) {
               return {
                   code: match[1],
               };
           },
           toBlock: function(obj) {
-              return `{{< Embed >}}\n"${obj.code}"\n{{< /Embed >}}`;
+              return `{{< embed ${obj.code} >}}`;
           },
           toPreview: function(obj) {
               return `${obj.code}`;
