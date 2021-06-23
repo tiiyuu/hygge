@@ -143,7 +143,7 @@
           pattern: /{{< embed >}}\n.*\n{{< \/embed >}}/,
           fromBlock: function(match) {
               return {
-                  code: '' + match[1] + '',
+                  code: match[1].toString(),
               };
           },
           toBlock: function(obj) {
