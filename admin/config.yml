@@ -2,7 +2,7 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-site_url: https://tiiyuu.github.io/test/
+# site_url: https://tiiyuu.github.io/test/
 display_url: https://tiiyuu.github.io/test/
 # logo_url: https://your-site.com/images/logo.svg # for CMS UI logo
 publish_mode: editorial_workflow
