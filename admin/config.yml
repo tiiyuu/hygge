@@ -8,7 +8,7 @@ display_url: https://tiiyuu.github.io/test/
 publish_mode: editorial_workflow
 show_preview_links: true
 media_folder: static/images
-public_folder: /images
+public_folder: images
 collections:
   - name: 'blog'
     label: 'Blog'
@@ -21,7 +21,7 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'date', format: 'MMM Do YYYY' }
+      - { label: 'Publish Date', name: 'date', widget: 'date' }
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
