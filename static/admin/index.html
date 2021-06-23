@@ -137,7 +137,7 @@
           fields: [{
                   name: "code",
                   label: "Code",
-                  widget: "string"
+                  widget: "text"
               }
           ],
           pattern: /{{< embed >}}\n.*\n{{< \/embed >}}/,
@@ -147,7 +147,7 @@
               };
           },
           toBlock: function(obj) {
-              return `{{< embed "${obj.code}" >}}`;
+              return `{{< embed ${obj.code} >}}`;
           },
           toPreview: function(obj) {
               return `${obj.code}`;
