@@ -147,10 +147,10 @@
               };
           },
           toBlock: function(obj) {
-              return `${obj.code}`;
+              return `{{< embed >}}\n${obj.code}\n{{< /embed >}}`;
           },
           toPreview: function(obj) {
-              return `${obj.code}`;
+              return `{{< embed >}}\n${obj.code}\n{{< /embed >}}`;
           },
       });
   </script>
