@@ -68,6 +68,52 @@
       //         return `{{< gist ${obj.username} ${obj.gid} >}}`;
       //     },
       // });
+
+      CMS.registerEditorComponent({
+          id: "format",
+          label: "Format",
+          fields: [{
+                  name: "fontfamily",
+                  label: "Font-Family",
+                  widget: "string",
+                  required: false
+              },
+              {
+                  name: "fontsize",
+                  label: "Font-Size",
+                  widget: "string",
+                  required: false
+              },
+              {
+                  name: "color",
+                  label: "Font-Color",
+                  widget: "color",
+                  enableAlpha: true,
+                  allowInput: true,
+                  required: false
+              },
+              {
+                  name: "text",
+                  label: "Text",
+                  widget: "text"
+              },
+          ],
+          pattern: /{{< format fontfamily="(.*)" fontsize="(.*)" color="(.*)" text="(.*)" >}}/,
+          fromBlock: function(match) {
+              return {
+                  fontfamily: match[1],
+                  fontsize: match[2],
+                  color: match[3],
+                  text: match[4],
+              };
+          },
+          toBlock: function(obj) {
+              return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" text="${obj.text}" >}}`;
+          },
+          toPreview: function(obj) {
+              return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" text="${obj.text}" >}}`;
+          },
+      });
       CMS.registerEditorComponent({
           id: "twitter",
           label: "Twitter",
