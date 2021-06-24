@@ -134,7 +134,7 @@
               return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" bgcolor="${obj.bgcolor}" radius="${obj.radius}" text="${obj.text}" >}}`;
           },
           toPreview: function(obj) {
-              return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" bgcolor="${obj.bgcolor}" radius="${obj.radius}" text="${obj.text}" >}}`;
+              return `<span style="font-family:${obj.fontfamily}; font-size:${obj.fontsize}px; color: ${obj.color}; background-color:${obj.bgcolor}; border-radius: ${obj.radius}px;">${obj.text}</span>`;
           },
       });
       // CMS.registerEditorComponent({
@@ -227,24 +227,7 @@
 
       // Custom Preview in CMS
       CMS.registerPreviewStyle("/css/style.min.css");
-      // Custom Preview Template
-      var BlogPreview = createClass({
-        render: function() {
-          var entry = this.props.entry;
-          // var image = entry.getIn(['data', 'image']);
-          // var bg = this.props.getAsset(image);
-          return h('header', {"className": "breadCrumb"},
-            h('div', {"className": "container"}),
-            h('div', {"className": "row"}),
-            h('div', {"className": "col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center"}),
-            h('h3', {"className": "breadCrumb__title"}, entry.getIn(['.Title'])),
-            h('nav', {"aria-label": "breadcrumb", "className": "d-flex justify-content-center"}),
-            h('ol', ("className": "breadcrumb align-items-center")
-          );
-        }
-      });
-
-      CMS.registerPreviewTemplate("blog", BlogPreview);
+      // [To-Do] Add Custom Preview Template
   </script>
   </body>
 </html>
