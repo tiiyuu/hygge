@@ -11,7 +11,7 @@
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <!-- Test -->
-    <script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script>
+    <!-- <script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script> -->
     <!-- Register Custom Editor Components -->
     <script src="editor_component.js"></script>
     <!-- <script src="cms.js"></script> -->
@@ -28,8 +28,8 @@
                     <h3 class="breadCrumb__title">{ entry.getIn(["data", "title"])}</h3>
                     <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                       <ol class="breadcrumb align-items-center">
-                        <li class="breadcrumb-item"><a href={ .Site.BaseURL }>Home</a></li>
-                        <li class="breadcrumb-item"><a href={ .Site.Params.blogPageURL }>All Post</a></li>
+                        <li class="breadcrumb-item"><a href={ entry.getIn(["data", "BaseURL"] }>Home</a></li>
+                        <li class="breadcrumb-item"><a href={ entry.getIn(["data", "blogPageURL"] }>All Post</a></li>
                         <li class="breadcrumb-item active" aria-current="page">{ entry.getIn(["data", "title"])}</li>
                       </ol>
                     </nav>
