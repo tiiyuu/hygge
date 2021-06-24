@@ -82,7 +82,11 @@
                   name: "fontsize",
                   label: "Font-Size",
                   widget: "string",
-                  required: false
+                  required: false,
+                  value_type: "float",
+                  default: 0.0,
+                  min: 0.0,
+                  max: 100.0
               },
               {
                   name: "color",
@@ -106,6 +110,7 @@
                   widget: "number",
                   required: false,
                   value_type: "int",
+                  default: 0,
                   min: 0,
                   max: 30
               },
