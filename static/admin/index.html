@@ -71,7 +71,7 @@
 
       CMS.registerEditorComponent({
           id: "format",
-          label: "Format",
+          label: "Text Format",
           fields: [{
                   name: "fontfamily",
                   label: "Font-Family",
@@ -93,25 +93,49 @@
                   required: false
               },
               {
+                  name: "bgcolor",
+                  label: "Background-Color",
+                  widget: "color",
+                  enableAlpha: true,
+                  allowInput: true,
+                  required: false
+              },
+              {
+                  name: "radius",
+                  label: "Border-Radius",
+                  widget: "list",
+                  required: false,
+                  allow_add: true,
+                  label_singular: "+",
+                  default: ["0"],
+                  fields:
+                    - { label: "5", name: "5", widget: "string" }
+                    - { label: "10", name: "10", widget: "string" }
+                    - { label: "15", name: "15", widget: "string" }
+                    - { label: "20", name: "20", widget: "string" }
+              },
+              {
                   name: "text",
                   label: "Text",
                   widget: "text"
               },
           ],
-          pattern: /{{< format fontfamily="(.*)" fontsize="(.*)" color="(.*)" text="(.*)" >}}/,
+          pattern: /{{< format fontfamily="(.*)" fontsize="(.*)" color="(.*)" bgcolor="(.*)" radius="(.*)" text="(.*)" >}}/,
           fromBlock: function(match) {
               return {
                   fontfamily: match[1],
                   fontsize: match[2],
                   color: match[3],
-                  text: match[4],
+                  bgcolor: match[4],
+                  radius: match[5],
+                  text: match[6],
               };
           },
           toBlock: function(obj) {
-              return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" text="${obj.text}" >}}`;
+              return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" bgcolor="${obj.bgcolor}" radius="${obj.radius}" text="${obj.text}" >}}`;
           },
           toPreview: function(obj) {
-              return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" text="${obj.text}" >}}`;
+              return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" bgcolor="${obj.bgcolor}" radius="${obj.radius}" text="${obj.text}" >}}`;
           },
       });
       CMS.registerEditorComponent({
