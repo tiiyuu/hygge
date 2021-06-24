@@ -81,11 +81,11 @@
               {
                   name: "fontsize",
                   label: "Font-Size",
-                  widget: "string",
+                  widget: "number",
                   required: false,
-                  value_type: "int",
-                  min: 1,
-                  max: 100
+                  value_type: "float",
+                  min: 0.5,
+                  max: 100.0
               },
               {
                   name: "color",
@@ -227,6 +227,7 @@
 
       // Custom Preview in CMS
       CMS.registerPreviewStyle("css/style.min.css");
+      CMS.registerPreviewStyle("/css/style.min.css");
   </script>
   </body>
 </html>
