@@ -6,8 +6,7 @@ export default class BlogPreview extends React.Component {
     const {entry, widgetFor, getAsset} = this.props;
     let postImage = getAsset(entry.getIn(["data", "postImage"]));
 
-    return (
-      <header class="breadCrumb">
+    return <header class="breadCrumb">
         <div class="container">
           <div class="row">
             <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
@@ -61,7 +60,6 @@ export default class BlogPreview extends React.Component {
                 </div>
             </div>
         </div>
-      </section>
-    );
+      </section>;
   }
 }
