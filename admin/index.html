@@ -137,69 +137,69 @@
               return `{{< format fontfamily="${obj.fontfamily}" fontsize="${obj.fontsize}" color="${obj.color}" bgcolor="${obj.bgcolor}" radius="${obj.radius}" text="${obj.text}" >}}`;
           },
       });
-      CMS.registerEditorComponent({
-          id: "twitter",
-          label: "Twitter",
-          fields: [{
-              name: "tid",
-              label: "Tweet id",
-              widget: "string"
-          }],
-          pattern: /{{< tweet ([a-zA-Z0-9]+) >}}/,
-          fromBlock: function(match) {
-              return {
-                  tid: match[1]
-              };
-          },
-          toBlock: function(obj) {
-              return `{{< tweet ${obj.tid} >}}`;
-          },
-          toPreview: function(obj) {
-              return `{{< tweet ${obj.tid} >}}`;
-          },
-      });
-      CMS.registerEditorComponent({
-          id: "vimeo",
-          label: "Vimeo",
-          fields: [{
-              name: "shortcode",
-              label: "Vimeo shortcode",
-              widget: "string"
-          }],
-          pattern: /{{< vimeo ([a-zA-Z0-9]+) >}}/,
-          fromBlock: function(match) {
-              return {
-                  shortcode: match[1]
-              };
-          },
-          toBlock: function(obj) {
-              return `{{< vimeo ${obj.shortcode} >}}`;
-          },
-          toPreview: function(obj) {
-              return `{{< vimeo ${obj.shortcode} >}}`;
-          },
-      });
-      CMS.registerEditorComponent({
-          id: "youtube",
-          label: "Youtube",
-          fields: [{
-              name: "id",
-              label: "Youtube Video ID",
-              widget: "string"
-          }],
-          pattern: /{{< youtube ([a-zA-Z0-9]+) >}}/,
-          fromBlock: function(match) {
-              return {
-                  id: match[1],
-              };
-          },
-          toBlock: function(obj) {
-              return `{{< youtube ${obj.id} >}}`;
-          },
-          toPreview: function(obj) {
-              return `<img src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" alt="Youtube Video"/>`;
-          },
-      });
+      // CMS.registerEditorComponent({
+      //     id: "twitter",
+      //     label: "Twitter",
+      //     fields: [{
+      //         name: "tid",
+      //         label: "Tweet id",
+      //         widget: "string"
+      //     }],
+      //     pattern: /{{< tweet ([a-zA-Z0-9]+) >}}/,
+      //     fromBlock: function(match) {
+      //         return {
+      //             tid: match[1]
+      //         };
+      //     },
+      //     toBlock: function(obj) {
+      //         return `{{< tweet ${obj.tid} >}}`;
+      //     },
+      //     toPreview: function(obj) {
+      //         return `{{< tweet ${obj.tid} >}}`;
+      //     },
+      // });
+      // CMS.registerEditorComponent({
+      //     id: "vimeo",
+      //     label: "Vimeo",
+      //     fields: [{
+      //         name: "shortcode",
+      //         label: "Vimeo shortcode",
+      //         widget: "string"
+      //     }],
+      //     pattern: /{{< vimeo ([a-zA-Z0-9]+) >}}/,
+      //     fromBlock: function(match) {
+      //         return {
+      //             shortcode: match[1]
+      //         };
+      //     },
+      //     toBlock: function(obj) {
+      //         return `{{< vimeo ${obj.shortcode} >}}`;
+      //     },
+      //     toPreview: function(obj) {
+      //         return `{{< vimeo ${obj.shortcode} >}}`;
+      //     },
+      // });
+      // CMS.registerEditorComponent({
+      //     id: "youtube",
+      //     label: "Youtube",
+      //     fields: [{
+      //         name: "id",
+      //         label: "Youtube Video ID",
+      //         widget: "string"
+      //     }],
+      //     pattern: /{{< youtube ([a-zA-Z0-9]+) >}}/,
+      //     fromBlock: function(match) {
+      //         return {
+      //             id: match[1],
+      //         };
+      //     },
+      //     toBlock: function(obj) {
+      //         return `{{< youtube ${obj.id} >}}`;
+      //     },
+      //     toPreview: function(obj) {
+      //         return `<img src="http://img.youtube.com/vi/${obj.id}/maxresdefault.jpg" alt="Youtube Video"/>`;
+      //     },
+      // });
       CMS.registerEditorComponent({
           id: "embed",
           label: "Embed",
@@ -221,13 +221,30 @@
               return `{{< embed >}}\n${obj.code}\n{{< /embed >}}`;
           },
           toPreview: function(obj) {
-              return `{{< embed >}}\n${obj.code}\n{{< /embed >}}`;
+              return obj.code;
           },
       });
 
       // Custom Preview in CMS
-      CMS.registerPreviewStyle("css/style.min.css");
       CMS.registerPreviewStyle("/css/style.min.css");
+      // Custom Preview Template
+      var BlogPreview = createClass({
+        render: function() {
+          var entry = this.props.entry;
+          // var image = entry.getIn(['data', 'image']);
+          // var bg = this.props.getAsset(image);
+          return h('header', {"className": "breadCrumb"},
+            h('div', {"className": "container"}),
+            h('div', {"className": "row"}),
+            h('div', {"className": "col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center"}),
+            h('h3', {"className": "breadCrumb__title"}, entry.getIn(['.Title'])),
+            h('nav', {"aria-label": "breadcrumb", "className": "d-flex justify-content-center"}),
+            h('ol', ("className": "breadcrumb align-items-center")
+          );
+        }
+      });
+
+      CMS.registerPreviewTemplate("blog", BlogPreview);
   </script>
   </body>
 </html>
