@@ -103,16 +103,15 @@
               {
                   name: "radius",
                   label: "Border-Radius",
-                  widget: "list",
+                  widget: "select",
                   required: false,
-                  allow_add: true,
-                  label_singular: "+",
-                  default: ["0"],
-                  fields:
-                    - { label: "5", name: "5", widget: "string" }
-                    - { label: "10", name: "10", widget: "string" }
-                    - { label: "15", name: "15", widget: "string" }
-                    - { label: "20", name: "20", widget: "string" }
+                  default:
+                    - { label: "0px", value: "0" }
+                  options:
+                    - { label: "5px", value: "5" }
+                    - { label: "10px", value: "10" }
+                    - { label: "15px", value: "15" }
+                    - { label: "20px", value: "20" }
               },
               {
                   name: "text",
