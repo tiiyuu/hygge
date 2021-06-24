@@ -6,6 +6,8 @@ import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!/css
 
 import BlogPreview from "blog.js";
 
-CMS.registerPreviewStyle(styles, { raw: true });
+console.log("Inla");
+
+CMS.registerPreviewStyle(styles);
 CMS.registerPreviewTemplate("blog", BlogPreview);
 CMS.init();
