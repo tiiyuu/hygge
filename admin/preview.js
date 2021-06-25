@@ -48,7 +48,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="singleBlog__feature">
-                            <img src={ `/${data.postImage}` ? `/${data.postImage}` : 'images/cover.png' } alt="feature-image" />
+                            <img src={ `/${data.postImage}` || "images/cover.png" } />
                         </div>
                     </div>
                 </div>
