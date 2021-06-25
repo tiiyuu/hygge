@@ -25,11 +25,28 @@ collections:
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'portfolio'
+    label: 'Portfolio'
+    folder: 'content/portfolio'
+    description: '妮妮♥尼尼'
+    create: true
+    extension: 'md'
+    slug: '{{year}}_{{month}}_{{day}}_{{hour}}_{{minute}}_{{slug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
+      - { label: 'service', name: 'service', widget: 'string' }
+      - { label: 'client', name: 'client', widget: 'string' }
+      - { label: 'shortDescription', name: 'shortDescription', widget: 'text' }
+      - { label: 'challenge', name: 'challenge', widget: 'text' }
+      - { label: 'solution', name: 'solution', widget: 'text' }
+      - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'pages'
     label: 'Pages'
     files:
       - file: 'data/hero.yml'
-        label: 'Hero Page'
+        label: 'Hero'
         name: 'hero'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
@@ -41,20 +58,70 @@ collections:
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
           - { label: 'VideoURL', name: 'videoURL', widget: 'string' }
-      # - file: "site/content/contact/_index.md"
-      #   label: "Contact Page"
-      #   name: "contact"
-      #   fields:
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Logo, name: logo, widget: image}
-      #     - {label: Body, name: body, widget: markdown}
-      #     - label: Contact Entries
-      #       name: contact_entries
-      #       widget: list
-      #       fields:
-      #         - label: Heading
-      #           name: heading
-      #           widget: string
-      #         - label: Text
-      #           name: text
-      #           widget: text
+      - file: 'data/aboutSection.yml'
+        label: 'About'
+        name: 'about'
+        fields:
+          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'Title', name: 'title', widget: 'text' }
+          - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
+          - { label: 'Title2', name: 'title2', widget: 'text' }
+          - { label: 'Content', name: 'content', widget: 'text' }
+          - { label: 'Button1Name', name: 'button1Name', widget: 'string' }
+          - { label: 'Button2Name', name: 'button2Name', widget: 'string' }
+          - { label: 'Button1Target', name: 'button1Target', widget: 'string' }
+          - { label: 'Button2Target', name: 'button2Target', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+      - file: 'data/serviceSection.yml'
+        label: 'Service'
+        name: 'service'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'text' }
+          - { label: 'subtitle', name: 'subtitle', widget: 'text' }
+          - { label: 'service', name: 'service', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'image', name: 'image', widget: 'image' }] }
+      - file: 'data/portfolio-template.yml'
+        label: 'Work'
+        name: 'work'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'text' }
+      - file: 'data/resumeSection.yml'
+        label: 'Resume'
+        name: 'resume'
+        fields:
+          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'text' }
+          - { label: 'subtitle', name: 'subtitle', widget: 'text' }
+          - { label: 'subsubtitle', name: 'subsubtitle', widget: 'text' }
+          - { label: 'tab1Name', name: 'tab1Name', widget: 'text' }
+          - { label: 'tab2Name', name: 'tab2Name', widget: 'text' }
+          - { label: 'tab1Target', name: 'tab1Target', widget: 'text' }
+          - { label: 'tab2Target', name: 'tab2Target', widget: 'text' }
+          - { label: 'education', name: 'education', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'time', name: 'time', widget: 'text' }] }
+          - { label: 'experience', name: 'experience', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'time', name: 'time', widget: 'text' }] }
+      - file: 'data/skillSection.yml'
+        label: 'Skill'
+        name: 'skill'
+        fields:
+          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'content', name: 'content', widget: 'markdown' }
+          - { label: 'image', name: 'image', widget: 'image' }
+          - { label: 'skill', name: 'skill', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'time', name: 'time', widget: 'text' }] }
+          - {label: "+", name: "layout", widget: "hidden", default: "skill"}
