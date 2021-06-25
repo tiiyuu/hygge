@@ -21,7 +21,7 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', date_format: "MMM DD, YYYY" }
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
