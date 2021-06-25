@@ -2,6 +2,60 @@
 // 1. https://stackoverflow.com/questions/31284169/parse-error-adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag
 // 2. https://stackoverflow.com/questions/59820954/syntaxerror-unknown-namespace-tags-are-not-supported-by-default
 
+
+const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
+    const data = entry.get('data').toJS()
+    return (
+        <>
+        <section class="section testimonial">
+            <div class="testimonial__background_shape">
+                <svg viewBox="0 0 1920 79">
+                    <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
+                </svg>
+            </div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="testimonial__header">
+                            <span class="top-title">{{ data.topTitle }}</span>
+                            {{ data.title | markdownify }}
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="testimonial__slider">
+                            {{ $section := data.testimonial }}
+                            {{ range $section }}
+                            <div class="testimonial__slider_item">
+                                {{ if .star }}
+                                <ul class="testimonial__slider_item-rating">
+                                    {{ $rating := .star | int }}
+                                    {{ $rating := sub $rating 1 }}
+                                    {{ range $i, $sequence := (seq 5) }}
+                                    {{ if le $i $rating }}
+                                    <li><i class="fa fa-star"></i></li>
+                                    {{ else }}
+                                    <li><i class="fa fa-star inactive"></i></li>
+                                    {{ end }}
+                                    {{ end }}
+                                </ul>
+                                {{ end }}
+                                <p class="testimonial__slider_item-content"> {{ data.comment | markdownify }} </p>
+                                <p class="testimonial__slider_item-author"><span>{{ data.name }}</span> | {{ data.time }}</p>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </>
+    )
+}
+
+CMS.registerPreviewTemplate('testimonial', TestimonialPreview)
+
 const BlogPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     return (
