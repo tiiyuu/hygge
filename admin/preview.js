@@ -29,7 +29,7 @@ const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
                     <div class="col-lg-6 offset-lg-3">
                         <div class="testimonial__header">
                             <span class="top-title">{ data.topTitle }</span>
-                            { data.title | markdownify }
+                            { data.title }
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@ const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
                                     <ul class="testimonial__slider_item-rating">
                                         { getStars(t.star) }
                                     </ul>
-                                    <p class="testimonial__slider_item-content"> { t.comment | markdownify } </p>
+                                    <p class="testimonial__slider_item-content"> { t.comment } </p>
                                     <p class="testimonial__slider_item-author"><span>{ t.name }</span> | { t.time }</p>
                                 </div>
                             )) }
