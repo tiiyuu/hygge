@@ -2,7 +2,7 @@
 // 1. https://stackoverflow.com/questions/31284169/parse-error-adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag
 // 2. https://stackoverflow.com/questions/59820954/syntaxerror-unknown-namespace-tags-are-not-supported-by-default
 
-const BlogPreview = ({ entry, widgetFor }) => {
+const BlogPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     return (
         <>
@@ -48,7 +48,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="singleBlog__feature">
-                            <img src={ `/${data.postImage}` || "/images/cover.png" } />
+                            <img src={ getAsset(`/${data.postImage}`) ? `/${data.postImage}` : "/images/cover.png" } />
                         </div>
                     </div>
                 </div>
