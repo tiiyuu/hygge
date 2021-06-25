@@ -13,7 +13,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
                   <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                     <ol class="breadcrumb align-items-center">
                       <li class="breadcrumb-item"><a href={ data.BaseURL }>Home</a></li>
-                      <li class="breadcrumb-item"><a href={ .data.blogPageURL }>All Post</a></li>
+                      <li class="breadcrumb-item"><a href={ data.blogPageURL }>All Post</a></li>
                       <li class="breadcrumb-item active" aria-current="page">{ data.title }</li>
                     </ol>
                   </nav>
