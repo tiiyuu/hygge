@@ -29,7 +29,7 @@ collections:
     label: 'Pages'
     files:
       - file: 'data/hero.yml'
-        label: 'Hero Page'
+        label: 'Hero'
         name: 'hero'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
@@ -41,20 +41,17 @@ collections:
           - { label: 'Image', name: 'image', widget: 'image' }
           - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
           - { label: 'VideoURL', name: 'videoURL', widget: 'string' }
-      # - file: "site/content/contact/_index.md"
-      #   label: "Contact Page"
-      #   name: "contact"
-      #   fields:
-      #     - {label: Title, name: title, widget: string}
-      #     - {label: Logo, name: logo, widget: image}
-      #     - {label: Body, name: body, widget: markdown}
-      #     - label: Contact Entries
-      #       name: contact_entries
-      #       widget: list
-      #       fields:
-      #         - label: Heading
-      #           name: heading
-      #           widget: string
-      #         - label: Text
-      #           name: text
-      #           widget: text
+      - file: 'data/aboutSection.yml'
+        label: 'About'
+        name: 'about'
+        fields:
+          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'Title', name: 'title', widget: 'text' }
+          - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
+          - { label: 'Title2', name: 'title2', widget: 'text' }
+          - { label: 'Content', name: 'content', widget: 'text' }
+          - { label: 'Button1Name', name: 'button1Name', widget: 'string' }
+          - { label: 'Button2Name', name: 'button2Name', widget: 'string' }
+          - { label: 'Button1Target', name: 'button1Target', widget: 'string' }
+          - { label: 'Button2Target', name: 'button2Target', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
