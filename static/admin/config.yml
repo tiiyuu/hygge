@@ -21,7 +21,40 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime', date_format: "MMM DD, YYYY" }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - file: 'data/hero.yml'
+        label: 'Hero Page'
+        name: 'hero'
+        fields:
+          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'Title', name: 'title', widget: 'text' }
+          - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
+          - { label: 'Description', name: 'description', widget: 'text' }
+          - { label: 'ButtonName', name: 'buttonName', widget: 'string' }
+          - { label: 'ButtonURL', name: 'buttonURL', widget: 'string' }
+          - { label: 'Image', name: 'image', widget: 'image' }
+          - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
+          - { label: 'VideoURL', name: 'videoURL', widget: 'string' }
+      # - file: "site/content/contact/_index.md"
+      #   label: "Contact Page"
+      #   name: "contact"
+      #   fields:
+      #     - {label: Title, name: title, widget: string}
+      #     - {label: Logo, name: logo, widget: image}
+      #     - {label: Body, name: body, widget: markdown}
+      #     - label: Contact Entries
+      #       name: contact_entries
+      #       widget: list
+      #       fields:
+      #         - label: Heading
+      #           name: heading
+      #           widget: string
+      #         - label: Text
+      #           name: text
+      #           widget: text
