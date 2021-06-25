@@ -1,7 +1,6 @@
 // Reference: 
 // 1. https://stackoverflow.com/questions/31284169/parse-error-adjacent-jsx-elements-must-be-wrapped-in-an-enclosing-tag
 // 2. https://stackoverflow.com/questions/59820954/syntaxerror-unknown-namespace-tags-are-not-supported-by-default
-import format from "date-fns/format";
 
 const BlogPreview = ({ entry, widgetFor }) => {
     const data = entry.get('data').toJS()
@@ -17,7 +16,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
                       <li class="breadcrumb-item"><a href={ data.BaseURL }>Home</a></li>
                       <li class="breadcrumb-item"><a href={ data.blogPageURL }>All Post</a></li>
                       <li class="breadcrumb-item active" aria-current="page">{ data.title }</li>
-                      <li class="breadcrumb-item active">{ format(data.date, "MMM d, YYYY") }</li>
+                      <li class="breadcrumb-item active">{ data.date }</li>
                     </ol>
                   </nav>
                 </div>
@@ -51,6 +50,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
                     <div class="col-lg-12">
                         <div class="singleBlog__feature">
                             <img src={ data.postImage } alt="feature-image" />
+                            console.log({ data.postImage })
                         </div>
                     </div>
                 </div>
