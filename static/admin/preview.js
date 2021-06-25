@@ -27,7 +27,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
                 <img src="/images/hero/figure-svg.svg" alt=""/>
             </div>
             <div class="animate-shape">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
                     <defs>
                         <linearGradient id="d" x1="0.929" y1="0.111" x2="0.263" y2="0.935" gradientUnits="objectBoundingBox">
                             <stop offset="0" stop-color="#f1f6f9" />
