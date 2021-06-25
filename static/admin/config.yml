@@ -146,3 +146,20 @@ collections:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'string' }
           - { label: 'title', name: 'title', widget: 'md' }
+      - file: 'data/footer.yml'
+        label: 'Footer'
+        name: 'footer'
+        fields:
+          - { label: 'enable card', name: 'enable1', widget: 'boolean' }
+          - { label: 'background olor', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'topTitle', name: 'topTitle', widget: 'string' }
+          - { label: 'content', name: 'content', widget: 'string' }
+          - { label: 'btnText', name: 'btnText', widget: 'string' }
+          - { label: 'enable info', name: 'enable2', widget: 'boolean' }
+          - { label: 'logo', name: 'footerLogo', widget: 'image' }
+          - { label: 'title1', name: 'title1', widget: 'string' }
+          - { label: 'title2', name: 'title2', widget: 'string' }
+          - { label: 'phone', name: 'phone', widget: 'string' }
+          - { label: 'email', name: 'email', widget: 'string' }
+          - { label: 'address', name: 'address', widget: 'text' }
+          - { label: 'copyright', name: 'copyright', widget: 'text' }
