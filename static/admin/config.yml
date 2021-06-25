@@ -55,3 +55,15 @@ collections:
           - { label: 'Button1Target', name: 'button1Target', widget: 'string' }
           - { label: 'Button2Target', name: 'button2Target', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
+      - file: 'data/serviceSection.yml'
+        label: 'Service'
+        name: 'service'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'text' }
+          - { label: 'subtitle', name: 'subtitle', widget: 'text' }
+          - { label: 'service', name: 'service', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'image', name: 'image', widget: 'image' }] }
