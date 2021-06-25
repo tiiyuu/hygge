@@ -5,10 +5,10 @@
 const getStars = stars => {
     let content = [];
     for (let i = 0; i < stars; i++) {
-        content.push(<li><i class="fa fa-star"></i></li>);
+        content.push(<li key={i}><i class="fa fa-star"></i></li>);
     }
-    for (let i = 0; i < (5-stars); i++) {
-        content.push(<li><i class="fa fa-star inactive"></i></li>);
+    for (let i = stars; i < 5; i++) {
+        content.push(<li key={i}><i class="fa fa-star inactive"></i></li>);
     }
     return content;
 }
