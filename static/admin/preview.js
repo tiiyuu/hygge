@@ -41,7 +41,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
                 </svg>
             </div>
             <div class="animate-pattern">
-                <img src="/images/service/background-pattern.svg" alt="background-shape">
+                <img src="/images/service/background-pattern.svg" alt="background-shape" />
             </div>
             <div class="container">
                 <div class="row">
