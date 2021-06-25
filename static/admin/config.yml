@@ -8,11 +8,11 @@ display_url: https://tiiyuu.github.io/test/
 publish_mode: editorial_workflow
 show_preview_links: false
 media_folder: static/images
-public_folder: images/*
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
+    public_folder: 'images/blog'
     description: 'Create a new post right now!'
     create: true
     extension: 'md'
@@ -29,6 +29,7 @@ collections:
     label: 'Pages'
     files:
       - file: 'data/hero.yml'
+        public_folder: 'images/hero'
         label: 'Hero Page'
         name: 'hero'
         fields:
