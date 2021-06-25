@@ -10,12 +10,12 @@ const BlogPreview = ({ entry, widgetFor }) => {
             <div class="container">
               <div class="row">
                 <div class="col-lg-10 col-md-12 offset-lg-1 offset-md-0 text-center">
-                  <h3 class="breadCrumb__title">{ data.title }</h3>
+                  <h3 class="breadCrumb__title">{ data.title ? data.title : 'Title' }</h3>
                   <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                     <ol class="breadcrumb align-items-center">
                       <li class="breadcrumb-item"><a href={ data.BaseURL }>Home</a></li>
                       <li class="breadcrumb-item"><a href={ data.blogPageURL }>All Post</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">{ data.title }</li>
+                      <li class="breadcrumb-item active" aria-current="page">{ data.title ? data.title : 'Title' }</li>
                     </ol>
                   </nav>
                 </div>
