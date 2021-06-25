@@ -130,11 +130,11 @@ collections:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'text' }
-          - { label: 'testimonial', name: 'testimonial', widget: 'list', allow_add: true, add_to_top: true, field: 
-              - {label: 'name', name: 'name', widget: 'string'}
-              - { label: 'comment', name: 'comment', widget: 'text' }
-              - { label: 'Date', name: 'time', widget: 'datetime', format: 'MMM DD, YYYY' }
-              - { label: 'star', name: 'star', widget: 'number', min: 0, max: 5 } }
+          - { label: 'testimonial', name: 'testimonial', widget: 'list', allow_add: true, add_to_top: true, field: [
+              {label: 'name', name: 'name', widget: 'string'},
+              { label: 'comment', name: 'comment', widget: 'text' },
+              { label: 'Date', name: 'time', widget: 'datetime', format: 'MMM DD, YYYY' },
+              { label: 'star', name: 'star', widget: 'number', min: 0, max: 5 }] }
       - file: 'data/blogSection.yml'
         label: 'Blog'
         name: 'blog'
