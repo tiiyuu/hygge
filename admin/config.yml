@@ -6,9 +6,9 @@ backend:
 display_url: https://tiiyuu.github.io/test/
 # logo_url: https://your-site.com/images/logo.svg # for CMS UI logo
 publish_mode: editorial_workflow
-show_preview_links: true
+show_preview_links: false
 media_folder: static/images
-public_folder: ['images', 'images/hero']
+public_folder: images/*
 collections:
   - name: 'blog'
     label: 'Blog'
