@@ -95,7 +95,7 @@ collections:
         label: 'Resume'
         name: 'resume'
         fields:
-          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'text' }
           - { label: 'subtitle', name: 'subtitle', widget: 'text' }
@@ -116,11 +116,50 @@ collections:
         label: 'Skill'
         name: 'skill'
         fields:
-          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'content', name: 'content', widget: 'markdown' }
           - { label: 'image', name: 'image', widget: 'image' }
           - { label: 'skill', name: 'skill', widget: 'object', fields: [
               { label: 'title', name: 'title', widget: 'text' },
+              { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 },
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 },
+              { label: 'title', name: 'title', widget: 'text' },
               { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 }] }
-          - {label: "+", name: "layout", widget: "hidden", default: "skill"}
+      - file: 'data/testimonialSection.yml'
+        label: 'Testimonial'
+        name: 'testimonial'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'text' }
+          - { label: 'testimonial', name: 'testimonial', widget: 'list', field: [
+              {label: 'name', name: 'name', widget: 'string'},
+              { label: 'comment', name: 'comment', widget: 'text' },
+              { label: 'Date', name: 'time', widget: 'datetime', format: 'MMM DD, YYYY' },
+              { label: 'star', name: 'star', widget: 'number', min: 0, max: 5 }] }
+      - file: 'data/blogSection.yml'
+        label: 'Blog'
+        name: 'blog'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'string' }
+          - { label: 'title', name: 'title', widget: 'md' }
+      - file: 'data/footer.yml'
+        label: 'Footer'
+        name: 'footer'
+        fields:
+          - { label: 'enable card', name: 'enable1', widget: 'boolean' }
+          - { label: 'background olor', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'topTitle', name: 'topTitle', widget: 'string' }
+          - { label: 'content', name: 'content', widget: 'string' }
+          - { label: 'btnText', name: 'btnText', widget: 'string' }
+          - { label: 'enable info', name: 'enable2', widget: 'boolean' }
+          - { label: 'logo', name: 'footerLogo', widget: 'image' }
+          - { label: 'title1', name: 'title1', widget: 'string' }
+          - { label: 'title2', name: 'title2', widget: 'string' }
+          - { label: 'phone', name: 'phone', widget: 'string' }
+          - { label: 'email', name: 'email', widget: 'string' }
+          - { label: 'address', name: 'address', widget: 'text' }
+          - { label: 'copyright', name: 'copyright', widget: 'text' }
