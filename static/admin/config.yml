@@ -139,3 +139,10 @@ collections:
               { label: 'comment', name: 'comment', widget: 'text' },
               { label: 'Date', name: 'time', widget: 'datetime', format: 'MMM DD, YYYY' },
               { label: 'star', name: 'star', widget: 'number', min: 0, max: 5 }] }
+      - file: 'data/blogSection.yml'
+        label: 'Blog'
+        name: 'blog'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'string' }
+          - { label: 'title', name: 'title', widget: 'md' }
