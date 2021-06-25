@@ -129,7 +129,7 @@ collections:
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
-          - { label: 'title', name: 'title', widget: 'md' }
+          - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'testimonial', name: 'testimonial', widget: 'list', allow_add: true, add_to_top: true, fields: [
               {label: 'name', name: 'name', widget: 'string'},
               { label: 'comment', name: 'comment', widget: 'text' },

@@ -29,7 +29,7 @@ const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
                     <div class="col-lg-6 offset-lg-3">
                         <div class="testimonial__header">
                             <span class="top-title">{ data.topTitle }</span>
-                            <h2>{ data.title }</h2>
+                            <h2>{ data.title }.toString().split(" ")[0]</h2>
                         </div>
                     </div>
                 </div>
