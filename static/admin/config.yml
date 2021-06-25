@@ -104,3 +104,11 @@ collections:
           - { label: 'tab2Name', name: 'tab2Name', widget: 'text' }
           - { label: 'tab1Target', name: 'tab1Target', widget: 'text' }
           - { label: 'tab2Target', name: 'tab2Target', widget: 'text' }
+          - { label: 'education', name: 'education', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'time', name: 'time', widget: 'text' }] }
+          - { label: 'experience', name: 'experience', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'time', name: 'time', widget: 'text' }] }
