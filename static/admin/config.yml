@@ -95,7 +95,7 @@ collections:
         label: 'Resume'
         name: 'resume'
         fields:
-          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'text' }
           - { label: 'subtitle', name: 'subtitle', widget: 'text' }
@@ -116,7 +116,7 @@ collections:
         label: 'Skill'
         name: 'skill'
         fields:
-          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'content', name: 'content', widget: 'markdown' }
           - { label: 'image', name: 'image', widget: 'image' }
@@ -127,3 +127,15 @@ collections:
               { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 },
               { label: 'title', name: 'title', widget: 'text' },
               { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 }] }
+      - file: 'data/testimonialSection.yml'
+        label: 'Testimonial'
+        name: 'testimonial'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'text' }
+          - { label: 'testimonial', name: 'testimonial', widget: 'list', field: [
+              {label: 'name', name: 'name', widget: 'string'},
+              { label: 'comment', name: 'comment', widget: 'text' },
+              { label: 'Date', name: 'time', widget: 'datetime', format: 'MMM DD, YYYY' },
+              { label: 'star', name: 'star', widget: 'number', min: 0, max: 5 }] }
