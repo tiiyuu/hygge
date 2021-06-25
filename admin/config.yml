@@ -8,7 +8,9 @@ display_url: https://tiiyuu.github.io/test/
 publish_mode: editorial_workflow
 show_preview_links: true
 media_folder: static/images
-public_folder: images
+public_folder: 
+  - images
+  - images/hero
 collections:
   - name: 'blog'
     label: 'Blog'
