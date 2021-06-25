@@ -15,7 +15,7 @@ const getStars = stars => {
 
 const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
-    var count = 0;
+    var title = { data.title }.toString().split("## ");
     return (
         <>
         <section class="section testimonial">
@@ -29,7 +29,7 @@ const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
                     <div class="col-lg-6 offset-lg-3">
                         <div class="testimonial__header">
                             <span class="top-title">{ data.topTitle }</span>
-                            <h2>{ data.title }.toString().split(" ")[0]</h2>
+                            <h2>title[1]</h2>
                         </div>
                     </div>
                 </div>
