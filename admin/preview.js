@@ -17,8 +17,8 @@ const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
                 <div class="row text-center">
                     <div class="col-lg-6 offset-lg-3">
                         <div class="testimonial__header">
-                            <span class="top-title">{{ data.topTitle }}</span>
-                            {{ data.title | markdownify }}
+                            <span class="top-title">{ data.topTitle }</span>
+                            { data.title | markdownify }
                         </div>
                     </div>
                 </div>
