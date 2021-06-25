@@ -112,3 +112,16 @@ collections:
               { label: 'title', name: 'title', widget: 'text' },
               { label: 'content', name: 'content', widget: 'text' },
               { label: 'time', name: 'time', widget: 'text' }] }
+      - file: 'data/skillSection.yml'
+        label: 'Skill'
+        name: 'skill'
+        fields:
+          - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'content', name: 'content', widget: 'markdown' }
+          - { label: 'image', name: 'image', widget: 'image' }
+          - { label: 'skill', name: 'skill', widget: 'object', fields: [
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'content', name: 'content', widget: 'text' },
+              { label: 'time', name: 'time', widget: 'text' }] }
+          - {label: "+", name: "layout", widget: "hidden", default: "skill"}
