@@ -16,7 +16,6 @@ const BlogPreview = ({ entry, widgetFor }) => {
                       <li class="breadcrumb-item"><a href={ data.BaseURL }>Home</a></li>
                       <li class="breadcrumb-item"><a href={ data.blogPageURL }>All Post</a></li>
                       <li class="breadcrumb-item active" aria-current="page">{ data.title ? data.title : 'Title' }</li>
-                      <li class="breadcrumb-item active" aria-current="page">{ data.date }</li>
                     </ol>
                   </nav>
                 </div>
