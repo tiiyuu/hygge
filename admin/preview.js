@@ -34,7 +34,7 @@ const AnimateShape = ({}) => (
     </div>
 )
 
-const Container = ({}) => (
+const Container = ({data, widgetFor}) => (
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -53,21 +53,24 @@ const Container = ({}) => (
     </div>
 )
 
+const Section = ({data, widgetFor}) => (
+    <section class="section singleBlog">
+        <div class="svg-img">
+            <img src="/images/hero/figure-svg.svg" alt="" />
+        </div>
+        <AnimateShape/>
+        <div class="animate-pattern">
+            <img src="/images/service/background-pattern.svg" alt="background-shape" />
+        </div>
+        <Container data={data, widgetFor}/>
+    </section>
+)
+
 const BlogPreview = ({ entry, widgetFor }) => {
     const data = entry.get('data').toJS()
     return (
         <Header data={data}/>
-
-        <section class="section singleBlog">
-            <div class="svg-img">
-                <img src="/images/hero/figure-svg.svg" alt="" />
-            </div>
-            <AnimateShape/>
-            <div class="animate-pattern">
-                <img src="/images/service/background-pattern.svg" alt="background-shape" />
-            </div>
-            <Container/>
-        </section>
+        <Section data={data, widgetFor}/>
     )
 }
 
