@@ -122,5 +122,8 @@ collections:
           - { label: 'image', name: 'image', widget: 'image' }
           - { label: 'skill', name: 'skill', widget: 'object', fields: [
               { label: 'title', name: 'title', widget: 'text' },
+              { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 },
+              { label: 'title', name: 'title', widget: 'text' },
+              { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 },
+              { label: 'title', name: 'title', widget: 'text' },
               { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 }] }
-          - {label: "+", name: "layout", widget: "hidden", default: "skill"}
