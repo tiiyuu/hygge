@@ -1,6 +1,7 @@
-const getSkills = skill => {
+const getSkills = (skill) => {
+    var p = { skill.percent };
     const styles = {
-        width: {`${skill.percent}%`}
+        width: p
     };
 
     return(
