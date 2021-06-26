@@ -1,6 +1,6 @@
 const getSkills = skill => {
     const styles = {
-        color: { skill.percent } + "%"
+        width: { skill.percent } + "%"
     };
 
     return(
