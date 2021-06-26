@@ -63,14 +63,11 @@ collections:
         name: 'about'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
-          - { label: 'Title', name: 'title', widget: 'text' }
-          - { label: 'Subtitle', name: 'subtitle', widget: 'text' }
-          - { label: 'Title2', name: 'title2', widget: 'text' }
-          - { label: 'Content', name: 'content', widget: 'text' }
+          - { label: 'topTitle', name: 'topTitle', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'markdown' }
+          - { label: 'Content', name: 'content', widget: 'markdown' }
           - { label: 'Button1Name', name: 'button1Name', widget: 'string' }
           - { label: 'Button2Name', name: 'button2Name', widget: 'string' }
-          - { label: 'Button1Target', name: 'button1Target', widget: 'string' }
-          - { label: 'Button2Target', name: 'button2Target', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
       - file: 'data/serviceSection.yml'
         label: 'Service'
