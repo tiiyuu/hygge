@@ -1,11 +1,11 @@
 function tab1Click() {
-    document.getElementById("tab1_content").className += "active";
-    document.getElementById("tab2_content").className = document.getElementById("tab2_content").className.replace( /(?:^|\s)active(?!\S)/g , '' )
+    document.getElementById("tab1_content").class += "active";
+    document.getElementById("tab2_content").class = document.getElementById("tab2_content").class.replace( /(?:^|\s)active(?!\S)/g , '' )
 }
 
 function tab2Click() {
-    document.getElementById("tab2_content").className += "active";
-    document.getElementById("tab1_content").className = document.getElementById("tab1_content").className.replace( /(?:^|\s)active(?!\S)/g , '' )
+    document.getElementById("tab2_content").class += "active";
+    document.getElementById("tab1_content").class = document.getElementById("tab1_content").class.replace( /(?:^|\s)active(?!\S)/g , '' )
 }
 
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
