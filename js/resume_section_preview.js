@@ -36,7 +36,7 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 { data.education.map(eda => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { eda.eda_time } </span>
-                                        { widgetFor('eda.eda_content') }
+                                        
                                     </div>
                                 )) }
                             </div>
@@ -45,7 +45,7 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 { data.experience.map(exp => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { exp.exp_time } </span>
-                                        { widgetFor('exp.exp_content') }
+                                        
                                     </div>
                                 )) }
                             </div>
