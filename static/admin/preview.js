@@ -56,7 +56,7 @@ const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
 
 CMS.registerPreviewTemplate('testimonial', TestimonialPreview)
 
-const BlogPreview = ({ entry, getAsset, widgetFor }) => {
+const BlogPostPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     return (
         <>
@@ -119,4 +119,4 @@ const BlogPreview = ({ entry, getAsset, widgetFor }) => {
     )
 }
 
-CMS.registerPreviewTemplate('blog', BlogPreview)
+CMS.registerPreviewTemplate('blog', BlogPostPreview)
