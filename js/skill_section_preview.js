@@ -1,17 +1,13 @@
 const getSkills = (title, percent) => {
-    var p = percent + '%';
-    console.log(p);
-    const styles = {
-        width: p
-    };
-    console.log(styles);
+    var pt = percent + '%';
+
 
     return(
         <div class="skill__progress_item">
             <span class="d-inline-block text-dark">{ title }</span>
             <div class="progress-value float-right"><span>{ percent }</span>%</div>
             <div class="progress">
-                <div class="progress-bar" style={{width: "50%"}} aria-valuemin="0" aria-valuemax={ percent }></div>
+                <div class="progress-bar" style={{width: pt}} aria-valuemin="0" aria-valuemax={ percent }></div>
             </div>
         </div>
     );
@@ -20,10 +16,10 @@ const getSkills = (title, percent) => {
 const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const mystyle = {
-        -webkit-mask: url({"images/skill-mask-svg.svg" }),
-        -webkit-mask-repeat: "no-repeat",
-        -webkit-mask-size: "contain",
-        -webkit-mask-position: "center center"
+        WebkitMaskImage: url({"images/skill-mask-svg.svg" }),
+        WebkitMaskRepeat: "no-repeat",
+        WebkitMaskSize: "contain",
+        WebkitMaskPosition: "center center"
     };
     return (
         <>
