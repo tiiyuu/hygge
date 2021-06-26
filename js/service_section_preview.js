@@ -25,7 +25,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor }) => {
             </div>
 
             <div class="service__background_pattern">
-                <img src="/images/service/background-pattern.svg" alt="background-pattern">
+                <img src="/images/service/background-pattern.svg" alt="background-pattern" />
             </div>
 
             <div class="container">
@@ -52,7 +52,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                             </svg>
                                         </div>
                                         <div class="icon">
-                                            <img src=`/${s.image}` alt="ui-ux">
+                                            <img src=`/${s.image}` alt="ui-ux" />
                                         </div>
                                     </div>
                                     <div class="mt-5">
