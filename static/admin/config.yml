@@ -120,7 +120,7 @@ collections:
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'content', name: 'content', widget: 'markdown' }
           - { label: 'image', name: 'image', widget: 'image' }
-          - { label: 'skill', name: 'skill', widget: 'object', fields: [
+          - { label: 'skill', name: 'skill', widget: 'list', allow_add: true, add_to_top: true, fields: [
               { label: 'title', name: 'title', widget: 'text' },
               { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 }] }
       - file: 'data/testimonialSection.yml'
