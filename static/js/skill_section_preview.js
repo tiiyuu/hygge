@@ -1,11 +1,11 @@
-const getSkills = skill => {
-    let content = [];
+// const getSkills = skill => {
+//     let content = [];
 
-    content.push(<span class="d-inline-block text-dark">{ skill.title }</span>);
-    content.push(<div class="progress-value float-right"><span>{ skill.percent }</span>%</div>);
-    content.push(<div class="progress"><div class="progress-bar" style="width:`{ skill.percent }`;" aria-valuemin="0" aria-valuemax={ skill.percent }></div></div>);
-    return content;
-}
+//     content.push(<span class="d-inline-block text-dark">{ skill.title }</span>);
+//     content.push(<div class="progress-value float-right"><span>{ skill.percent }</span>%</div>);
+//     content.push(<div class="progress"><div class="progress-bar" style="width:`{ skill.percent }`;" aria-valuemin="0" aria-valuemax={ skill.percent }></div></div>);
+//     return content;
+// }
 
 const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
@@ -54,7 +54,12 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                             </div>
                             { data.skill.map(s =>(
                                 <div class="skill__progress_item">
-                                    { getSkills(s) }
+                                    <span class="d-inline-block text-dark"> { s.title } </span>
+                                    <div class="progress-value float-right"><span>{ s.percent }</span>%</div>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width:{ s.percent }%;" aria-valuemin="0"
+                                            aria-valuemax="{ s.percent }"></div>
+                                    </div>
                                 </div>
                             )) }
                         </div>
