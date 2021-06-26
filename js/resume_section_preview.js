@@ -1,5 +1,5 @@
-const getEducation = (education_content, widgetFor) => {
-    return widgetFor(education_content);
+const getEducation = (education, widgetFor) => {
+    return widgetFor(education.content);
 }
 
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
@@ -29,7 +29,7 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 { data.education.map((eda) => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { eda.time } </span>
-                                        { getEducation(eda.content, widgetFor) }
+                                        { getEducation(eda, widgetFor) }
                                     </div>
                                 )) }
                             </div>
