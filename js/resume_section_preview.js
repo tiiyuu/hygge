@@ -2,17 +2,17 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS();
     let tab1_class = "resume__education tab-pane active";
     let tab2_class = "resume__education tab-pane";
-    this.tab1 = true;
+    let tab1 = true;
 
     function tab1Click() {
         console.log("tab1 click.");
-        console.log(tab1_class);
-        this.tab1 = true;
+        console.log(tab1);
+        tab1 = true;
     }
 
     function tab2Click() {
         console.log("tab2 click.");
-        this.tab1 = false;
+        tab1 = false;
     }
 
     return (
