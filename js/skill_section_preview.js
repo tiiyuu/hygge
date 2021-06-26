@@ -37,7 +37,12 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 <img src="images/figure-svg.svg" alt="figure-svg" />
                             </div>
                             <div class="skill__thumb_image">
-                                <img src={ data.image } alt="skill-img" />
+                                <img src={ data.image } alt="skill-img" style='
+                                                -webkit-mask: url({"images/skill-mask-svg.svg" });
+                                                -webkit-mask-repeat: no-repeat;
+                                                -webkit-mask-size: contain;
+                                                -webkit-mask-position: center center;
+                                            ' />
                             </div>
                         </div>
                     </div>
@@ -52,8 +57,7 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                     <span class="d-inline-block text-dark">{ s.title }</span>
                                     <div class="progress-value float-right"><span>{ s.percent }</span>%</div>
                                     <div class="progress">
-                                        <div class="progress-bar" style="width:{ s.percent }%;" aria-valuemin="0"
-                                            aria-valuemax="{ s.percent }"></div>
+                                        <div class="progress-bar" style={{ width:{ s.percent } + '%'}} aria-valuemin="0" aria-valuemax={ s.percent }></div>
                                     </div>
                                 </div>
                             )) }
