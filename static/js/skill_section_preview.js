@@ -57,7 +57,7 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                     <span class="d-inline-block text-dark">{ s.title }</span>
                                     <div class="progress-value float-right"><span>{ s.percent }</span>%</div>
                                     <div class="progress">
-                                        <div class="progress-bar" style={{ width: s.percent + '%' }} aria-valuemin="0" aria-valuemax={ s.percent }></div>
+                                        <div class="progress-bar" style={{ width: s.percent }} aria-valuemin="0" aria-valuemax={ s.percent }></div>
                                     </div>
                                 </div>
                             )) }
