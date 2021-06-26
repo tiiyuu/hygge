@@ -84,13 +84,13 @@ collections:
               { label: 'title', name: 'title', widget: 'text' },
               { label: 'content', name: 'content', widget: 'text' },
               { label: 'image', name: 'image', widget: 'image' }] }
-      - file: 'data/portfolio-template.yml'
+      - file: 'data/portfolioSection.yml'
         label: 'Work'
         name: 'work'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
-          - { label: 'title', name: 'title', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'markdown' }
       - file: 'data/resumeSection.yml'
         label: 'Resume'
         name: 'resume'
