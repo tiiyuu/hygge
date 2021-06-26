@@ -15,7 +15,7 @@ const getSkills = (title, percent) => {
 const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const mystyle = {
-        WebkitMask: "images/skill-mask-svg.svg",
+        WebkitMask: "/images/skill-mask-svg.svg",
         WebkitMaskRepeat: "no-repeat",
         WebkitMaskSize: "contain",
         WebkitMaskPosition: "center center"
@@ -38,17 +38,17 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                 </svg>
             </div>
             <div class="skill__background_pattern">
-                <img src="images/background-pattern.svg" alt="background-shape" />
+                <img src="/images/background-pattern.svg" alt="background-shape" />
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="skill__thumb">
                             <div class="skill__thumb_pattern">
-                                <img src="images/figure-svg.svg" alt="figure-svg" />
+                                <img src="/images/figure-svg.svg" alt="figure-svg" />
                             </div>
                             <div class="skill__thumb_image">
-                                <img src={ data.image } alt="skill-img" style={mystyle}/>
+                                <img src={ `/${data.image}` } alt="skill-img" style={mystyle}/>
                             </div>
                         </div>
                     </div>
