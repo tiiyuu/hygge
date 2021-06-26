@@ -26,7 +26,7 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 { data.education.map((eda) => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { eda.time } </span>
-                                        <div markdown=1>
+                                        <div markdown="1">
 
                                         { eda.content }
 
