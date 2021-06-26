@@ -98,18 +98,12 @@ collections:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
-          - { label: 'subtitle', name: 'subtitle', widget: 'text' }
-          - { label: 'subsubtitle', name: 'subsubtitle', widget: 'text' }
           - { label: 'tab1Name', name: 'tab1Name', widget: 'text' }
           - { label: 'tab2Name', name: 'tab2Name', widget: 'text' }
-          - { label: 'tab1Target', name: 'tab1Target', widget: 'text' }
-          - { label: 'tab2Target', name: 'tab2Target', widget: 'text' }
           - { label: 'education', name: 'education', widget: 'list', allow_add: true, add_to_top: true, fields: [
-              { label: 'title', name: 'title', widget: 'text' },
               { label: 'content', name: 'content', widget: 'markdown' },
               { label: 'time', name: 'time', widget: 'text' }] }
           - { label: 'experience', name: 'experience', widget: 'list', allow_add: true, add_to_top: true, fields: [
-              { label: 'title', name: 'title', widget: 'text' },
               { label: 'content', name: 'content', widget: 'markdown' },
               { label: 'time', name: 'time', widget: 'text' }] }
       - file: 'data/skillSection.yml'
