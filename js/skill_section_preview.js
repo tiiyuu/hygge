@@ -11,7 +11,7 @@ const getSkills = (title, percent) => {
             <span class="d-inline-block text-dark">{ title }</span>
             <div class="progress-value float-right"><span>{ percent }</span>%</div>
             <div class="progress">
-                <div class="progress-bar" style={`width: ${percent}%`} aria-valuemin="0" aria-valuemax={ percent }></div>
+                <div class="progress-bar" style={{width: "50%"}} aria-valuemin="0" aria-valuemax={ percent }></div>
             </div>
         </div>
     );
