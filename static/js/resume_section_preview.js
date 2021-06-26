@@ -1,5 +1,6 @@
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
+    const widgetFor = widgetFor;
     return (
         <>
         <section class="section resume" id="resume">
@@ -22,7 +23,7 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     <div class="col-lg-6">
                         <div class="tab-content ">
                             <div class="resume__education tab-pane active" id={`${data.tab1Target}`}>
-                                { data.education.map(({eda, widgetFor}) => (
+                                { data.education.map((eda) => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { eda.time } </span>
                                         { widgetFor('eda.content') }
