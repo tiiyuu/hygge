@@ -61,7 +61,7 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 { widgetFor('content') }
                             </div>
                             { data.skill.map(s =>(
-                                { getSkills(s.title, s.percent) }
+                                getSkills(s.title, s.percent)
                             )) }
                         </div>
                     </div>
