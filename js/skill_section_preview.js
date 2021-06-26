@@ -1,7 +1,6 @@
 const getSkills = (title, percent) => {
     var pt = percent + '%';
 
-
     return(
         <div class="skill__progress_item">
             <span class="d-inline-block text-dark">{ title }</span>
@@ -16,7 +15,7 @@ const getSkills = (title, percent) => {
 const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const mystyle = {
-        WebkitMaskImage: url({"images/skill-mask-svg.svg" }),
+        WebkitMask: url({"images/skill-mask-svg.svg" }),
         WebkitMaskRepeat: "no-repeat",
         WebkitMaskSize: "contain",
         WebkitMaskPosition: "center center"
