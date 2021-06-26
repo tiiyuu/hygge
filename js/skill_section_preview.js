@@ -1,8 +1,10 @@
 const getSkills = (title, percent) => {
     var p = { percent } + '%';
+    console.log(p);
     const styles = {
         width: p
     };
+    console.log(styles);
 
     return(
         <div class="skill__progress_item">
