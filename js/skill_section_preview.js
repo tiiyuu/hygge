@@ -19,6 +19,12 @@ const getSkills = (title, percent) => {
 
 const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
+    const mystyle = {
+        -webkit-mask: url({"images/skill-mask-svg.svg" }),
+        -webkit-mask-repeat: "no-repeat",
+        -webkit-mask-size: "contain",
+        -webkit-mask-position: "center center"
+    };
     return (
         <>
         <section class="section skill">
@@ -47,12 +53,7 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 <img src="images/figure-svg.svg" alt="figure-svg" />
                             </div>
                             <div class="skill__thumb_image">
-                                <img src={ data.image } alt="skill-img" style='
-                                                -webkit-mask: url({"images/skill-mask-svg.svg" });
-                                                -webkit-mask-repeat: no-repeat;
-                                                -webkit-mask-size: contain;
-                                                -webkit-mask-position: center center;
-                                            ' />
+                                <img src={ data.image } alt="skill-img" style={mystyle}/>
                             </div>
                         </div>
                     </div>
