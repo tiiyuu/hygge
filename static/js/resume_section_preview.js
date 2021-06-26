@@ -5,12 +5,17 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
 
     function tab1Click() {
         console.log("tab1 click.");
+        console.log(tab1_class);
+        var tab1_class;
+        var tab2_class;
         tab1_class = "resume__education tab-pane active";
         tab2_class = "resume__education tab-pane";
     }
 
     function tab2Click() {
         console.log("tab1 click.");
+        var tab1_class;
+        var tab2_class;
         tab1_class = "resume__education tab-pane";
         tab2_class = "resume__education tab-pane active";
     }
