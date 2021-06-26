@@ -78,7 +78,7 @@ collections:
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
-          - { label: 'title', name: 'title', widget: 'text' }
+          - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'service', name: 'service', widget: 'list', allow_add: true, add_to_top: true, fields: [
               { label: 'content', name: 'content', widget: 'text' },
               { label: 'image', name: 'image', widget: 'image' }] }
