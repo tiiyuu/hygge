@@ -101,11 +101,11 @@ collections:
           - { label: 'tab1Name', name: 'tab1Name', widget: 'text' }
           - { label: 'tab2Name', name: 'tab2Name', widget: 'text' }
           - { label: 'education', name: 'education', widget: 'list', allow_add: true, add_to_top: true, fields: [
-              { label: 'content', name: 'eda_content', widget: 'markdown' },
-              { label: 'time', name: 'eda_time', widget: 'text' }] }
+              { label: 'content', name: 'content', widget: 'markdown' },
+              { label: 'time', name: 'time', widget: 'text' }] }
           - { label: 'experience', name: 'experience', widget: 'list', allow_add: true, add_to_top: true, fields: [
-              { label: 'content', name: 'exp_content', widget: 'markdown' },
-              { label: 'time', name: 'exp_time', widget: 'text' }] }
+              { label: 'content', name: 'content', widget: 'markdown' },
+              { label: 'time', name: 'time', widget: 'text' }] }
       - file: 'data/skillSection.yml'
         label: 'Skill'
         name: 'skill_section'
