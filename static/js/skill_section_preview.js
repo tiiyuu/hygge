@@ -1,5 +1,5 @@
 const getSkills = (title, percent) => {
-    var p = { percent } + '%';
+    var p = percent + '%';
     console.log(p);
     const styles = {
         width: p
