@@ -1,9 +1,9 @@
-const tab1Click() {
+function tab1Click() {
     document.getElementById("tab1_content").className += "active";
     document.getElementById("tab2_content").className = document.getElementById("tab2_content").className.replace( /(?:^|\s)active(?!\S)/g , '' )
 }
 
-const tab2Click() {
+function tab2Click() {
     document.getElementById("tab2_content").className += "active";
     document.getElementById("tab1_content").className = document.getElementById("tab1_content").className.replace( /(?:^|\s)active(?!\S)/g , '' )
 }
