@@ -1,5 +1,5 @@
 const getEducation = (education_content, widgetFor) => {
-    return { widgetFor('education_content')};
+    return { widgetFor(education_content)};
 }
 
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
