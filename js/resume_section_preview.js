@@ -25,16 +25,16 @@ const ResumePostPreview = ({ entry, getAsset, widgetFor }) => {
                                 { data.education.map(e => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { e.time } </span>
-                                        { widgetFor('e.content') }
+                                        { widgetFor('content') }
                                     </div>
                                 )) }
                             </div>
 
                             <div class="resume__education tab-pane" id="${data.tab2Target}}">
-                                { data.experience.map(e => (
+                                { data.experience.map(exp => (
                                     <div class="resume__education_item">
-                                        <span class="pre-line text-primary"> { e.time } </span>
-                                        { widgetFor('e.content') }
+                                        <span class="pre-line text-primary"> { exp.time } </span>
+                                        { widgetFor('content') }
                                     </div>
                                 )) }
                             </div>
