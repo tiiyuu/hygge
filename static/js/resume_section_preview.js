@@ -1,6 +1,6 @@
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
-    const widgetFor = widgetFor;
+    const widgetFor = this.widgetFor;
     return (
         <>
         <section class="section resume" id="resume">
