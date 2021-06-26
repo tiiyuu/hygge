@@ -1,4 +1,15 @@
-const ResumePostPreview = ({ entry, getAsset, widgetFor }) => {
+// const getEducation = stars => {
+//     let content = [];
+//     for (let i = 0; i < stars; i++) {
+//         content.push(<li key={i}><i class="fa fa-star"></i></li>);
+//     }
+//     for (let i = stars; i < 5; i++) {
+//         content.push(<li key={i}><i class="fa fa-star inactive"></i></li>);
+//     }
+//     return content;
+// }
+
+const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     return (
         <>
@@ -48,4 +59,4 @@ const ResumePostPreview = ({ entry, getAsset, widgetFor }) => {
     )
 }
 
-CMS.registerPreviewTemplate('resume', ResumePostPreview)
+CMS.registerPreviewTemplate('resume', ResumeSectionPreview)
