@@ -54,8 +54,8 @@ collections:
           - { label: 'content', name: 'content', widget: 'markdown' }
           - { label: 'ButtonName', name: 'buttonName', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
-          - { label: 'VideoURL', name: 'videoURL', widget: 'text' }
+          - { label: 'VideoThumb', name: 'videoThumb', widget: 'image', required: false }
+          - { label: 'VideoURL', name: 'videoURL', widget: 'text', required: false }
       - file: 'data/aboutSection.yml'
         label: 'About'
         name: 'about'
