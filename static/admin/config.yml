@@ -141,7 +141,8 @@ collections:
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'string' }
-          - { label: 'title', name: 'title', widget: 'md' }
+          - { label: 'title', name: 'title', widget: 'markdown' }
+          - { label: 'buttonText', name: 'buttonText', widget: 'string' }
       - file: 'data/footer.yml'
         label: 'Footer'
         name: 'footer'

@@ -10,14 +10,18 @@
   <body>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <!-- Test -->
-    <!-- <script src="<%= htmlWebpackPlugin.files.chunks.cms.entry %>"></script> -->
+    
     <!-- Add Custom Editor Components -->
     <script src="editor_component.js"></script>
+    
     <!-- Add Custom Preview Template -->
     <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-    <script src="preview.js" type="text/babel"></script>
+    <script src="/js/blog_post_preview.js" type="text/babel"></script>
+    <script src="/js/blog_section_preview.js" type="text/babel"></script>
+    <script src="/js/testimonial_section_preview.js" type="text/babel"></script>
+
+    <!-- Add Custom Preview Style -->
     <script>
       CMS.registerPreviewStyle('/css/style.min.css');
       // https://stackoverflow.com/questions/14366158/font-awesome-not-working-icons-showing-as-squares
