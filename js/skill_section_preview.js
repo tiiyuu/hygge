@@ -15,7 +15,7 @@ const getSkills = (title, percent) => {
 const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const mystyle = {
-        WebkitMask: url({"images/skill-mask-svg.svg" }),
+        WebkitMask: "images/skill-mask-svg.svg",
         WebkitMaskRepeat: "no-repeat",
         WebkitMaskSize: "contain",
         WebkitMaskPosition: "center center"
