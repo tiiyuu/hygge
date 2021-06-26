@@ -10,8 +10,8 @@ show_preview_links: false
 media_folder: static/images
 public_folder: images
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'blog_post'
+    label: 'Blog Post'
     folder: 'content/blog'
     description: 'Create a new post right now!'
     create: true
@@ -141,7 +141,8 @@ collections:
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'string' }
-          - { label: 'title', name: 'title', widget: 'md' }
+          - { label: 'title', name: 'title', widget: 'markdown' }
+          - { label: 'buttonText', name: 'buttonText', widget: 'string' }
       - file: 'data/footer.yml'
         label: 'Footer'
         name: 'footer'
