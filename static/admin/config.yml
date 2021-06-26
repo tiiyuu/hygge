@@ -10,7 +10,7 @@ show_preview_links: false
 media_folder: static/images
 public_folder: images
 collections:
-  - name: 'blog'
+  - name: 'blog_post'
     label: 'Blog'
     folder: 'content/blog'
     description: 'Create a new post right now!'

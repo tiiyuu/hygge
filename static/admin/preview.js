@@ -119,4 +119,4 @@ const BlogPostPreview = ({ entry, getAsset, widgetFor }) => {
     )
 }
 
-CMS.registerPreviewTemplate('blog', BlogPostPreview)
+CMS.registerPreviewTemplate('blog_post', BlogPostPreview)
