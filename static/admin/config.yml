@@ -11,7 +11,7 @@ media_folder: static/images
 public_folder: images
 collections:
   - name: 'blog_post'
-    label: 'Blog'
+    label: 'Blog Post'
     folder: 'content/blog'
     description: 'Create a new post right now!'
     create: true
