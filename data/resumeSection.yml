@@ -14,45 +14,45 @@ tab1Target: education
 tab2Target: experience
 
 education:
-  - content: >
+  - eda_content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
+    eda_time: 2008-2010
+  - eda_content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
+    eda_time: 2008-2010
+  - eda_content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
+    eda_time: 2008-2010
+  - eda_content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+    eda_time: 2008-2010
 
 experience:
-  - content: >
+  - exp_content: >
       #### Umbrella co. 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
-  - content: >
+    exp_time: 2016-Present
+  - exp_content: >
       #### Aperture Science 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
-  - content: >
+    exp_time: 2010-2016
+  - exp_content: >
       #### ACME Inc. 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
-  - content: >
+    exp_time: 2005-2010
+  - exp_content: >
       #### LexCorp 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+    exp_time: 2001-2005
