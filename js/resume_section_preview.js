@@ -22,10 +22,10 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     <div class="col-lg-6">
                         <div class="tab-content ">
                             <div class="resume__education tab-pane active" id={`${data.tab1Target}`}>
-                                { data.education.map((eda, widgetFor) => (
+                                { data.education.map((eda) => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { eda.eda_time } </span>
-                                        { widgetFor('eda.eda_content') }
+                                        { eda.eda_content }
                                     </div>
                                 )) }
                             </div>
