@@ -15,8 +15,8 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                             </div>
 
                             <div class="btn-group nav mt-5">
-                                <a href="#tab1" class="btn btn-primary active" data-toggle="tab">{ data.tab1Name }</a>
-                                <a href="#tab2" class="btn btn-primary" data-toggle="tab">{ data.tab2Name }</a>
+                                <a class="btn btn-primary active" data-toggle="tab">{ data.tab1Name }</a>
+                                <a class="btn btn-primary" data-toggle="tab">{ data.tab2Name }</a>
                             </div>
                         </div>
                     </div>
@@ -26,12 +26,12 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 { data.education.map((eda) => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { eda.time } </span>
-                                        <div markdown="1">{ eda.content }</div>
+                                        { widgetFor('education.content') }
                                     </div>
                                 )) }
                             </div>
 
-                            <div id="tab2" class="resume__education tab-pane" id={`${data.tab2Target}`}>
+                            <div id="tab2" class="resume__education tab-pane active" id={`${data.tab2Target}`}>
                                 { data.experience.map(exp => (
                                     <div class="resume__education_item">
                                         <span class="pre-line text-primary"> { exp.time } </span>
