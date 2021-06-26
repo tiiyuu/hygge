@@ -1,3 +1,11 @@
+function tab1Click() {
+    console.log("tab1 click.");
+}
+
+function tab2Click() {
+    console.log("tab1 click.");   
+}
+
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS();
 
