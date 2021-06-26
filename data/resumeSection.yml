@@ -14,22 +14,22 @@ tab1Target: education
 tab2Target: experience
 
 education:
-  - eda_content: >
+  - content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2008-2010
-  - eda_content: >
+  - content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2008-2010
-  - eda_content: >
+  - content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
     time: 2008-2010
-  - eda_content: >
+  - content: >
       #### Master in Arts
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
