@@ -114,7 +114,7 @@ collections:
               { label: 'time', name: 'time', widget: 'text' }] }
       - file: 'data/skillSection.yml'
         label: 'Skill'
-        name: 'skill'
+        name: 'skill_section'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }

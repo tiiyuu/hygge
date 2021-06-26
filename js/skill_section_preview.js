@@ -68,4 +68,4 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     )
 }
 
-CMS.registerPreviewTemplate('skill', SkillSectionPreview)
+CMS.registerPreviewTemplate('skill_section', SkillSectionPreview)
