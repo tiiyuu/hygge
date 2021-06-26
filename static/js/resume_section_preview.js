@@ -1,13 +1,3 @@
-function tab1Click() {
-    document.getElementById("tab1_content").class += "active";
-    document.getElementById("tab2_content").class = document.getElementById("tab2_content").class.replace( /(?:^|\s)active(?!\S)/g , '' )
-}
-
-function tab2Click() {
-    document.getElementById("tab2_content").class += "active";
-    document.getElementById("tab1_content").class = document.getElementById("tab1_content").class.replace( /(?:^|\s)active(?!\S)/g , '' )
-}
-
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS();
 
