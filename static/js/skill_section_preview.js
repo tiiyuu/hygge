@@ -37,7 +37,7 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 <img src="images/figure-svg.svg" alt="figure-svg" />
                             </div>
                             <div class="skill__thumb_image">
-                                <img src="{ data.image }" alt="skill-img" style='
+                                <img src={ data.image } alt="skill-img" style='
                                                 -webkit-mask: url({"images/skill-mask-svg.svg" });
                                                 -webkit-mask-repeat: no-repeat;
                                                 -webkit-mask-size: contain;
@@ -54,7 +54,7 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                             </div>
                             { data.skill.map(s =>(
                                 <div class="skill__progress_item">
-                                    <span class="d-inline-block text-dark"> { s.title } </span>
+                                    <span class="d-inline-block text-dark">{ s.title }</span>
                                     <div class="progress-value float-right"><span>{ s.percent }</span>%</div>
                                     <div class="progress">
                                         <div class="progress-bar" style="width:{ s.percent }%;" aria-valuemin="0"
