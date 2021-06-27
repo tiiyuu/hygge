@@ -9,7 +9,7 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                 </svg>
             </div>
             <div class="container">
-                if (data.enable1) {
+                // if (data.enable1) {
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="footer__cta" style={`background: ${data.cardBgColor}`}>
@@ -37,7 +37,7 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                         </div>
                     </div>
                 </div>
-                
+                // }
                 if (data.enable2) {
                 <div class="row footer__widget">
                     <div class="col-lg-4">
