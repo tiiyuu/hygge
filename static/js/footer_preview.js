@@ -8,12 +8,12 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
         background: data.cardBgColor
     };
     const shape1_style = {
-        fill: data.shape1.color,
-        opacity: data.shape1.opacity
+        fill: data.shape1_Color,
+        opacity: data.shape1_Opacity
     };
     const shape2_style = {
-        fill: data.shape2.color,
-        opacity: data.shape2.opacity
+        fill: data.shape2_Color,
+        opacity: data.shape2_Opacity
     };
     return (
         <>
