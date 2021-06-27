@@ -16,7 +16,7 @@ const BlogSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     </div>
                     <div class="col-lg-6">
                         <div class="blog-preview__header_button desktop">
-                            <a class="btn btn-outline-secondary  btn-zoom m-3" href="{ data.buttonTarget }">{ data.buttonText }</a>
+                            <a class="btn btn-outline-secondary  btn-zoom m-3">{ data.buttonText }</a>
                         </div>
                     </div>
                 </div>
