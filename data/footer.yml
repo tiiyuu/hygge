@@ -1,6 +1,7 @@
 ---
+bgColor: '#1b2031'
 enable1: true
-bgColor: '#5d78ff'
+cardBgColor: '#5d78ff'
 topTitle: Contact me
 content: Let’s Start a Project
 btnText: Get in touch
@@ -9,7 +10,7 @@ enable2: true
 footerLogo: images/widget-logo.png
 
 title1: Sitemap
-sitemap: 
+content1: 
   - text: About Me
     url: about
   - text: Frequently Ask Question
@@ -20,7 +21,7 @@ sitemap:
     url: '#'
 
 title2: Contact
-contact: 
+content2: 
   - text: +(448) 833 5272 332
     icon: fa-phone
   - text: hello@example.com

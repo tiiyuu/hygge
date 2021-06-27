@@ -134,19 +134,20 @@ collections:
         label: 'Footer'
         name: 'footer'
         fields:
+          - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'enable card', name: 'enable1', widget: 'boolean' }
-          - { label: 'background olor', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'card background color', name: 'cardBgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'topTitle', name: 'topTitle', widget: 'string' }
           - { label: 'content', name: 'content', widget: 'string' }
-          - { label: 'btnText', name: 'btnText', widget: 'string' }
+          - { label: 'button Text', name: 'btnText', widget: 'string' }
           - { label: 'enable info', name: 'enable2', widget: 'boolean' }
           - { label: 'logo', name: 'footerLogo', widget: 'image' }
           - { label: 'title1', name: 'title1', widget: 'string' }
-          - { label: 'sitemap', name: 'sitemap', widget: 'list', allow_add: true, add_to_top: true, fields: [
+          - { label: 'content1', name: 'content1', widget: 'list', allow_add: true, add_to_top: true, fields: [
               {label: 'text', name: 'text', widget: 'string'},
               { label: 'url', name: 'url', widget: 'string' }] }
           - { label: 'title2', name: 'title2', widget: 'string' }
-          - { label: 'contact', name: 'contact', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
+          - { label: 'content2', name: 'content2', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
               {label: 'icon', name: 'icon', widget: 'string'},
               { label: 'text', name: 'text', widget: 'string' }] }
           - { label: 'copyright', name: 'copyright', widget: 'text' }
