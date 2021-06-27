@@ -1,8 +1,22 @@
 const FooterPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
+    const bg_style = {
+        background: { data.bgColor }
+    };
+    const card_bg_style = {
+        background: { data.cardBgColor }
+    };
+    const shape1_style = {
+        fill: { data.shape1.color },
+        opacity: { data.shape1.opacity }
+    };
+    const shape2_style = {
+        fill: { data.shape2.color },
+        opacity: { data.shape2.opacity }
+    };
     return (
         <>
-        <section class="footer" id="contact" style={`background: ${data.bgColor}`}>
+        <section class="footer" id="contact" style={bg_style}>
             <div class="footer__background_shape">
                 <svg viewBox="0 0 1920 79">
                     <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />
@@ -12,17 +26,17 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                 
                 <div class="row">
                     <div class="col-lg-12">
-                        <div class="footer__cta" style={`background: ${data.cardBgColor}`}>
+                        <div class="footer__cta" style={card_bg_style}>
                             <div class="shape-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
-                                    <path style={`fill: ${data.shape1.color}; opacity: ${data.shape1.opacity};`} data-name="Path 1449"
+                                    <path style={shape1_style} data-name="Path 1449"
                                         d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
                                         transform="translate(217.489 188.626)" />
                                 </svg>
                             </div>
                             <div class="shape-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="357" height="315.029" viewBox="0 0 357 315.029">
-                                    <path style={`fill: ${data.shape2.color}; opacity: ${data.shape2.opacity};`} data-name="Path 1449"
+                                    <path style={shape2_style} data-name="Path 1449"
                                         d="M76.1-157.222C91.746-135.8 87.2-94.273 99.993-61.945c12.7 32.328 42.661 55.459 39.248 73.282-3.318 17.823-40.007 30.337-65.6 43.325-25.5 12.988-39.912 26.545-60.01 42.566-20.1 16.116-46.074 34.6-63.328 27.682-17.349-6.921-25.976-39.153-59.915-59.82s-93.1-29.768-105.325-51.478 22.373-56.028 43.609-93.949c21.331-37.921 29.2-79.35 53.563-96.793 24.459-17.444 65.414-10.9 103.9-6.921 38.396 3.982 74.326 5.404 89.965 26.829z"
                                         transform="translate(217.489 188.626)" />
                                 </svg>
