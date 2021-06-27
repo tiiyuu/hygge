@@ -2,6 +2,12 @@
 bgColor: '#1b2031'
 enable1: true
 cardBgColor: '#5d78ff'
+shape1:
+  - color: '#fff'
+    opacity: .07
+shape2:
+  - color: '#fff'
+    opacity: .07
 topTitle: Contact me
 content: Let’s Start a Project
 btnText: Get in touch
@@ -12,7 +18,7 @@ footerLogo: images/widget-logo.png
 title1: Sitemap
 content1: 
   - text: About Me
-    url: about
+    url: '#about'
   - text: Frequently Ask Question
     url: '#'
   - text: Privacy & Policy

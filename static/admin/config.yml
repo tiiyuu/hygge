@@ -137,6 +137,12 @@ collections:
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'enable card', name: 'enable1', widget: 'boolean' }
           - { label: 'card background color', name: 'cardBgColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'shape1', name: 'shape1', widget: 'list', allow_add: false, fields: [
+              {label: 'color', name: 'color', widget: 'color', enableAlpha: false, allowInput: true},
+              { label: 'opacity', name: 'opacity', widget: 'number', value_type: 'float', min: 0, max: 1 }] }
+          - { label: 'shape2', name: 'shape2', widget: 'list', allow_add: false, fields: [
+              {label: 'color', name: 'color', widget: 'color', enableAlpha: false, allowInput: true},
+              { label: 'opacity', name: 'opacity', widget: 'number', value_type: 'float', min: 0, max: 1 }] }
           - { label: 'topTitle', name: 'topTitle', widget: 'string' }
           - { label: 'content', name: 'content', widget: 'string' }
           - { label: 'button Text', name: 'btnText', widget: 'string' }
