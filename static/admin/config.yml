@@ -142,8 +142,14 @@ collections:
           - { label: 'enable info', name: 'enable2', widget: 'boolean' }
           - { label: 'logo', name: 'footerLogo', widget: 'image' }
           - { label: 'title1', name: 'title1', widget: 'string' }
+          - { label: 'sitemap', name: 'sitemap', widget: 'list', allow_add: true, add_to_top: true, fields: [
+              {label: 'text', name: 'text', widget: 'string'},
+              { label: 'url', name: 'url', widget: 'string' }] }
           - { label: 'title2', name: 'title2', widget: 'string' }
-          - { label: 'phone', name: 'phone', widget: 'string' }
-          - { label: 'email', name: 'email', widget: 'string' }
-          - { label: 'address', name: 'address', widget: 'text' }
+          - { label: 'contact', name: 'contact', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
+              {label: 'icon', name: 'icon', widget: 'string'},
+              { label: 'text', name: 'text', widget: 'string' }] }
           - { label: 'copyright', name: 'copyright', widget: 'text' }
+          - { label: 'social', name: 'social', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
+              {label: 'icon', name: 'icon', widget: 'string'},
+              { label: 'url', name: 'url', widget: 'string' }] }

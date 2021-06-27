@@ -58,13 +58,14 @@
 					<h4 class="base-font">{{ .title2 }}</h4>
 					<!-- {{ $address := .Site.Params.address }} -->
 					<ul class="fa-ul small">
-						<li class="mb-2"><a class="text-light" href="tel:{{ .phone }}"><span class="fa-li"><i
-										class="fa fa-phone"></i></span>{{ .phone }}</a></li>
-						<li class="mb-2"><a class="text-light" href="mailto:{{ .email }}"><span class="fa-li"><i
-										class="fa fa-envelope"></i></span>{{ .email }}</a></li>
-						<li class="mb-2">
-							<span class="fa-li"><i class="fa fa-map-marker"></i></span>{{ .address }}</a>
-						</li>
+						{{ $contact := .contact }}
+						{{ range $contact }}
+							<li class="mb-2"><a class="text-light">
+								<span class="fa-li">
+									<i class="fa {{ .icon }}"></i>
+								</span>{{ .text }}</a>
+							</li>
+						{{ end }}
 					</ul>
 				</div>
 			</div>
@@ -79,7 +80,7 @@
 			<div class="col-lg-6">
 				<div class="footer__footer_social">
 					<ul class="unstyle-list">
-						{{ $social := .Site.Params.social }}
+						{{ $social := .social }}
 						{{ range $social }}
 						<li class="d-inline-block mx-2"><a class="text-light" target="_blank" href="{{ .url }}"><i
 									class="fa {{ .icon }}"></i></a>

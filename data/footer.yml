@@ -4,11 +4,37 @@ bgColor: '#5d78ff'
 topTitle: Contact me
 content: Let’s Start a Project
 btnText: Get in touch
+
 enable2: true
 footerLogo: images/widget-logo.png
+
 title1: Sitemap
-title2: Address
-phone: +(448) 833 5272 332
-email: hello@example.com
-address: 23 Khan Niketon, Grand Street, NYK.
+sitemap: 
+  - text: About Me
+    url: about
+  - text: Frequently Ask Question
+    url: '#'
+  - text: Privacy & Policy
+    url: '#'
+  - text: Latest Article
+    url: '#'
+
+title2: Contact
+contact: 
+  - text: +(448) 833 5272 332
+    icon: fa-phone
+  - text: hello@example.com
+    icon: fa-envelope
+  - text: 23 Khan Niketon, Grand Street, NYK.
+    icon: fa-map-marker
+
 copyright: All right reserved copyright © Portio 2020
+social:
+  - icon: fa-facebook-official
+    url: https://www.facebook.com/
+  - icon: fa-linkedin-square
+    url: https://www.linkedin.com/
+  - icon: fa-pinterest-square
+    url: https://www.pinterest.com/
+  - icon: fa-twitter-square
+    url: https://twitter.com/
