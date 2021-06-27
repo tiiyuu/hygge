@@ -59,8 +59,6 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                         <div class="text-light footer__widget_address mb-5">
                             <h4 class="base-font">{ data.title2 }</h4>
                             <ul class="fa-ul small">
-                                {{ $contact := .content2 }}
-                                {{ range $contact }}
                                 { data.content2.map(c => (
                                     <li class="mb-2"><a class="text-light">
                                         <span class="fa-li">
