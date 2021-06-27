@@ -2,11 +2,10 @@
 bgColor: '#1b2031'
 enable1: true
 cardBgColor: '#5d78ff'
-shape:
-  - shape1_Color: '#fff'
-  - shape1_Opacity: .07
-  - shape2_Color: '#fff'
-  - shape2_Opacity: .07
+shape1_Color: '#fff'
+shape1_Opacity: .07
+shape2_Color: '#fff'
+shape2_Opacity: .07
 topTitle: Contact me
 content: Let’s Start a Project
 btnText: Get in touch
