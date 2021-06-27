@@ -1,7 +1,7 @@
 const FooterPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const bg_style = {
-        background: { data.bgColor }
+        background: ${data.bgColor}
     };
     const card_bg_style = {
         background: { data.cardBgColor }
