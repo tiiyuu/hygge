@@ -30,7 +30,7 @@
         <p>
           {{ .Params.shortDescription }}
         </p>
-        <div class="case-details-info">
+        <!-- <div class="case-details-info">
           <div class="case-details-info-item">
             <h5 class="text-light">Client</h5>
             <p>{{ .Params.client }}</p>
@@ -43,8 +43,8 @@
             <h5>Date</h5>
             <p>{{ .PublishDate.Format "January 2, 2006" }}</p>
           </div>
-        </div>
-        <div class="row mb-5">
+        </div> -->
+        <!-- <div class="row mb-5">
           <div class="col-lg-6">
             <div class="case-details-service">
               <h3>Challenge</h3>
@@ -61,11 +61,11 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="case-details-thumb mb-5">
           <img src="{{ .Params.thumbnail | absURL }}" alt="case-details" />
         </div>
-        {{ .Content }}
+        {{ .Content | markdownify  }}
       </div>
     </div>
     <div class="row">
@@ -88,7 +88,7 @@
             </div>
           </div>
           {{ end }}
-          <div class="social">
+          <!-- <div class="social">
             {{ $url := printf "%s" .Permalink | absLangURL }}
             <ul class="unstyle-list big">
               <li>
@@ -104,7 +104,7 @@
                     class="fa fa-twitter-square btn-zoom"></i></a>
               </li>
             </ul>
-          </div>
+          </div> -->
           {{ if .NextInSection }}
           <div class="next d-flex align-items-center">
             <div class=" content text-right">
