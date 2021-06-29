@@ -146,7 +146,7 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
                 </div>
               </div>
               <div class="col-lg-6">
-                <div id="map" data-lat={ data.latitude } data-long={ data.longitude }} data-pin={`$/{data.pinImage}`}>
+                <div id="map" data-lat={ data.latitude } data-long={ data.longitude } data-pin={`$/{data.pinImage}`}>
                 </div>
               </div>
             </div>
