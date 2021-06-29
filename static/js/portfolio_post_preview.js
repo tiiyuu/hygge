@@ -36,42 +36,10 @@ const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
                 <p>
                   { data.shortDescription }
                 </p>
-                <div class="case-details-info">
-                  <div class="case-details-info-item">
-                    <h5 class="text-light">{ data.tab1 }</h5>
-                    <p>{ data.tab1_text }</p>
-                  </div>
-                  <div class="case-details-info-item">
-                    <h5>{ data.tab2 }</h5>
-                    <p>{ data.tab2_text }</p>
-                  </div>
-                  <div class="case-details-info-item">
-                    <h5>{ data.tab3 }</h5>
-                    <p>{ formattedDate }</p>
-                  </div>
-                </div>
-                <div class="row mb-5">
-                  <div class="col-lg-6">
-                    <div class="case-details-service">
-                      <h3>{ data.head1 }</h3>
-                      <p>
-                        { data.head1_content }
-                      </p>
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="case-details-service">
-                      <h3>{ data.head2 }</h3>
-                      <p>
-                        { data.head2_content }
-                      </p>
-                    </div>
-                  </div>
-                </div>
                 <div class="case-details-thumb mb-5">
                   <img src={`/${data.thumbnail}`} alt="case-details" />
                 </div>
-                { data.Content }
+                { widgetFor('body') }
               </div>
             </div>
             <div class="row">
@@ -107,7 +75,6 @@ const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
                     </div>
                   </div>
 
-                  
                   <div class="next d-flex align-items-center">
                     <div class=" content text-right">
                       <span class="small">Next</span>

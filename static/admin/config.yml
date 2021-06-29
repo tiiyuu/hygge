@@ -35,16 +35,6 @@ collections:
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'shortDescription', name: 'shortDescription', widget: 'text' }
-      - { label: 'tab1', name: 'tab1', widget: 'string' }
-      - { label: 'tab1_text', name: 'tab1_text', widget: 'string' }
-      - { label: 'tab2', name: 'tab2', widget: 'string' }
-      - { label: 'tab2_text', name: 'tab2_text', widget: 'string' }
-      - { label: 'tab3', name: 'tab3', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'head1', name: 'head1', widget: 'string' }
-      - { label: 'head1_content', name: 'head1_content', widget: 'text' }
-      - { label: 'head2', name: 'head2', widget: 'string' }
-      - { label: 'head2_content', name: 'head2_content', widget: 'text' }
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'pages'
