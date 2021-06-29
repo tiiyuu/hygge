@@ -42,20 +42,6 @@ const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
             <div class="row">
               <div class="col-lg-10 offset-lg-1">
                 <nav class="case-details-nav d-flex justify-content-between align-items-center">
-                  
-                  <div class="social">
-                    <ul class="unstyle-list big">
-                      <li>
-                        <a><i class="fa fa-facebook-official btn-zoom"></i></a>
-                      </li>
-                      <li>
-                        <a><i class="fa fa-linkedin-square btn-zoom"></i></a>
-                      </li>
-                      <li>
-                        <a><i class="fa fa-twitter-square btn-zoom"></i></a>
-                      </li>
-                    </ul>
-                  </div>
 
                   <div class="previous d-flex align-items-center">
                     <div class="icon mr-3">
