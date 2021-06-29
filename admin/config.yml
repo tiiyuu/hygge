@@ -34,7 +34,6 @@ collections:
     slug: '{{year}}_{{month}}_{{day}}_{{hour}}_{{minute}}_{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'shortDescription', name: 'shortDescription', widget: 'text' }
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'pages'
