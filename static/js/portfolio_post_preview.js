@@ -1,9 +1,6 @@
-import { format } from "date-fns";
-
 const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
-    const date = new Date(data.date);
-    const formattedDate = format(date, "MMM DD, YYYY");
+    
     return (
         <>
         <section class="section case-details">
