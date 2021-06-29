@@ -1,0 +1,26 @@
+---
+enable: true
+title: Contact Me
+breadcrumb: Contact
+img_location: images/location.svg
+title_location: Office Address
+text_location: 369巷
+
+img_email: images/phone.svg
+title_email: Phone & Email
+text_email: 09xxxxxxxx
+
+img_hour: images/time.svg
+title_hour: Working Hours
+text_hour: Open from 10am to 6pm (close at 5pm Sundays)
+
+contact_form: Contact Form
+name: Name
+email: Email
+message: Message
+agree: I agree that my submitted data is being collected and stored.
+btnText: Send Message
+
+latitude: "23.7783741"
+longitude: "90.3746808"
+pinImage: "images/pin.png"

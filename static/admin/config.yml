@@ -152,3 +152,28 @@ collections:
           - { label: 'social', name: 'social', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
               {label: 'icon', name: 'icon', widget: 'string'},
               { label: 'url', name: 'url', widget: 'string' }] }
+      - file: 'data/contact.yml'
+        label: 'Contact'
+        name: 'contact'
+        fields:
+          - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'title', name: 'title', widget: 'string' }
+          - { label: 'breadcrumb', name: 'breadcrumb', widget: 'string' }
+          - { label: 'img location', name: 'img_location', widget: 'image' }
+          - { label: 'title location', name: 'title_location', widget: 'string'}
+          - { label: 'text location', name: 'text_location', widget: 'text'}
+          - { label: 'img email', name: 'img_email', widget: 'image' }
+          - { label: 'title email', name: 'title_email', widget: 'string'}
+          - { label: 'text email', name: 'text_email', widget: 'text'}
+          - { label: 'img hour', name: 'img_hour', widget: 'image' }
+          - { label: 'title hour', name: 'title_hour', widget: 'string'}
+          - { label: 'text hour', name: 'text_hour', widget: 'text'}
+          - { label: 'contact form', name: 'contact_form', widget: 'string'}
+          - { label: 'name', name: 'name', widget: 'string'}
+          - { label: 'email', name: 'email', widget: 'string'}
+          - { label: 'message', name: 'message', widget: 'string'}
+          - { label: 'agreement', name: 'agree', widget: 'string'}
+          - { label: 'btnText', name: 'btnText', widget: 'string'}
+          - { label: 'latitude', name: 'latitude', widget: 'string'}
+          - { label: 'longitude', name: 'longitude', widget: 'string'}
+          - { label: 'pinImage', name: 'pinImage', widget: 'image'}

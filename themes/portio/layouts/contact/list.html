@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+{{ with .Site.Data.contact }}
 <header class="breadCrumb">
   <div class="svg-img">
     <img src="{{ "images/hero/figure-svg.svg" | absURL }}" alt="bg">
@@ -24,11 +24,11 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        <h3 class="breadCrumb__title">{{ .Title }}</h3>
+        <h3 class="breadCrumb__title">{{ .title }}</h3>
         <nav aria-label="breadcrumb" class="d-flex justify-content-center">
           <ol class="breadcrumb align-items-center">
             <li class="breadcrumb-item"><a href="{{ .Site.BaseURL }}">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ .Params.breadcrumb }}</li>
+            <li class="breadcrumb-item active" aria-current="page">{{ .breadcrumb }}</li>
           </ol>
         </nav>
       </div>
@@ -51,12 +51,12 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="{{ "images/contact/location.svg" | absURL }}" alt="location" />
+              <img src="{{ .img_location | absURL }}" alt="location" />
             </div>
           </div>
-          <h4>Office Address</h4>
+          <h4>{{ .title_location }}</h4>
           <p>
-            {{ $address.address }}
+            {{ .text_location }}
           </p>
         </div>
       </div>
@@ -71,12 +71,12 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="{{ "images/contact/phone.svg" | absURL }}" alt="phone" />
+              <img src="{{ .img_email | absURL }}" alt="phone" />
             </div>
           </div>
-          <h4>Phone & Email</h4>
-          <p>{{ $address.phone }}<br>
-            <a href="mailto:{{ $address.email }}">{{ $address.email }}</a>
+          <h4>{{ .title_email }}</h4>
+          <p>
+            {{ .text_email }}
           </p>
 
         </div>
@@ -92,12 +92,12 @@
               </svg>
             </div>
             <div class="icon">
-              <img src="{{ "images/contact/time.svg" | absURL }}" alt="time" />
+              <img src="{{ .img_hour | absURL }}" alt="time" />
             </div>
           </div>
-          <h4>Working Hours</h4>
+          <h4>{{ .title_hour }}</h4>
           <p>
-            {{ $address.openingHours }}
+            {{ .text_hour }}
           </p>
         </div>
       </div>
@@ -110,7 +110,7 @@
     <div class="row">
       <div class="col-lg-6">
         <div class="contact-form-title">
-          <h3>Contact Form</h3>
+          <h3>{{ .contact_form }}</h3>
         </div>
         <div class="contact-form-input">
           <form id="contact-form" action="{{ .Site.Params.formspreeURL }}" method="POST">
@@ -118,73 +118,38 @@
             <div class="form-row">
 
               <div class="form-group col-md-6 pr-3">
-                <input type="text" class="form-control" name="Name" placeholder="Name" required />
+                <input type="text" class="form-control" name="{{ .name }}" placeholder="{{ .name }}" required />
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" placeholder="Email" required />
+                <input type="email" class="form-control" name="{{ .email }}" placeholder="{{ .email }}" required />
               </div>
             </div>
 
             <div class="form-group">
-              <textarea class="form-control" id="message" rows="6" name="message" placeholder="Message"></textarea>
+              <textarea class="form-control" id="message" rows="6" name="{{ .message }}" placeholder="{{ .message }}"></textarea>
             </div>
 
             <div class="form-group">
               <div class="form-check small">
                 <input type="checkbox" class="form-check-input" name="agreement" id="aggrement" required />
                 <label class="form-check-label" for="aggrement">
-                  I agree that my submitted data is being collected and
-                  stored.</label>
+                  {{ .agree }}</label>
               </div>
             </div>
 
-            <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button">Send Message</button>
+            <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button">{{ .btnText }}</button>
             <p id="contact-form-status" class="mt-3"></p>
           </form>
-
-          <!-- <form>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Password</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-              <label for="inputAddress2">Address 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
-
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  I agree that my submitted data is being collected and
-                  stored.
-                </label>
-              </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
-          </form> -->
-
-
 
         </div>
       </div>
       <div class="col-lg-6">
-        {{ $map := .Site.Params.map }}
-        <div id="map" data-lat={{ $map.latitude }} data-long={{ $map.longitude }} data-pin={{ $map.pinImage | absURL }}>
+        <div id="map" data-lat={{ .latitude }} data-long={{ .longitude }} data-pin={{ .pinImage | absURL }}>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+{{ end }}
 {{ end }}
