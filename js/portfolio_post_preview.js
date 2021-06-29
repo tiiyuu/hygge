@@ -30,9 +30,6 @@ const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
                 <div class="case-details-title">
                   <h1>{ data.title }</h1>
                 </div>
-                <p>
-                  { data.shortDescription }
-                </p>
                 <div class="case-details-thumb mb-5">
                   <img src={`/${data.thumbnail}`} alt="case-details" />
                 </div>
