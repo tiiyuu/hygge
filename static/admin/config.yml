@@ -65,11 +65,11 @@ collections:
         name: 'about'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'back Image', name: 'backImage', widget: 'image' }
+          - { label: 'bubble color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
-          - { label: 'Button1Name', name: 'button1Name', widget: 'string' }
-          - { label: 'Button2Name', name: 'button2Name', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
       - file: 'data/serviceSection.yml'
         label: 'Service'
