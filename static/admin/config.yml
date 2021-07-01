@@ -159,7 +159,7 @@ collections:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'title', name: 'title', widget: 'string' }
           - { label: 'breadcrumb', name: 'breadcrumb', widget: 'string' }
-          - { label: 'social', name: 'social', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
+          - { label: 'faq', name: 'faq', widget: 'list', allow_add: true, add_to_top: true, fields: [
               { label: 'question', name: 'question', widget: 'string' },
               { label: 'answer', name: 'answer', widget: 'text'},
               { label: 'img', name: 'img', widget: 'image'},
