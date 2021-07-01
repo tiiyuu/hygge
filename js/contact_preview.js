@@ -2,8 +2,8 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const btnStyle = {
         color: data.btnTextColor,
-        background-color: data.btnBgColor,
-        border-color: data.btnBorderColor
+        backgroundColor: data.btnBgColor,
+        borderColor: data.btnBorderColor
     }
     return (
         <>
