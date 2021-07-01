@@ -40,7 +40,8 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
                 <div class="row">
                     <div class="col-12">
                         <div class="service__slider">
-                            { widgetsFor('service').map((content, image) => (
+                            { widgetsFor('service').map(function(content, image) {
+                                return
                                 <div class="service__slider_item">
                                     <div class="service__slider_item-icon">
                                         <div class="icon-background">
@@ -59,7 +60,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
                                         { content }
                                     </div>
                                 </div>
-                            )) }
+                            }) }
                         </div>
                     </div>
                 </div>
