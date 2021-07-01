@@ -52,6 +52,7 @@ collections:
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'bubble color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'Left Image', name: 'leftImage', widget: 'image' }
           - { label: 'Right Image', name: 'rightImage', widget: 'image' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
