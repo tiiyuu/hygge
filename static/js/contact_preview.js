@@ -1,5 +1,10 @@
 const ContactPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
+    const btnStyle = {
+        color: data.btnTextColor,
+        background-color: data.btnBgColor,
+        border-color: data.btnBorderColor
+    }
     return (
         <>
         <header class="breadCrumb">
@@ -41,67 +46,28 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
         <section class="section contact__info">
           <div class="container">
             <div class="row">
-              <div class="col-lg-4">
-                <div class="contact__info_item">
-                  <div class="contact__info_item-icon">
-                    <div class="icon-background">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
-                        <path fill="#f1f6f9"
-                          d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
-                          data-name="Path 1354" />
-                      </svg>
+                { data.faq.map(f =>(
+                    <div class="col-lg-4">
+                        <div class="contact__info_item" style="margin: 5px;">
+                          <div class="contact__info_item-icon">
+                            <div class="icon-background">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
+                                <path fill={ f.fillColor }
+                                  d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
+                                  data-name="Path 1354" />
+                              </svg>
+                            </div>
+                            <div class="icon">
+                              <img src={`/${f.img}`} alt="icon" />
+                            </div>
+                          </div>
+                          <h4>{ f.question }</h4>
+                          <p>
+                            { f.answer }
+                          </p>
+                        </div>
                     </div>
-                    <div class="icon">
-                      <img src={`/${data.img_location}`} alt="location" />
-                    </div>
-                  </div>
-                  <h4>{ data.title_location }</h4>
-                  <p>
-                    { data.text_location }
-                  </p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="contact__info_item">
-                  <div class="contact__info_item-icon">
-                    <div class="icon-background">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
-                        <path fill="#f1f6f9"
-                          d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
-                          data-name="Path 1354" />
-                      </svg>
-                    </div>
-                    <div class="icon">
-                      <img src={`/${data.img_email}`} alt="phone" />
-                    </div>
-                  </div>
-                  <h4>{ data.title_email }</h4>
-                  <p>
-                    { data.text_email }
-                  </p>
-
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="contact__info_item">
-                  <div class="contact__info_item-icon">
-                    <div class="icon-background">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
-                        <path fill="#f1f6f9"
-                          d="M49.855527 9.984102c-4.337424-.815024-8.766002-1.633779-13.152776-1.113889-8.196034.975107-15.344329 6.696991-19.41555 13.879649s-5.363288 15.655094-5.187042 23.907191c.156996 7.385448 1.479849 14.875357 4.972905 21.38465s9.337384 11.961229 16.458344 13.922244c4.833752 1.331211 10.056683 1.044827 14.74081 2.829827 7.560693 2.881382 12.209757 10.489626 19.01235 14.870016a25.650039 25.650039 0 0024.16316 1.698928c8.342551-3.846451 14.03857-12.107291 16.641338-20.918947s2.471077-18.187687 1.756125-27.346305c-.843101-10.912846-3.01686-22.783019-11.354287-29.869462-6.037066-5.130853-14.208558-6.772976-21.995428-8.235353z"
-                          data-name="Path 1354" />
-                      </svg>
-                    </div>
-                    <div class="icon">
-                      <img src={`/${data.img_hour}`} alt="time" />
-                    </div>
-                  </div>
-                  <h4>{ data.title_hour }</h4>
-                  <p>
-                    { data.text_hour }
-                  </p>
-                </div>
-              </div>
+                )) }
             </div>
           </div>
         </section>
@@ -139,15 +105,16 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
                       </div>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button">{ data.btnText }</button>
+                    <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button" style={btnStyle}>{ data.btnText }</button>
                     <p id="contact-form-status" class="mt-3"></p>
                   </form>
 
                 </div>
               </div>
               <div class="col-lg-6">
-                <div id="map" data-lat={ data.latitude } data-long={ data.longitude } data-pin={`/${data.pinImage}`}>
-                </div>
+                // <div id="map" data-lat={ data.latitude } data-long={ data.longitude } data-pin={`/${data.pinImage}`}>
+                // </div>
+                <img src={`/${data.img}`} />
               </div>
             </div>
           </div>
