@@ -1,4 +1,4 @@
-const ServiceSectionPreview = ({ entry, getAsset, widgetFor }) => {
+const ServiceSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
     const data = entry.get('data').toJS()
     return (
         <>
@@ -40,7 +40,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor }) => {
                 <div class="row">
                     <div class="col-12">
                         <div class="service__slider">
-                            { data.service.map(s => (
+                            { widgetsFor('service').map((content, image) => (
                                 <div class="service__slider_item">
                                     <div class="service__slider_item-icon">
                                         <div class="icon-background">
@@ -52,7 +52,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                             </svg>
                                         </div>
                                         <div class="icon">
-                                            <img src={`/${s.image}`} alt="ui-ux" />
+                                            <img src={`/${image}`} alt="ui-ux" />
                                         </div>
                                     </div>
                                     <div class="mt-5">
