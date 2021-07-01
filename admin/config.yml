@@ -39,6 +39,13 @@ collections:
   - name: 'pages'
     label: 'Pages'
     files:
+      - file: 'data/navBar.yml'
+        label: 'Navigation Bar'
+        name: 'navbar'
+        fields:
+          - { label: 'logo', name: 'logo', widget: 'image' }
+          - { label: 'menu', name: 'menu', widget: 'list', allow_add: false, fields: [
+              { label: 'name', name: 'name', widget: 'string' }] }
       - file: 'data/hero.yml'
         label: 'Hero'
         name: 'hero'
