@@ -59,13 +59,13 @@ const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     <span class="top-title pre-line">{ data.topTitle }</span>
                     { widgetFor('content') }
                   </div>
-                  <a type="button" class="btn btn-lg btn-primary btn-zoom">{ data.buttonName }</a>
+                  
                 </div>
               </div>
               <div class="col-lg-6">
                 <div class="hero_figure">
                   <div class="figure-svg">
-                    <img src={`/${data.rightImage}`} alt="figure-svg" />
+                    <img src={`/${data.rightImage}`} />
                   </div>
                   <img src={`/${data.image}`} alt="hero-image" style={mystyle} />
                   { getVideo(data.videoURL, data.videoThumb) }
