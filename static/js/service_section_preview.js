@@ -56,7 +56,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                         </div>
                                     </div>
                                     <div class="mt-5">
-                                        { s.content }
+                                        { widgetFor('data.service.content') }
                                     </div>
                                 </div>
                             )) }
