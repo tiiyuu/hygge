@@ -21,7 +21,7 @@ const getVideo = (videoURL, videoThumb) => {
 const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const mystyle = {
-        WebkitMask: "/images/hero/hero-mask-svg.png",
+        WebkitMask: url("/images/hero-mask-svg.png"),
         WebkitMaskRepeat: "no-repeat",
         WebkitMaskSize: "contain",
         WebkitMaskPosition: "center center"
@@ -31,11 +31,11 @@ const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
         <section class="hero" id="home">
           <div class="hero_background-svg">
             <svg viewBox="0 0 1437 1180">
-              <path fill="#f1f6f9" d="M0 0h1377l60 1010a120 120 0 01-120 120L0 1180z" data-name="Path 1350" />
+              <path fill={ data.bgColor } d="M0 0h1377l60 1010a120 120 0 01-120 120L0 1180z" data-name="Path 1350" />
             </svg>
           </div>
           <div class="hero_footer-svg">
-            <img src="/images/hero/figure-svg.svg" alt="" />
+            <img src={`/${data.leftImage}`} alt="" />
           </div>
           <div class="container">
             <div class="row align-items-center">
@@ -65,7 +65,7 @@ const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
               <div class="col-lg-6">
                 <div class="hero_figure">
                   <div class="figure-svg">
-                    <img src="/images/hero/figure-svg.svg" alt="figure-svg" />
+                    <img src={`/${data.rightImage}`} alt="figure-svg" />
                   </div>
                   <img src={`/${data.image}`} alt="hero-image" style={mystyle} />
                   { getVideo(data.videoURL, data.videoThumb) }

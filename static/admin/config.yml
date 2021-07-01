@@ -36,8 +36,8 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'body', name: 'body', widget: 'markdown' }
-  - name: 'pages'
-    label: 'Pages'
+  - name: 'layouts'
+    label: 'Layouts'
     files:
       - file: 'data/navBar.yml'
         label: 'Navigation Bar'
@@ -51,12 +51,14 @@ collections:
         name: 'hero'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
+          - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'Left Image', name: 'leftImage', widget: 'image' }
+          - { label: 'Right Image', name: 'rightImage', widget: 'image' }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'content', name: 'content', widget: 'markdown' }
-          - { label: 'ButtonName', name: 'buttonName', widget: 'string' }
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'VideoThumb', name: 'videoThumb', widget: 'image', required: false }
-          - { label: 'VideoURL', name: 'videoURL', widget: 'text', required: false }
+          - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
+          - { label: 'VideoURL', name: 'videoURL', widget: 'text' }
       - file: 'data/aboutSection.yml'
         label: 'About'
         name: 'about'

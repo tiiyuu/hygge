@@ -3,11 +3,11 @@
 <section class="hero" id="home">
   <div class="hero_background-svg">
     <svg viewBox="0 0 1437 1180">
-      <path fill="#f1f6f9" d="M0 0h1377l60 1010a120 120 0 01-120 120L0 1180z" data-name="Path 1350" />
+      <path fill="{{ .bgColor }}" d="M0 0h1377l60 1010a120 120 0 01-120 120L0 1180z" data-name="Path 1350" />
     </svg>
   </div>
   <div class="hero_footer-svg">
-    <img src="images/hero/figure-svg.svg" alt="" />
+    <img src="{{ .leftImage | absURL }}" alt="" />
   </div>
   <div class="container">
     <div class="row align-items-center">
@@ -31,14 +31,14 @@
             <span class="top-title pre-line">{{ .topTitle }}</span>
             {{ .content | markdownify }}
           </div>
-          <a type="button" class="btn btn-lg btn-primary btn-zoom"
-            href="{{ .buttonURL | absURL }}">{{ .buttonName }}</a>
+          <!-- <a type="button" class="btn btn-lg btn-primary btn-zoom"
+            href="{{ .buttonURL | absURL }}">{{ .buttonName }}</a> -->
         </div>
       </div>
       <div class="col-lg-6">
         <div class="hero_figure">
           <div class="figure-svg">
-            <img src="images/hero/figure-svg.svg" alt="figure-svg" />
+            <img src="{{ .rightImage | absURL }}" alt="figure-svg" />
           </div>
           <img src="{{ .image | absURL }}" alt="hero-image" style='
                   -webkit-mask: url({{"images/hero/hero-mask-svg.png" | absURL }});
