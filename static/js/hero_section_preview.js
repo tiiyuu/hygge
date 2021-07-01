@@ -21,7 +21,7 @@ const getVideo = (videoURL, videoThumb) => {
 const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const mystyle = {
-        WebkitMask: url("/images/hero-mask-svg.png"),
+        WebkitMask: "/images/hero-mask-svg.png",
         WebkitMaskRepeat: "no-repeat",
         WebkitMaskSize: "contain",
         WebkitMaskPosition: "center center"
