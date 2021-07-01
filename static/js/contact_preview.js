@@ -1,10 +1,16 @@
 const ContactPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
-    const btnStyle = {
+    
+    const info_style = {
+        margin: "5px"
+    }
+
+    const btn_style = {
         color: data.btnTextColor,
         backgroundColor: data.btnBgColor,
         borderColor: data.btnBorderColor
-    }
+    };
+
     return (
         <>
         <header class="breadCrumb">
@@ -48,7 +54,7 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
             <div class="row">
                 { data.faq.map(f =>(
                     <div class="col-lg-4">
-                        <div class="contact__info_item" style="margin: 5px;">
+                        <div class="contact__info_item" style={info_style}>
                           <div class="contact__info_item-icon">
                             <div class="icon-background">
                               <svg xmlns="http://www.w3.org/2000/svg" width="122.457" height="109.702" viewBox="0 0 122.457 109.702">
@@ -105,7 +111,7 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
                       </div>
                     </div>
 
-                    <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button" style={btnStyle}>{ data.btnText }</button>
+                    <button type="submit" class="btn btn-primary btn-zoom" id="contact-form-button" style={btn_style}>{ data.btnText }</button>
                     <p id="contact-form-status" class="mt-3"></p>
                   </form>
 
