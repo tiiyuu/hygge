@@ -67,6 +67,7 @@ collections:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
           - { label: 'back Image', name: 'backImage', widget: 'image' }
           - { label: 'bubble color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'box color', name: 'boxColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'Content', name: 'content', widget: 'markdown' }
