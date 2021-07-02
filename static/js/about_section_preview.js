@@ -4,6 +4,9 @@ const AboutSectionPreview = ({ entry, getAsset, widgetFor }) => {
         WebkitMask: "/images/about-mask-svg.svg",
         WebkitMaskSize: "contain"
     };
+    const box_style = {
+        background: data.boxColor
+    };
     return (
         <>
         <section class="section about" id="about">
@@ -27,7 +30,7 @@ const AboutSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                     <img src={`/${data.image}`} alt="about-img" style={mystyle} />
                                 </div>
                             </div>
-                            <div class="about_content-inner">
+                            <div class="about_content-inner" style={box_style}>
                                 <div class="about_content-inner-blob">
                                     <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"
                                         viewBox="0 0 600 600">

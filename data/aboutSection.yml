@@ -2,6 +2,7 @@
 enable: true
 backImage: images/figure-svg.svg
 bubbleColor: url(#c)
+boxColor: '#1b2031'
 topTitle: About
 title: >
   ## About me
