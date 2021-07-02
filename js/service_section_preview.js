@@ -40,7 +40,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
                 <div class="row">
                     <div class="col-12">
                         <div class="service__slider">
-                            { widgetsFor('service').map((content, image) => (
+                            { widgetsFor('services').map((content, image) => (
                                 <div class="service__slider_item">
                                     <div class="service__slider_item-icon">
                                         <div class="icon-background">
