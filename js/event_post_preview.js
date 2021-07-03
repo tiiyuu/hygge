@@ -86,4 +86,4 @@ const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
     )
 }
 
-CMS.registerPreviewTemplate('portfolio_post', PortfolioPostPreview)
+CMS.registerPreviewTemplate('event_post', PortfolioPostPreview)
