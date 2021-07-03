@@ -194,8 +194,8 @@ collections:
           - { label: 'btn Background Color', name: 'btnBgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'btn Border Color', name: 'btnBorderColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'image', name: 'img', widget: 'image'}
-  - name: 'Configuration'
-    label: 'config'
+  - name: 'config'
+    label: 'Configuration'
     files:
       - file: 'config.toml'
         label: 'Configuration'
