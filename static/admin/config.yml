@@ -16,7 +16,7 @@ collections:
     description: 'Create a new post right now!'
     create: true
     extension: 'md'
-    slug: '{{year}}_{{month}}_{{day}}_{{hour}}_{{minute}}_{{slug}}'
+    slug: '{{year}}_{{month}}_{{day}}_{{slug}}'
     editor:
       preview: true
     fields:
@@ -25,13 +25,13 @@ collections:
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'portfolio_post'
-    label: 'Portfolio Post'
-    folder: 'content/portfolio'
+  - name: 'event_post'
+    label: 'Event Post'
+    folder: 'content/event'
     description: '妮妮♥尼尼'
     create: true
     extension: 'md'
-    slug: '{{year}}_{{month}}_{{day}}_{{hour}}_{{minute}}_{{slug}}'
+    slug: '{{slug}}'
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
