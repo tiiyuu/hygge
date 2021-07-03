@@ -16,7 +16,7 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     }
 
     const bg_style = {
-        background: data.bgColor;
+        background: data.bgColor
     }
 
     return (
