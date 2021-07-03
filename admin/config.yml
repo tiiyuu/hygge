@@ -124,6 +124,7 @@ collections:
         name: 'testimonial'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'testimonial', name: 'testimonial', widget: 'list', allow_add: true, add_to_top: true, fields: [
