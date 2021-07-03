@@ -201,7 +201,8 @@ collections:
         label: 'Configuration'
         name: 'configs'
         fields:
+          - { label: 'base URL', name: 'baseURL', widget: 'text' }
           - { label: 'Website title', name: 'title', widget: 'text' }
           - { label: 'favicon', name: 'icon', widget: 'image'}
-          - { label: 'Formspree URL', name: 'formspreeURL', widget: 'text'}
-          - { label: 'Google Analytics', name: 'googleAnalytics', widget: 'text'}
+          - { label: 'Formspree URL', name: 'formspreeURL', widget: 'text', hint: 'See: https://formspree.io/'}
+          - { label: 'Google Analytics', name: 'googleAnalytics', widget: 'text', hint: 'See: https://analytics.google.com/analytics/web/provision/#/provision'}
