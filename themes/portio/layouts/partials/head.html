@@ -20,8 +20,8 @@
   <link href="{{ $style.Permalink }}" rel="stylesheet" />
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
-  <link rel="icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
+  <!-- <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" /> -->
+  <link rel="icon" href="{{ site.Params.icon | absURL }}" type="image/x-icon" />
   {{ with site.Params.googleAnalytics }}
   {{ "<!-- Google Analytics -->" | safeHTML }}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
