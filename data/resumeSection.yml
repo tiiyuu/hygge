@@ -1,5 +1,6 @@
 ---
 enable: true
+bgColor: "#1b2031"
 topTitle: My Resume
 title: >
   ## My Expertises

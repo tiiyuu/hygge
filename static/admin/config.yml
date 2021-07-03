@@ -94,6 +94,7 @@ collections:
         name: 'resume'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'topTitle', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'tab1Name', name: 'tab1Name', widget: 'text' }
