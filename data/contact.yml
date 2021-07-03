@@ -1,5 +1,8 @@
 ---
 enable: true
+leftImage: images/figure-svg.svg
+rightImage: images/background-pattern.svg
+bubbleColor: url(#d)
 title: FAQ
 breadcrumb: FAQ
 
