@@ -1,6 +1,32 @@
+let tab1 = true;
+
+const getEducations = (education) => {
+    if (tab1 == true) {
+        return(
+            <div id="tab1_content" class="resume__education tab-pane active show"}>
+                { education.map((eda) => (
+                    <div class="resume__education_item">
+                        <span class="pre-line text-primary"> { eda.time } </span>
+                        { eda.content }
+                    </div>
+                )) }
+            </div>
+        ); 
+    }
+    return(
+        <div id="tab1_content" class="resume__education tab-pane">
+            { data.education.map((eda) => (
+                <div class="resume__education_item">
+                    <span class="pre-line text-primary"> { eda.time } </span>
+                    { eda.content }
+                </div>
+            )) }
+        </div>
+    ); 
+}
+
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS();
-    let tab1 = true;
 
     function tab1Click() {
         console.log("tab1 click.");
@@ -34,14 +60,8 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     </div>
                     <div class="col-lg-6">
                         <div class="tab-content ">
-                            <div id="tab1_content" class={ tab1 ? "resume__education tab-pane active show" : "resume__education tab-pane"} id={`${data.tab1Target}`}>
-                                { data.education.map((eda) => (
-                                    <div class="resume__education_item">
-                                        <span class="pre-line text-primary"> { eda.time } </span>
-                                        { eda.content }
-                                    </div>
-                                )) }
-                            </div>
+
+                            { getEducations(data.education) }
 
                             <div id="tab2_content" class={ tab1 ? "resume__education tab-pane" : "resume__education tab-pane active show"} id={`${data.tab2Target}`}>
                                 { data.experience.map(exp => (
