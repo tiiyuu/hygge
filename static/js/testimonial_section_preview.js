@@ -12,9 +12,12 @@ const getStars = stars => {
 const TestimonialPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     // const title = data.title.toString().split("## ");
+    const bg_style = {
+        background: data.bgColor
+    };
     return (
         <>
-        <section class="section testimonial">
+        <section class="section testimonial" style={bg_style}>
             <div class="testimonial__background_shape">
                 <svg viewBox="0 0 1920 79">
                     <path d="M0 0h1920v79L0 0z" data-name="Path 1450" />

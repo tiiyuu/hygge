@@ -1,11 +1,8 @@
 enable: true
+bgColor: "#f1f6f9"
 topTitle: Testimonials
 title: "## What People are Say About Me?"
 testimonial:
-  - time: Jun 25, 2021
-    name: 尼尼
-    comment: 尼尼🧡妮妮
-    star: 5
   - name: Ryan Cook
     comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit
       amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt
@@ -24,3 +21,7 @@ testimonial:
       labore dolore magna.
     time: Mar 08, 2020
     star: 3
+  - time: Jun 25, 2021
+    name: 尼尼
+    comment: 尼尼🧡妮妮
+    star: 5
