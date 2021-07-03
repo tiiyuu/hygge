@@ -1,5 +1,6 @@
 ---
 enable: true
+spinImage: images/blog-shape.svg
 topTitle: Blog
 title: >
   ## Recent Article
