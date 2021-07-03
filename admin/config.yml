@@ -137,6 +137,7 @@ collections:
         name: 'blog'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'spin image', name: 'spinImage', widget: 'image' }
           - { label: 'topTitle', name: 'topTitle', widget: 'string' }
           - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'buttonText', name: 'buttonText', widget: 'string' }
