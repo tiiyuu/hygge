@@ -3,7 +3,7 @@ const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
     
     const cover_style = {
       maxHeight: 100%
-    }
+    };
 
     return (
         <>
