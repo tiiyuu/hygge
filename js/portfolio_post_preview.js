@@ -2,7 +2,8 @@ const PortfolioPostPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     
     const cover_style = {
-      maxHeight: "100%"
+      maxHeight: "100%",
+      height: "auto"
     };
 
     return (
