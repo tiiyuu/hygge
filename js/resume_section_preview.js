@@ -1,66 +1,12 @@
-let tab1 = true;
-
-const getEducations = (education) => {
-    console.log("getEducations: ");
-    console.log(tab1);
-    if (tab1 == true) {
-        return(
-            <div id="tab1_content" class="resume__education tab-pane active show">
-                { education.map((eda) => (
-                    <div class="resume__education_item">
-                        <span class="pre-line text-primary"> { eda.time } </span>
-                        { eda.content }
-                    </div>
-                )) }
-            </div>
-        ); 
-    }
-    else {
-        return(
-            <div id="tab1_content" class="resume__education tab-pane">
-                { data.education.map((eda) => (
-                    <div class="resume__education_item">
-                        <span class="pre-line text-primary"> { eda.time } </span>
-                        { eda.content }
-                    </div>
-                )) }
-            </div>
-        );
-    }
-}
-
-const getExperiences = (experience) => {
-    if (tab1 == true) {
-        return (
-            <div id="tab2_content" class="resume__education tab-pane">
-                { experience.map(exp => (
-                    <div class="resume__education_item">
-                        <span class="pre-line text-primary"> { exp.time } </span>
-                        { exp.content }
-                    </div>
-                )) }
-            </div>
-        );
-    }
-    else {
-        return (
-            <div id="tab2_content" class="resume__education tab-pane active show">
-                { experience.map(exp => (
-                    <div class="resume__education_item">
-                        <span class="pre-line text-primary"> { exp.time } </span>
-                        { exp.content }
-                    </div>
-                )) }
-            </div>
-        );
-    }
-}
-
 const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS();
+    let tab1_class = "resume__education tab-pane active";
+    let tab2_class = "resume__education tab-pane";
+    let tab1 = true;
 
     function tab1Click() {
         console.log("tab1 click.");
+        console.log(tab1);
         tab1 = true;
     }
 
@@ -90,10 +36,23 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     </div>
                     <div class="col-lg-6">
                         <div class="tab-content ">
+                            <div id="tab1_content" class={ tab1 ? "resume__education tab-pane active" : "resume__education tab-pane"} id={`${data.tab1Target}`}>
+                                { data.education.map((eda) => (
+                                    <div class="resume__education_item">
+                                        <span class="pre-line text-primary"> { eda.time } </span>
+                                        { eda.content }
+                                    </div>
+                                )) }
+                            </div>
 
-                            { getEducations(data.education) }
-
-                            { getExperiences(data.experience) }
+                            <div id="tab2_content" class={ tab1 ? "resume__education tab-pane" : "resume__education tab-pane active"} id={`${data.tab2Target}`}>
+                                { data.experience.map(exp => (
+                                    <div class="resume__education_item">
+                                        <span class="pre-line text-primary"> { exp.time } </span>
+                                        { exp.content }
+                                    </div>
+                                )) }
+                            </div>
 
                         </div>
                     </div>
