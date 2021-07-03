@@ -3,7 +3,7 @@ let tab1 = true;
 const getEducations = (education) => {
     if (tab1 == true) {
         return(
-            <div id="tab1_content" class="resume__education tab-pane active show"}>
+            <div id="tab1_content" class="resume__education tab-pane active show">
                 { education.map((eda) => (
                     <div class="resume__education_item">
                         <span class="pre-line text-primary"> { eda.time } </span>
