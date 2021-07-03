@@ -1,4 +1,7 @@
 enable: true
+bubbleColor: "url(#d)"
+leftImage: images/figure-svg.svg
+rightImage: images/background-pattern.svg
 topTitle: My Skills
 content: >
   ## Why hire me for your next project?
