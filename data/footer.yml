@@ -1,39 +1,34 @@
----
-bgColor: '#1b2031'
 enable1: true
-cardBgColor: '#5d78ff'
-shape1_Color: '#fff'
-shape1_Opacity: .07
-shape2_Color: '#fff'
-shape2_Opacity: .07
+cardBgColor: "#5d78ff"
+shape1_Color: "#fff"
+shape1_Opacity: 0.07
+shape2_Color: "#fff"
+shape2_Opacity: 0.07
 topTitle: Contact me
 content: Let’s Start a Project
 btnText: Get in touch
-
 enable2: true
+bgColor: "#1b2031"
 footerLogo: images/widget-logo.png
-
 title1: Sitemap
-content1: 
+content1:
   - text: About Me
-    url: '#about'
+    url: "#about"
   - text: Frequently Ask Question
-    url: '#'
+    url: "#"
   - text: Privacy & Policy
-    url: '#'
+    url: "#"
   - text: Latest Article
-    url: '#'
-
+    url: "#"
 title2: Contact
-content2: 
+content2:
   - text: +(448) 833 5272 332
     icon: fa-phone
   - text: hello@example.com
     icon: fa-envelope
   - text: 23 Khan Niketon, Grand Street, NYK.
     icon: fa-map-marker
-
-copyright: All right reserved copyright © Portio 2020
+copyright: Copyright © 2021 Xuani & TingYu. All rights reserved.
 social:
   - icon: fa-facebook-official
     url: https://www.facebook.com/
