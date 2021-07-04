@@ -40,7 +40,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
                 <div class="row">
                     <div class="col-12">
                         <div class="service__slider">
-                            { widgetsFor('services').map((content, image) => (
+                            { widgetsFor('services').map((service, image) => (
                                 <div class="service__slider_item">
                                     <div class="service__slider_item-icon">
                                         <div class="icon-background">
@@ -56,7 +56,7 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
                                         </div>
                                     </div>
                                     <div class="mt-5">
-                                        { data.content }
+                                        { service.get('data').toJS().content }
                                     </div>
                                 </div>
                             )) }
