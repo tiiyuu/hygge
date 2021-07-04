@@ -1,4 +1,4 @@
-const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
+const ResumeSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
     const data = entry.get('data').toJS();
     let tab1_class = "resume__education tab-pane active";
     let tab2_class = "resume__education tab-pane";
@@ -41,19 +41,19 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     <div class="col-lg-6">
                         <div class="tab-content ">
                             <div id="tab1_content" class="resume__education tab-pane active" id={`${data.tab1Target}`}>
-                                { data.education.map((eda) => (
+                                { widgetsFor('education').map(eda => (
                                     <div class="resume__education_item">
-                                        <span class="pre-line text-primary"> { eda.time } </span>
-                                        { eda.content }
+                                        <span class="pre-line text-primary"> { eda.get('data').toJS().time } </span>
+                                        { eda.get('widgets').toJS().content }
                                     </div>
                                 )) }
                             </div>
 
                             <div id="tab2_content" class="resume__education tab-pane active" id={`${data.tab2Target}`}>
-                                { data.experience.map(exp => (
+                                { widgetsFor('experience').map(exp => (
                                     <div class="resume__education_item">
-                                        <span class="pre-line text-primary"> { exp.time } </span>
-                                        { exp.content }
+                                        <span class="pre-line text-primary"> { exp.get('data').toJS().time } </span>
+                                        { exp.get('widgets').toJS().content }
                                     </div>
                                 )) }
                             </div>
