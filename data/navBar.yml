@@ -3,12 +3,12 @@ menu:
   - name: Home
     url: "#home"
     weight: 1
-  - name: About
-    url: "#about"
-    weight: 2
   - name: Class
     url: "#service"
     weight: 3
+  - name: About
+    url: "#about"
+    weight: 2
   - name: Event
     url: "#portfolio"
     weight: 4
