@@ -1,5 +1,8 @@
 ---
 enable: true
+bubbleColor: "#f1f6f9"
+bubble2Color: "url(#b)"
+bgImage: images/background-pattern.svg
 topTitle: Working Area
 title: >
   ## Creative Services
@@ -13,33 +16,39 @@ services:
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/ui-ux.svg
+    fill: "#f1f6f9"
   - content: >
       #### Web Development 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/web.svg
+    fill: "#f1f6f9"
   - content: >
       #### Creative Design 
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/creative.svg
+    fill: "#f1f6f9"
   - content: >
       #### Branding
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/branding.svg
+    fill: "#f1f6f9"
   - content: >
       #### UI/UX Design
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/ui-ux.svg
+    fill: "#f1f6f9"
   - content: >
       #### Web Development
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
       tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/web.svg
+    fill: "#f1f6f9"
