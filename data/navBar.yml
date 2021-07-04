@@ -1,23 +1,23 @@
-logo: images/logo.png
+logo: images/hygge-vogue.png
 menu:
-  - name: "Home"
+  - name: Home
     url: "#home"
     weight: 1
-  - name: "About"
+  - name: About
     url: "#about"
     weight: 2
-  - name: "Service"
+  - name: Class
     url: "#service"
     weight: 3
-  - name: "Work"
+  - name: Event
     url: "#portfolio"
     weight: 4
-  - name: "Resume"
+  - name: Resume
     url: "#resume"
     weight: 5
-  - name: "Blog"
+  - name: Blog
     url: "#blog"
     weight: 6
-  - name: "FAQ"
-    url: "contact"
+  - name: FAQ
+    url: contact
     weight: 7
