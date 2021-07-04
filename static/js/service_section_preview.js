@@ -52,11 +52,11 @@ const ServiceSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
                                             </svg>
                                         </div>
                                         <div class="icon">
-                                            <img src={`/${image}`} alt="ui-ux" />
+                                            <img src={`/${service.get('data').toJS().image}`} alt="ui-ux" />
                                         </div>
                                     </div>
                                     <div class="mt-5">
-                                        { service.get('data').toJS().content }
+                                        { service.get('widgets').toJS().content }
                                     </div>
                                 </div>
                             )) }
