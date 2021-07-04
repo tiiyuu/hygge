@@ -77,11 +77,15 @@ collections:
         name: 'service'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
+          - { label: 'background color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'bubble color', name: 'bubble2Color', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'back Image', name: 'bgImage', widget: 'image' }
           - { label: 'top Title', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'services', name: 'services', widget: 'list', allow_add: true, add_to_top: true, fields: [
               { label: 'content', name: 'content', widget: 'markdown' },
-              { label: 'image', name: 'image', widget: 'image' }] }
+              { label: 'image', name: 'image', widget: 'image' },
+              { label: 'fill Color', name: 'fill', widget: 'color', enableAlpha: true, allowInput: true }] }
       - file: 'data/portfolioSection.yml'
         label: 'Work'
         name: 'work'
