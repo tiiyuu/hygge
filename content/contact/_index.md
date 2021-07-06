@@ -1,4 +1,4 @@
 ---
-title: Contact Me
-breadcrumb: Contact
+title: FAQ
+breadcrumb: FAQ
 ---
