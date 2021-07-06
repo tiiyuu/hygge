@@ -200,10 +200,10 @@ collections:
           - { label: 'btn Border Color', name: 'btnBorderColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'image', name: 'img', widget: 'image'}
   - name: 'config'
-    label: 'Configuration'
+    label: 'Setting'
     files:
       - file: 'config.toml'
-        label: 'Configuration'
+        label: 'Website'
         name: 'configs'
         fields:
           # - { label: 'base URL', name: 'baseURL', widget: 'text' }
