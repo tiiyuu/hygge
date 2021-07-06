@@ -1,4 +1,5 @@
 logo: images/4.png
+logoSize: 180%
 menu:
   - name: Home
     url: "#home"
