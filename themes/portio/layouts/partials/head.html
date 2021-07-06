@@ -21,16 +21,16 @@
 
   {{ "<!--Favicon-->" | safeHTML }}
   <!-- <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" /> -->
-  <link rel="icon" href="{{ site.Params.icon | absURL }}" type="image/x-icon" />
-  {{ with site.Params.googleAnalytics }}
+  <link rel="icon" href="{{ .Site.Params.icon | absURL }}" type="image/x-icon" />
+  <!-- {{ with site.Params.googleAnalytics }} -->
   {{ "<!-- Google Analytics -->" | safeHTML }}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.googleAnalytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
-    gtag('config', '{{ . }}');
+    gtag('config', '{{ .Site.googleAnalytics }}');
   </script>
-  {{ end }}
+  <!-- {{ end }} -->
 </head>

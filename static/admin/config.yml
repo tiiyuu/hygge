@@ -209,4 +209,6 @@ collections:
           - { label: 'Website title', name: 'title', widget: 'text' }
           - { label: 'favicon', name: 'icon', widget: 'image'}
           - { label: 'Formspree URL', name: 'formspreeURL', widget: 'text', hint: 'See: https://formspree.io/'}
-          - { label: 'Google Analytics', name: 'params.googleAnalytics', widget: 'text', hint: 'See: https://analytics.google.com/analytics/web/provision/#/provision'}
+          - { label: 'Google Analytics', name: 'googleAnalytics', widget: 'text', hint: 'See: https://analytics.google.com/analytics/web/provision/#/provision'}
+          - { label: 'params', name: 'params', widget: 'object', fields: [
+                { label: 'favicon', name: 'icon', widget: 'image' }] }

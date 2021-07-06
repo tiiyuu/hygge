@@ -1,8 +1,8 @@
 languageCode = "en-us"
 theme = "portio"
 baseURL = "https://xuani-yoga.tk/"
-formspreeURL = "https://formspree.io/f/mgerzrbo"
-googleAnalytics = "G-HRRB3RXD09"
+formspreeURL = "https://formspree.io/f/mgerzrbo" # contact/list.html
+googleAnalytics = "G-HRRB3RXD09" # head.html
 paginate = 6
 title = "HYGGE"
 icon = "images/favicon.png"
@@ -11,10 +11,10 @@ icon = "images/favicon.png"
 blogPageURL = "blog"
 contactLink = "contact"
 icon = "images/favicon.png"
-formspreeURL = "YOUR FORMSPREE URL"
-googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
+# formspreeURL = "YOUR FORMSPREE URL"
+# googleAnalytics = "YOUR GOOGLE ANALYTICS CODE"
 
 [params.address]
 
 [params.map]
-APIkey = "YOUR GOOGLE MAP API"
+APIkey = "YOUR GOOGLE MAP API" # footer.html
