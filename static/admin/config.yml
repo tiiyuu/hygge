@@ -210,4 +210,4 @@ collections:
           - { label: 'params', name: 'params', widget: 'object', fields: [
                 { label: 'favicon', name: 'icon', widget: 'image' },
                 { label: 'Formspree URL', name: 'formspreeURL', widget: 'text', hint: 'See: https://formspree.io/'},
-                { label: 'Google Analytics', name: 'googleAnalytics', widget: 'text', hint: 'See: https://analytics.google.com/analytics/'}] }
+                { label: 'Google Analytics', name: 'googleAnalytics', widget: 'text', hint: 'See: https://analytics.google.com/'}] }
