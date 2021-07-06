@@ -1,5 +1,5 @@
-logo: images/candle-fat.svg
-logoSize: 180%
+logo: images/candle-big.svg
+logoSize: 100%
 menu:
   - name: Home
     url: "#home"
