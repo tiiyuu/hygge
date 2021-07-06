@@ -203,7 +203,7 @@ collections:
     label: 'Setting'
     files:
       - file: 'config.toml'
-        label: 'Config'
+        label: 'Website'
         name: 'configs'
         fields:
           # - { label: 'base URL', name: 'baseURL', widget: 'text' }
