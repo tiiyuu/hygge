@@ -1,6 +1,10 @@
 const NavBarPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     
+    const logo_style = {
+      width: data.logoSize
+    }
+
     const nav_style = {
         flexGrow: 0
     }
@@ -10,7 +14,7 @@ const NavBarPreview = ({ entry, getAsset, widgetFor }) => {
         <nav class="navbar navbar-expand-lg fixed-top">
           <div class="container">
             <a class="navbar-brand">
-              <img src={`/${data.logo}`} alt="site-logo" />
+              <img src={`/${data.logo}`} style={logo_style} alt="site-logo" />
             </a>
             <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarCollapse">
               <span class="navbar-toggler-icon"></span>

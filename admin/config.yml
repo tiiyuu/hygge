@@ -44,6 +44,7 @@ collections:
         name: 'navbar'
         fields:
           - { label: 'logo', name: 'logo', widget: 'image' }
+          - { label: 'logo Size', name: 'logoSize', widget: 'string' }
           - { label: 'menu', name: 'menu', widget: 'list', allow_add: false, fields: [
               { label: 'name', name: 'name', widget: 'string' }] }
       - file: 'data/hero.yml'
