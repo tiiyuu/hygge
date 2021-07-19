@@ -1,5 +1,5 @@
 enable: true
-bubbleColor: "#fbe0c3"
+bubbleColor: "#f7f1f0"
 bubble2Color: "#f7f1f0"
 bgImage: images/background-pattern.svg
 topTitle: Class
@@ -15,7 +15,7 @@ services:
 
       如果你想：雕塑線條、增強平衡、加強核心，推薦你「瑜伽提斯」！🌳
     image: images/yoga_kodachi_man.png
-    fill: "#fbe0c3"
+    fill: "#f7f1f0"
   - content: >
       #### Web Development 
 
