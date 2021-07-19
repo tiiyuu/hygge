@@ -1,6 +1,6 @@
 enable: true
 bgColor: "#f7f1f0"
-bubbleColor: "#f7f1f0"
+bubbleColor: "#"
 leftImage: images/figure-svg.svg
 rightImage: images/figure-svg.svg
 topTitle: Hello, I am Xuani
