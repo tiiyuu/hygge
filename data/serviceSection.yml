@@ -1,54 +1,46 @@
----
 enable: true
-bubbleColor: "#f1f6f9"
-bubble2Color: "url(#b)"
+bubbleColor: "#fbe0c3"
+bubble2Color: "#f7f1f0"
 bgImage: images/background-pattern.svg
-topTitle: Working Area
-title: >
-  ## Creative Services
-
-  Enjoy team diversity and increase their networks among others people in
-  various fields by provided.
+topTitle: Class
+title: |
+  ## 當月課程
+  在這裡，你可以找到最適合你的課程！
 services:
-  - content: >
-      #### UI/UX Design 
+  - content: |
+      #### 瑜伽提斯 
+      瑜珈提斯是一種新興結合瑜珈和彼拉提斯的運動，藉著專注的意識帶動身體深層肌肉運作，不再只是外在表層大肌肉的練習，課堂會有很多的呼吸練習，強化身體能量！
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/ui-ux.svg
-    fill: "#f1f6f9"
+      如果你想：雕塑線條、增強平衡、加強核心，推薦你「瑜伽提斯」！🌳
+    image: images/yoga_kodachi_man.png
+    fill: "#fbe0c3"
   - content: >
       #### Web Development 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/web.svg
     fill: "#f1f6f9"
   - content: >
       #### Creative Design 
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/creative.svg
     fill: "#f1f6f9"
   - content: >
       #### Branding
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/branding.svg
     fill: "#f1f6f9"
   - content: >
       #### UI/UX Design
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/ui-ux.svg
     fill: "#f1f6f9"
   - content: >
       #### Web Development
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod
-      tempor invidunt ut labore et dolore magna aliquyam erat.
+      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/web.svg
     fill: "#f1f6f9"
