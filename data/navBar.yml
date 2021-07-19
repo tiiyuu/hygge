@@ -1,5 +1,5 @@
-logo: images/candle-big.svg
-logoSize: 100%
+logo: images/hygge.svg
+logoSize: 90%
 menu:
   - name: Home
     url: "#home"
