@@ -39,8 +39,11 @@ services:
       如果你想：舒緩肩頸腰背不適、順暢呼吸、雕塑線條、提高核心穩定性，試試「瑜伽輪」吧～
     image: images/yw輪最終版2.png
     fill: "#f7f1f0"
-  - content: >
-      #### Branding
+  - content: >-
+      #### 兒童瑜伽
+
+      #### Kids Yoga
+
 
       Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
     image: images/branding.svg
