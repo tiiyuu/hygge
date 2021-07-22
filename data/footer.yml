@@ -1,15 +1,14 @@
 enable1: true
-cardBgColor: "#5d78ff"
+cardBgColor: "#c3a6a0"
 shape1_Color: "#fff"
 shape1_Opacity: 0.07
 shape2_Color: "#fff"
 shape2_Opacity: 0.07
 topTitle: Contact me
 content: Let’s Start a Project
-textColor: "#000"
 btnText: Get in touch
 enable2: true
-bgColor: "#1b2031"
+bgColor: "#f7f1f0"
 footerLogo: images/widget-logo.png
 title1: Sitemap
 content1:
