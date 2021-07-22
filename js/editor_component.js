@@ -187,6 +187,32 @@ CMS.registerEditorComponent({
 //     },
 // });
 CMS.registerEditorComponent({
+    id: "img",
+    label: "Images",
+    fields: [{
+            name: "image",
+            label: "image",
+            widget: "image",
+            choose_url: true
+        }
+    ],
+    // 透過regex expression取得shortcodes，要加括號才能將value存起來
+    // match[0]為整段shortcodes, match[1]則為括號裡面的value
+    pattern: /!\[.*\]\((.*)\)/,
+    fromBlock: function(match) {
+        return {
+            img_url: match[1], // 將括號的值存到block的code欄位
+        };
+    },
+    toBlock: function(obj) {
+        return `![](https://xuani-yoga.tk/${obj.img_url})`;
+    },
+    toPreview: function(obj) {
+        return `![](https://xuani-yoga.tk/${obj.img_url})`;
+    },
+});
+
+CMS.registerEditorComponent({
     id: "embed",
     label: "Embed",
     fields: [{
