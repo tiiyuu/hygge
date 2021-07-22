@@ -190,10 +190,10 @@ CMS.registerEditorComponent({
     id: "img",
     label: "Images",
     fields: [{
-            name: "image",
+            name: "img_url",
             label: "image",
             widget: "image",
-            choose_url: true
+            choose_url: false
         }
     ],
     // 透過regex expression取得shortcodes，要加括號才能將value存起來
