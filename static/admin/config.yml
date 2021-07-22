@@ -7,7 +7,7 @@ display_url: https://xuani-yoga.tk
 # logo_url: https://your-site.com/images/logo.svg # for CMS UI logo
 publish_mode: editorial_workflow
 show_preview_links: false
-media_folder: /images
+media_folder: static/images
 public_folder: images
 collections:
   - name: 'blog_post'
@@ -24,7 +24,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
-      - { label: 'Body', name: 'body', widget: 'markdown', editor_components: ["image", "embed"] }
+      - { label: 'Body', name: 'body', widget: 'markdown', editor_components: ["img", "embed"] }
   - name: 'event_post'
     label: 'Event Post'
     folder: 'content/event'
