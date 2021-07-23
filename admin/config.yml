@@ -24,7 +24,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
-      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ["bold", "italic", "code", "heading-one", "heading-two", "heading-three", "heading-four", "heading-five", "heading-six", "quote", "bulleted-list", "numbered-list"], editor_components: ["image"] }
+      - { label: 'Body', name: 'body', widget: 'markdown', buttons: ["bold", "italic", "code", "heading-one", "heading-two", "heading-three", "heading-four", "heading-five", "heading-six", "quote", "bulleted-list", "numbered-list"], editor_components: ["image", "url"] }
   - name: 'event_post'
     label: 'Event Post'
     folder: 'content/event'
