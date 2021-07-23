@@ -11,22 +11,32 @@ CMS.registerEditorComponent({
             name: "text",
             label: "Text",
             widget: "string"
+        },
+        {
+            name: "color",
+            label: "Text Color",
+            widget: "color",
+            default: "#1138ff"
+            enableAlpha: true,
+            allowInput: true,
+            required: false
         }
     ],
     // 透過regex expression取得shortcodes，要加括號才能將value存起來
     // match[0]為整段shortcodes, match[1]則為括號裡面的value
-    pattern: /<a href="(.*)" target="_blank">(.*)<\/a>/,
+    pattern: /<a href="(.*)" target="_blank"><font color="(.*)">(.*)<\/font><\/a>/,
     fromBlock: function(match) {
         return {
             url: match[1], // 將括號的值存到block的code欄位
-            text: match[2]
+            color: match[2],
+            text: match[3]
         };
     },
     toBlock: function(obj) {
-        return `<a href=${obj.url} target="_blank">${obj.text}</a>`;
+        return `<a href=${obj.url} target="_blank"><font color=${obj.color}>${obj.text}</font></a>`;
     },
     toPreview: function(obj) {
-        return `<a href=${obj.url} target="_blank">${obj.text}</a>`;
+        return `<a href=${obj.url} target="_blank"><font color=${obj.color}>${obj.text}</font></a>`;
     },
 });
 
