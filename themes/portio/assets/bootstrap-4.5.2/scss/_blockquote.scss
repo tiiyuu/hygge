@@ -1,0 +1,19 @@
+blockquote {
+  background: #f7f1f0;
+  border-left: 10px solid #e2c2b3;
+  margin: 1.5em 10px;
+  padding: 0.05px 0.5em;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  letter-spacing: .15pc;
+}
