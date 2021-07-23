@@ -33,10 +33,10 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function(obj) {
-        return `<a href=${obj.url} target="_blank"><font color=${obj.color}>${obj.text}</font></a>`;
+        return `<a href="${obj.url}" target="_blank"><font color="${obj.color}">${obj.text}</font></a>`;
     },
     toPreview: function(obj) {
-        return `<a href=${obj.url} target="_blank"><font color=${obj.color}>${obj.text}</font></a>`;
+        return `<a href="${obj.url}" target="_blank"><font color="${obj.color}">${obj.text}</font></a>`;
     },
 });
 
