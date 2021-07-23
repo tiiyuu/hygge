@@ -212,30 +212,30 @@ CMS.registerEditorComponent({
 //     },
 // });
 
-CMS.registerEditorComponent({
-    id: "embed",
-    label: "Embed",
-    fields: [{
-            name: "code",
-            label: "Code",
-            widget: "text"
-        }
-    ],
-    // 透過regex expression取得shortcodes，要加括號才能將value存起來
-    // match[0]為整段shortcodes, match[1]則為括號裡面的value
-    pattern: /{{< embed >}}(\n*.*\n*){{< \/embed >}}/,
-    fromBlock: function(match) {
-        return {
-            code: match[1], // 將括號的值存到block的code欄位
-        };
-    },
-    toBlock: function(obj) {
-        return `{{< embed >}}\n${obj.code}\n{{< /embed >}}`;
-    },
-    toPreview: function(obj) {
-        return obj.code;
-    },
-});
+// CMS.registerEditorComponent({
+//     id: "embed",
+//     label: "Embed",
+//     fields: [{
+//             name: "code",
+//             label: "Code",
+//             widget: "text"
+//         }
+//     ],
+//     // 透過regex expression取得shortcodes，要加括號才能將value存起來
+//     // match[0]為整段shortcodes, match[1]則為括號裡面的value
+//     pattern: /{{< embed >}}(\n*.*\n*){{< \/embed >}}/,
+//     fromBlock: function(match) {
+//         return {
+//             code: match[1], // 將括號的值存到block的code欄位
+//         };
+//     },
+//     toBlock: function(obj) {
+//         return `{{< embed >}}\n${obj.code}\n{{< /embed >}}`;
+//     },
+//     toPreview: function(obj) {
+//         return obj.code;
+//     },
+// });
 
 // Custom Preview in CMS
 // CMS.registerPreviewStyle("/css/style.min.css");
