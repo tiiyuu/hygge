@@ -158,6 +158,7 @@ collections:
           - { label: 'shape2 opacity', name: 'shape2_Opacity', widget: 'number', value_type: 'float', min: 0.00, max: 1.00, step: 0.1 }
           - { label: 'top Title', name: 'topTitle', widget: 'string' }
           - { label: 'content', name: 'content', widget: 'string' }
+          - { label: 'text color', name: 'textColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'button Text', name: 'btnText', widget: 'string' }
           - { label: 'enable info', name: 'enable2', widget: 'boolean' }
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }

@@ -15,6 +15,9 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
         fill: data.shape2_Color,
         opacity: data.shape2_Opacity
     };
+    const text_style = {
+        color: data.textColor
+    };
     return (
         <>
         <section class="footer" id="contact" style={bg_style}>
@@ -43,8 +46,8 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                                 </svg>
                             </div>
                             <div class="text-light footer__cta_content">
-                                <span>{ data.topTitle }</span>
-                                <h2 class="mb-0">{ data.content }</h2>
+                                <span style={text_style}>{ data.topTitle }</span>
+                                <h2 class="mb-0" style={text_style}>{ data.content }</h2>
                             </div>
                             <div class="footer__cta_action">
                                 <a class="btn btn-light btn-zoom">{ data.btnText }</a>

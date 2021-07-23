@@ -29,8 +29,8 @@
 						</svg>
 					</div>
 					<div class="text-light footer__cta_content">
-						<span>{{ .topTitle }}</span>
-						<h2 class="mb-0">{{ .content }}</h2>
+						<span style="color: {{ .textColor }};">{{ .topTitle }}</span>
+						<h2 class="mb-0" style="color: {{ .textColor }};">{{ .content }}</h2>
 					</div>
 					<div class="footer__cta_action">
 						<a class="btn btn-light btn-zoom" href="{{ .Site.Params.contactLink | absURL }}">{{ .btnText }}</a>

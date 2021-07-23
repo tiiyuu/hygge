@@ -6,6 +6,7 @@ shape2_Color: "#fff"
 shape2_Opacity: 0.07
 topTitle: Contact me
 content: Let’s Start a Project
+textColor: "#000"
 btnText: Get in touch
 enable2: true
 bgColor: "#1b2031"
