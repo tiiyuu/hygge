@@ -16,7 +16,7 @@ CMS.registerEditorComponent({
             name: "color",
             label: "Text Color",
             widget: "color",
-            default: "#1138ff"
+            default: "#1138ff",
             enableAlpha: true,
             allowInput: true,
             required: false
