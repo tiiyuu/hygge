@@ -8,7 +8,7 @@ display_url: https://xuani-yoga.tk
 publish_mode: editorial_workflow
 show_preview_links: false
 media_folder: static/images
-public_folder: images
+public_folder: static/images
 collections:
   - name: 'blog_post'
     label: 'Blog Post'
