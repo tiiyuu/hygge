@@ -24,7 +24,7 @@ collections:
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
-      - { label: 'Body', name: 'body', widget: 'markdown', editor_components: ["img", "embed"] }
+      - { label: 'Body', name: 'body', widget: 'markdown', editor_components: ["image", "embed"] }
   - name: 'event_post'
     label: 'Event Post'
     folder: 'content/event'
