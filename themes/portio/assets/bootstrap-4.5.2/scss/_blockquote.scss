@@ -1,9 +1,13 @@
 blockquote {
-  background: #f7f1f0;
-  border-left: 10px solid #e2c2b3;
+  background: #FBF7F5;
+  border-left: 6px solid #e2c2b3;
   margin: 1.5em 1.5em 0px 0px;
   padding: 0.05px 0.5em;
-  quotes: "\201C""\201D""\2018""\2019";
+  // quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p {
+  margin-left: 10px;
 }
 
 blockquote:before {
