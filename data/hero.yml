@@ -3,11 +3,11 @@ bgColor: "#f7f1f0"
 bubbleColor: rgba(247, 241, 240, 0.73)
 leftImage: images/figure-svg.svg
 rightImage: images/figure-svg.svg
-topTitle: Hello, I am Xuani
-content: >
-  # I am here for your personal business
+topTitle: Hi, how have you been?
+content: |-
+  # Living Cosily with Yoga and Xuani 
 
-  Enjoy team diversity and increase their networks among others people in various fields by
-image: images/2960351.jpg
+  Hope you enjoy to embrace your new hygge lifestyle！
+image: https://xuani-yoga.tk/images/xuani.jpg
 videoThumb: images/popup-thumb.png
 videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
