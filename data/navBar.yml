@@ -4,21 +4,21 @@ menu:
   - name: Home
     url: "#home"
     weight: 1
-  - name: 關於
+  - name: " 關於 "
     url: "#about"
     weight: 2
-  - name: 課程
+  - name: " 課程 "
     url: "#service"
     weight: 3
-  - name: 活動
+  - name: " 活動 "
     url: "#portfolio"
     weight: 4
-  - name: 折扣碼
+  - name: " 折扣碼 "
     url: "#resume"
     weight: 5
-  - name: Blog
+  - name: " Blog "
     url: "#blog"
     weight: 6
-  - name: FAQ
+  - name: " FAQ "
     url: contact
     weight: 7
