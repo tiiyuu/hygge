@@ -1,36 +1,29 @@
----
 enable: true
+bubbleColor: url(#d)
 leftImage: images/figure-svg.svg
 rightImage: images/background-pattern.svg
-bubbleColor: url(#d)
 title: FAQ
 breadcrumb: FAQ
-
 faq:
-  - question: Phone?
+  - question: 如何預約課程？
     answer: 09xxxxxxxx
     img: images/phone.svg
-    fillColor: '#f1f6f9'
-  - question: Working Hours?
+    fillColor: "#f1f6f9"
+  - question: 請假權益
     answer: Open from 10am to 6pm (close at 5pm Sundays)
     img: images/time.svg
-    fillColor: '#f1f6f9'
-  - question: Office Address?
+    fillColor: "#f1f6f9"
+  - question: 付款方式
     answer: 369巷
     img: images/location.svg
-    fillColor: '#f1f6f9'
-
+    fillColor: "#f1f6f9"
 contact_form: Contact Form
 name: Name
 email: Email
 message: Message
 agree: I agree that my submitted data is being collected and stored.
 btnText: Send Message
-btnTextColor: '#fff'
-btnBgColor: '#5d78ff'
-btnBorderColor: '#5d78ff'
-
+btnTextColor: "#fff"
+btnBgColor: "#5d78ff"
+btnBorderColor: "#5d78ff"
 img: images/anatomy.png
-# latitude: "23.7783741"
-# longitude: "90.3746808"
-# pinImage: "images/pin.png"
