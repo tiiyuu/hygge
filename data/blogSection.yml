@@ -1,11 +1,9 @@
----
 enable: true
 spinImage: images/blog-shape.svg
 topTitle: Blog
-title: >
-  ## Recent Article
+title: |-
+  ## 最新文章
 
-  Enjoy team diversity and increase their networks among others people in various fields by provided.
-
+  Recent Article
 buttonText: See all post
 buttonTarget: blog
