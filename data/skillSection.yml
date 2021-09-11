@@ -1,18 +1,17 @@
 enable: true
-bubbleColor: "url(#d)"
+bubbleColor: url(#d)
 leftImage: images/figure-svg.svg
 rightImage: images/background-pattern.svg
-topTitle: My Skills
-content: >
-  ## Why hire me for your next project?
+topTitle: My hashtag#
+content: |-
+  ## Interactive  & Cosily 
 
-  My goal is to build a strong supportive professional network among all freelancers and startups in order to improve their performance.
-
-image: images/skill_image.jpg
+  希望學生上課後都能獲得平靜、快樂，還有最重要的是：當天好好睡一覺！
+image: https://xuani-yoga.tk/images/c4b4c92b-ec54-4c7d-88ff-bdc1318c0839-3078-0000022410678f5b.jpg
 skill:
-  - title: HTML
-    percent: 69
-  - title: CSS
-    percent: 60
-  - title: Javascript
-    percent: 85
+  - title: Warm
+    percent: 39
+  - title: Crazy
+    percent: 16
+  - title: cheerful
+    percent: 45
