@@ -9,6 +9,14 @@ title: |-
   在這裡，可以找到最適合你的課程！
 services:
   - content: |-
+      #### 冥想引導
+
+      #### Meditation Guide
+
+      焦慮、忙碌、走神、睡不好嗎？睡前留些時間給自己試試冥想，它將大大提升你的生活品質、提高專注力、增進工作效能！
+    image: https://xuani-yoga.tk/images/yoga_meisou_man.png
+    fill: "#f7f1f0"
+  - content: |-
       #### 瑜伽提斯
 
       #### Yogalates
@@ -64,9 +72,3 @@ services:
       \r"
     image: images/undou_sports_family_haha_musume.png
     fill: "#f7f1f0"
-  - content: >
-      #### Web Development
-
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.
-    image: images/web.svg
-    fill: "#f1f6f9"
