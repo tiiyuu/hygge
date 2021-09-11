@@ -7,45 +7,73 @@ education:
   - content: "#### Master in Radio Television Film
 
 
-      讀了四年廣電系，原以為從此將過著媒體焦慮人生，直到上了第一堂大學體育課，\b才驚覺：竟然人生中能有如此平靜的時刻？此時，正巧遇到我的貴\
-      人兼恩師Bella，就此一頭栽進自瑜瑜人的世界。（人生總是許多無心插柳柳成蔭的故事～）"
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
+      讀了四年廣電系，原以為從此將過著媒體焦慮人生，直到上了第一堂大學體育課，\b才驚覺：人生中竟然有如此平靜的時刻？此時，也正巧遇到貴人兼\
+      恩師Bella，就此一頭栽進自瑜瑜人的世界。
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
-  - content: >
-      #### Master in Arts
+      （讚嘆人生總是有許多無心插柳柳成蔭的故事）"
+    time: 2017-2020
+  - content: |-
+      #### RCYT95
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2008-2010
+      兒童墊上瑜伽＆空中浮力瑜伽雙師資認證
+    time: "2020"
+  - content: |-
+      #### Yoga Wheel Instructor
+
+      瑜伽輪師資認證
+    time: "2020"
+  - content: |-
+      #### Aerial Yoga Instructor
+
+      空中瑜伽師資認證
+    time: "2020"
+  - content: |-
+      #### RYT200
+
+      美國瑜伽聯盟瑜伽師資認證
+    time: "2020"
+  - content: |-
+      #### Yogalates Instructor
+
+      瑜伽提斯師資認證
+    time: "2020"
+  - content: |-
+      #### Aroma Yogalates Instructor
+
+      芳療瑜伽提斯師資認證
+    time: "2021"
+  - content: |-
+      #### Aerial Yoga Instructor
+
+      進階空中瑜伽師資認證
+    time: "2021"
+  - content: |-
+      #### Aerial Yoga Instructor
+
+      花式空中瑜伽師資認證
+    time: "2021"
 experience:
-  - content: >
-      #### Umbrella co. 
+  - content: |-
+      #### Kids Yoga
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2016-Present
-  - content: >
-      #### Aperture Science 
+      任職蒙特梭利幼兒園兒童墊上、空中浮力瑜伽講師
+    time: 2020-Now
+  - content: |-
+      #### Aerial Yoga
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2010-2016
-  - content: >
-      #### ACME Inc. 
+      任職健身房、瑜伽教室、企業合作之空中瑜伽團課教練、私人一對一教練
+    time: 2020-Now
+  - content: |-
+      #### Yoga & Pilates
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2005-2010
-  - content: >
-      #### LexCorp 
+      任職健身房、瑜伽教室、企業包班之瑜伽、皮拉提斯教練、私人一對一教練
+    time: 2020-Now
+  - content: |-
+      #### Yoga Editor
 
-      Lorem ipsum dolor sit amet conset sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    time: 2001-2005
+      定期為女性媒體平台，產製瑜珈相關專欄文章
+    time: 2021-Now
 tab1Target: education
 tab2Target: experience
 title: |-
