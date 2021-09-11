@@ -13,7 +13,9 @@ services:
 
       #### Meditation Guide
 
-      焦慮、忙碌、走神、睡不好嗎？睡前留些時間給自己試試冥想，它將大大提升你的生活品質、提高專注力、增進工作效能！
+      焦慮、忙碌、走神、睡不好嗎？睡前為自己留些時間，試試看冥想，它將大大提升你的生活品質、提高專注力、增進工作效能。
+
+      如果停不下來，那就先學著慢下來，放心，我們會陪你的！
     image: https://xuani-yoga.tk/images/yoga_meisou_man.png
     fill: "#f7f1f0"
   - content: |-
