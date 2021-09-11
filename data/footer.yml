@@ -1,11 +1,11 @@
 enable1: true
 cardBgColor: "#f7f1f0"
-shape1_Color: "#fff"
+shape1_Color: "#f9e8e8"
 shape1_Opacity: 0.07
-shape2_Color: "#fff"
+shape2_Color: "#f9eae8"
 shape2_Opacity: 0.07
 topTitle: Contact us
-content: Tell us your need!
+content: "Let's enjoy yoga! "
 textColor: "#736262"
 btnText: Get in touch
 enable2: true
