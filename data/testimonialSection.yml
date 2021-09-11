@@ -1,27 +1,40 @@
 enable: true
 bgColor: "#f1f6f9"
-topTitle: Testimonials
+topTitle: Feedback
 title: "## What People are Say About Me?"
 testimonial:
-  - name: Ryan Cook
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit
-      amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt
-      labore dolore magna.
-    time: Jan 20, 2020
+  - time: Apr 28, 2021
+    name: Coco
+    comment: 老師太夯了啦😱  之後一定要把老師綁下來教私人課XD
     star: 5
-  - name: Justin Trudo
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit
-      amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt
-      labore dolore magna.
-    time: Jan 16, 2020
+  - name: Ariel
+    comment: |-
+      謝謝萱老師每次都準備很用心的課程
+      太喜歡了😭😭😭
+      期待未來的課程～～～最期待❤️
+    time: Mar 25, 2021
+    star: 5
+  - time: Mar 05, 2021
+    name: Nina
+    comment: 萱老師的空瑜即便是0基礎也好有成就感~~~ 之前不管怎樣都上不去，後來上到老師的課才知道要怎麼正確發力 太愛老師ㄌ!!
+    star: 5
+  - time: Apr 05, 2021
+    name: Wen
+    comment: "老師的課超難搶qq \b上完都會消水腫很推薦"
+    star: 5
+  - time: Sep 11, 2021
+    name: "Eason "
     star: 4
-  - name: Franky Filth
-    comment: Takimata sanctus est lorem ipsum dolor sit amet lorem ipsum dolor sit
-      amet consetur sad ipscing elitr sed diam nonumy eirmod tempor invidunt
-      labore dolore magna.
-    time: Mar 08, 2020
-    star: 3
+    comment: 老師上課很會帶氣氛！難得遇到讓我這麼喜歡的瑜珈老師~~😍 少一顆星是因為老師太美了，一直讓我分心🤭 （老師躺著也中槍哈哈哈
+  - name: Sen
+    comment: 超愛老師！每次要上瑜珈的那天心情就會很好❤️
+    time: Mar 24, 2020
+    star: 5
   - time: Jun 25, 2021
-    name: 尼尼
-    comment: 尼尼🧡妮妮
+    name: Gao
+    comment: 沒接觸過瑜伽的初學者 也能在老師的引導下 輕鬆的練習瑜伽：）
+    star: 5
+  - name: Tian
+    comment: 謝謝老師～每次都很期待上課，上完都覺得很開心，期待之後的開課！
+    time: Mar 23, 2021
     star: 5
