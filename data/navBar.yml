@@ -4,19 +4,19 @@ menu:
   - name: Home
     url: "#home"
     weight: 1
-  - name: " ABOUT "
+  - name: " About"
     url: "#about"
     weight: 2
-  - name: " CLASS "
+  - name: " Class"
     url: "#service"
     weight: 3
-  - name: " EVENTS "
+  - name: " Event"
     url: "#portfolio"
     weight: 4
-  - name: " CODE "
+  - name: " Code"
     url: "#resume"
     weight: 5
-  - name: " BLOG "
+  - name: " Blog"
     url: "#blog"
     weight: 6
   - name: " FAQ "
