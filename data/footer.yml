@@ -1,15 +1,16 @@
 enable1: true
-cardBgColor: "#c3a6a0"
+cardBgColor: "#f7f1f0"
 shape1_Color: "#fff"
 shape1_Opacity: 0.07
 shape2_Color: "#fff"
 shape2_Opacity: 0.07
-topTitle: Contact me
-content: Let’s Start a Project
+topTitle: Contact us
+content: Tell us your need!
+textColor: "#736262"
 btnText: Get in touch
 enable2: true
-bgColor: "#f7f1f0"
-footerLogo: images/widget-logo.png
+bgColor: "#c3a6a0"
+footerLogo: https://xuani-yoga.tk/images/hygge-white.png
 title1: Sitemap
 content1:
   - text: About Me
@@ -22,19 +23,17 @@ content1:
     url: "#"
 title2: Contact
 content2:
-  - text: +(448) 833 5272 332
+  - text: "00000000"
     icon: fa-phone
-  - text: hello@example.com
+  - text: xuani.yoga@gmail.com
     icon: fa-envelope
-  - text: 23 Khan Niketon, Grand Street, NYK.
+  - text: Taipei & Taoyuan
     icon: fa-map-marker
 copyright: Copyright © 2021 Xuani & TingYu. All rights reserved.
 social:
   - icon: fa-facebook-official
     url: https://www.facebook.com/
-  - icon: fa-linkedin-square
-    url: https://www.linkedin.com/
-  - icon: fa-pinterest-square
-    url: https://www.pinterest.com/
-  - icon: fa-twitter-square
-    url: https://twitter.com/
+  - icon: Example of instagram fa-instagram
+    url: https://www.instagram.com/
+  - icon: fa-comments
+    url: https://www.line.com/
