@@ -13,7 +13,7 @@ menu:
   - name: " Event"
     url: "#portfolio"
     weight: 4
-  - name: " Code"
+  - name: Experiences
     url: "#resume"
     weight: 5
   - name: " Blog"
