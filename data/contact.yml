@@ -6,19 +6,16 @@ title: FAQ
 breadcrumb: FAQ
 faq:
   - question: 如何預約課程？
-    answer: 請直接私訊官方Line ＠＿＿＿＿＿ 詢問唷！
+    answer: 請直接私訊官方Line ＠＿＿＿＿＿ 詢問，由小幫手為您處理唷！🥰
     img: images/phone.svg
     fillColor: "#f1f6f9"
   - question: 若臨時請假，怎麼辦？
     answer: |
-      若有臨時狀況可聯繫官方小編，課前一天若因個人因素取消或未依約前來上課恕不退費。
+      若有臨時狀況可聯繫官方Line，由小幫手協助處理。課前一天若因個人因素取消或未依約前來上課恕不退費。
     img: images/time.svg
     fillColor: "#f1f6f9"
   - question: 如何支付？
-    answer: |-
-      報名課程以「ATM轉帳方式」付款，麻煩匯款完成立即通知官方Line小編😉
-
-      3日內未付款則自動取消，亦不保留名額。請如期完成，有任何問題，請備註告知
+    answer: 報名課程以「ATM轉帳方式」付款，麻煩匯款完成立即通知官方Line，小幫手會立即幫您保留上課名額😉3日內未付款則自動取消，亦不保留名額。請如期完成，有任何問題，請備註告知
     img: images/location.svg
     fillColor: "#f1f6f9"
 contact_form: Contact Form
