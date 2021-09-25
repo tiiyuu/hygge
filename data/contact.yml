@@ -6,15 +6,19 @@ title: FAQ
 breadcrumb: FAQ
 faq:
   - question: 如何預約課程？
-    answer: 09xxxxxxxx
+    answer: 請直接私訊官方Line ＠＿＿＿＿＿ 詢問唷！
     img: images/phone.svg
     fillColor: "#f1f6f9"
-  - question: 請假權益
-    answer: Open from 10am to 6pm (close at 5pm Sundays)
+  - question: 若臨時請假，怎麼辦？
+    answer: |
+      若有臨時狀況可聯繫官方小編，課前一天若因個人因素取消或未依約前來上課恕不退費。
     img: images/time.svg
     fillColor: "#f1f6f9"
-  - question: 付款方式
-    answer: 369巷
+  - question: 如何支付？
+    answer: |-
+      報名課程以「ATM轉帳方式」付款，麻煩匯款完成立即通知官方Line小編😉
+
+      3日內未付款則自動取消，亦不保留名額。請如期完成，有任何問題，請備註告知
     img: images/location.svg
     fillColor: "#f1f6f9"
 contact_form: Contact Form
