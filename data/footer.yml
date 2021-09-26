@@ -8,6 +8,7 @@ topTitle: Contact us
 content: "Let's enjoy yoga! "
 textColor: "#736262"
 btnText: Get in touch
+btnTextColor: "#736262"
 enable2: true
 bgColor: "#c3a6a0"
 footerLogo: https://xuani-yoga.tk/images/hygge-white.png
@@ -29,7 +30,6 @@ content2:
     icon: fa-envelope
   - text: Taipei & Taoyuan
     icon: fa-map-marker
-copyright: Copyright © 2021 Xuani & TingYu. All rights reserved.
 social:
   - icon: fa-facebook-official
     url: https://www.facebook.com/

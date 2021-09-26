@@ -18,6 +18,9 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
     const text_style = {
         color: data.textColor
     };
+    const btn_text_style = {
+        color: data.btnTextColor
+    };
     return (
         <>
         <section class="footer" id="contact" style={bg_style}>
@@ -50,7 +53,7 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                                 <h2 class="mb-0" style={text_style}>{ data.content }</h2>
                             </div>
                             <div class="footer__cta_action">
-                                <a class="btn btn-light btn-zoom">{ data.btnText }</a>
+                                <a class="btn btn-light btn-zoom" style={btn_text_style}>{ data.btnText }</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +95,7 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                 <div class="row footer__footer">
                     <div class="col-lg-6">
                         <div class="footer__footer_copy text-light">
-                            <p>{ data.copyright }</p>
+                            <p>Copyright © 2021 Xuani & TingYu.<br>All rights reserved.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
