@@ -74,7 +74,7 @@ collections:
           - { label: 'Content', name: 'content', widget: 'markdown' }
           - { label: 'Image', name: 'image', widget: 'image' }
       - file: 'data/serviceSection.yml'
-        label: 'Service'
+        label: 'Class'
         name: 'service'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -88,14 +88,14 @@ collections:
               { label: 'image', name: 'image', widget: 'image' },
               { label: 'fill Color', name: 'fill', widget: 'color', enableAlpha: true, allowInput: true }] }
       - file: 'data/portfolioSection.yml'
-        label: 'Work'
+        label: 'Event'
         name: 'work'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'top Title', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
       - file: 'data/resumeSection.yml'
-        label: 'Resume'
+        label: 'Experience'
         name: 'resume'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -111,7 +111,7 @@ collections:
               { label: 'content', name: 'content', widget: 'markdown' },
               { label: 'time', name: 'time', widget: 'text' }] }
       - file: 'data/skillSection.yml'
-        label: 'Skill'
+        label: 'My hashtag#'
         name: 'skill_section'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -125,7 +125,7 @@ collections:
               { label: 'title', name: 'title', widget: 'text' },
               { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 }] }
       - file: 'data/testimonialSection.yml'
-        label: 'Testimonial'
+        label: 'Feedback'
         name: 'testimonial'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -160,6 +160,7 @@ collections:
           - { label: 'content', name: 'content', widget: 'string' }
           - { label: 'text color', name: 'textColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'button Text', name: 'btnText', widget: 'string' }
+          - { label: 'button text color', name: 'btnTextColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'enable info', name: 'enable2', widget: 'boolean' }
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'logo', name: 'footerLogo', widget: 'image' }
@@ -171,7 +172,6 @@ collections:
           - { label: 'content2', name: 'content2', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
               {label: 'icon', name: 'icon', widget: 'string'},
               { label: 'text', name: 'text', widget: 'string' }] }
-          - { label: 'copyright', name: 'copyright', widget: 'text' }
           - { label: 'social', name: 'social', widget: 'list', hint: 'Icon: https://fontawesome.com/v4.7/icons/', allow_add: true, add_to_top: true, fields: [
               {label: 'icon', name: 'icon', widget: 'string'},
               { label: 'url', name: 'url', widget: 'string' }] }
