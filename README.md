@@ -77,7 +77,7 @@ jobs:
           publish_dir: ./public # 設定要發布的資料夾，即生成的靜態網站資料
 ```
 ![](https://i.imgur.com/h2GIwyM.png)
-* 記得將 `config.toml` 的 ==baseURL== 換成 `https://<GitHub_User_Name>.github.io/<GitHub_Repo_Name>/`
+* 記得將 `config.toml` 的 **baseURL** 換成 `https://<GitHub_User_Name>.github.io/<GitHub_Repo_Name>/`
 ```toml=
 baseURL = "https://tiiyuu.github.io/test/" #記得換
 languageCode = "en-us"
