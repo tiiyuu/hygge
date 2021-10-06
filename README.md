@@ -5,6 +5,7 @@
 
 ### (1) 安裝Hugo
 windows直接下載[Release](https://github.com/gohugoio/hugo/releases)(建議下載extended版本), 其他OS參考[官方文件](https://gohugo.io/getting-started/installing/)
+
 下載完解壓縮，將路徑加入環境變數 (讓環境變數找的到 `hugo.exe` )
 ![環境變數](https://imgur.com/716mcpz.png)
 
@@ -128,7 +129,7 @@ $ git push -u origin main
 ![](https://i.imgur.com/WsdPx6e.png)
 
 到目前為止有兩個網址可以訪問我們的網站
-1. https://<XXXXXXX>.netlify.app
+1. https://<Site_Name>.netlify.app
 2. https://<GitHub_User_Name>.github.io/<GitHub_Repo_Name>
 
 ### (2) 後台系統設定
@@ -150,20 +151,21 @@ $ git push -u origin main
 ![](https://i.imgur.com/ztjLtLB.png)
 
 複製email的邀請連結
-:::info
-:warning: 這邊有個bug
-邀請連結為 ++https://<XXX>.netlify.app/#invite_token=<XXX>++
-修正為 ++https://<XXX>.netlify.app/**admin**/#invite_token=<XXX>++
-:::
+
+⚠️ 這邊有個bug
+
+邀請連結為 https://<Site_Name>.netlify.app/#invite_token=<Invite_Token>
+
+修正為 https://<Site_Name>.netlify.app/**admin**/#invite_token=<Invite_Token>
+
 ![](https://i.imgur.com/LdFV0d4.png)
 
 進入修正後的連結即可設定登入密碼
 ![](https://i.imgur.com/L6GrIMW.png)
 
 
-最後，你應該已經猜到了
-在網址後面加上 ==/admin== 就可以進入後台系統囉！
-1. https://<XXXXXXX>.netlify.app/admin
+最後，在網址後面加上 **/admin** 就可以進入後台系統囉！
+1. https://<Site_Name>.netlify.app/admin
 2. https://<GitHub_User_Name>.github.io/<GitHub_Repo_Name>/admin
 
 ![](https://i.imgur.com/PAKUQno.png)
@@ -177,7 +179,9 @@ $ git push -u origin main
 
 ![](https://i.imgur.com/q1pQF6z.png)
   
-# Reference:
+# References:
 1.[ Quick Start | Hugo](https://gohugo.io/getting-started/quick-start/)
+
 2.[ Host on GitHub | Hugo](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+
 3.[ 使用 Github Actions 來自動化部署 Hugo 到 Github Pages](https://blog.puckwang.com/post/2020/use-github-actions-deploy-hugo/)
