@@ -1,5 +1,5 @@
 # Hugo + GitHub Pages + Netlify
-👉 http://xuani-yoga.tk/
+👉 https://xuani-yoga.tk/
 
 ## 1. 建立Hugo Website
 
