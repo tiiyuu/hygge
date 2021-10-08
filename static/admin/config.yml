@@ -40,7 +40,7 @@ collections:
     label: '✨ Layout'
     files:
       - file: 'data/navBar.yml'
-        label: 'Navigation Bar'
+        label: '🧭 Navigation Bar'
         name: 'navbar'
         fields:
           - { label: 'logo', name: 'logo', widget: 'image', hint: 'SVG would be better.' }
@@ -48,7 +48,7 @@ collections:
           - { label: 'menu', name: 'menu', widget: 'list', allow_add: false, fields: [
               { label: 'name', name: 'name', widget: 'string' }] }
       - file: 'data/hero.yml'
-        label: 'Hero'
+        label: '🧚‍♀️ Hero'
         name: 'hero'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
@@ -62,7 +62,7 @@ collections:
           - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
           - { label: 'VideoURL', name: 'videoURL', widget: 'text' }
       - file: 'data/aboutSection.yml'
-        label: 'About'
+        label: '📙 About'
         name: 'about'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
@@ -74,7 +74,7 @@ collections:
           - { label: 'Content', name: 'content', widget: 'markdown' }
           - { label: 'Image', name: 'image', widget: 'image' }
       - file: 'data/serviceSection.yml'
-        label: 'Class'
+        label: '👩‍🏫 Class'
         name: 'service'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -88,14 +88,14 @@ collections:
               { label: 'image', name: 'image', widget: 'image' },
               { label: 'fill Color', name: 'fill', widget: 'color', enableAlpha: true, allowInput: true }] }
       - file: 'data/portfolioSection.yml'
-        label: 'Event'
+        label: '📅 Event'
         name: 'work'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'top Title', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
       - file: 'data/resumeSection.yml'
-        label: 'Experience'
+        label: '💼 Experience'
         name: 'resume'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -111,7 +111,7 @@ collections:
               { label: 'content', name: 'content', widget: 'markdown' },
               { label: 'time', name: 'time', widget: 'text' }] }
       - file: 'data/skillSection.yml'
-        label: 'My hashtag#'
+        label: '💡 My hashtag#'
         name: 'skill_section'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -125,7 +125,7 @@ collections:
               { label: 'title', name: 'title', widget: 'text' },
               { label: 'percent', name: 'percent', widget: 'number', min: 0, max: 100 }] }
       - file: 'data/testimonialSection.yml'
-        label: 'Feedback'
+        label: '💪 Feedback'
         name: 'testimonial'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -138,7 +138,7 @@ collections:
               { label: 'Date', name: 'time', widget: 'datetime', format: 'MMM DD, YYYY' },
               { label: 'star', name: 'star', widget: 'number', min: 0, max: 5 }] }
       - file: 'data/blogSection.yml'
-        label: 'Blog'
+        label: '✍ Blog'
         name: 'blog'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
@@ -147,7 +147,7 @@ collections:
           - { label: 'title', name: 'title', widget: 'markdown' }
           - { label: 'button Text', name: 'buttonText', widget: 'string' }
       - file: 'data/footer.yml'
-        label: 'Footer'
+        label: '👣 Footer'
         name: 'footer'
         fields:
           - { label: 'enable card', name: 'enable1', widget: 'boolean' }
@@ -176,7 +176,7 @@ collections:
               {label: 'icon', name: 'icon', widget: 'string'},
               { label: 'url', name: 'url', widget: 'string' }] }
       - file: 'data/contact.yml'
-        label: 'FAQ'
+        label: '🤔 FAQ'
         name: 'contact'
         fields:
           - { label: 'enable', name: 'enable', widget: 'boolean' }
