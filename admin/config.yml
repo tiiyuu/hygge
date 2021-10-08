@@ -161,6 +161,7 @@ collections:
           - { label: 'text color', name: 'textColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'button Text', name: 'btnText', widget: 'string' }
           - { label: 'button text color', name: 'btnTextColor', widget: 'color', enableAlpha: true, allowInput: true }
+          - { label: 'button link', name: 'btnLink', widget: 'string' }
           - { label: 'enable info', name: 'enable2', widget: 'boolean' }
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'logo', name: 'footerLogo', widget: 'image' }

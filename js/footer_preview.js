@@ -53,7 +53,7 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                                 <h2 class="mb-0" style={text_style}>{ data.content }</h2>
                             </div>
                             <div class="footer__cta_action">
-                                <a class="btn btn-light btn-zoom" style={btn_text_style}>{ data.btnText }</a>
+                                <a class="btn btn-light btn-zoom" style={btn_text_style} href={data.btnLink}>{ data.btnText }</a>
                             </div>
                         </div>
                     </div>
