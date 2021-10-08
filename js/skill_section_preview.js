@@ -15,7 +15,7 @@ const getSkills = (title, percent) => {
 const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
     const data = entry.get('data').toJS()
     const mystyle = {
-        WebkitMask: "/images/skill-mask-svg.svg",
+        WebkitMask: "https://xuani-yoga.tk/images/skill-mask-svg.svg",
         WebkitMaskRepeat: "no-repeat",
         WebkitMaskSize: "contain",
         WebkitMaskPosition: "center center"
@@ -48,7 +48,7 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                                 <img src={`${data.leftImage}`} alt="figure-svg" />
                             </div>
                             <div class="skill__thumb_image">
-                                <img src={ `/${data.image}` } alt="skill-img" style={mystyle}/>
+                                <img src={ `${data.image}` } alt="skill-img" style={mystyle}/>
                             </div>
                         </div>
                     </div>
