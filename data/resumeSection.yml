@@ -1,6 +1,5 @@
 enable: true
 bgColor: "#f7f1f0"
-textColor: "#736262"
 topTitle: Experiences
 tab1Name: License
 tab2Name: Experiences
@@ -77,7 +76,8 @@ experience:
     time: 2021-Now
 tab1Target: education
 tab2Target: experience
+textColor: "#736262"
 title: |-
-  ## <font color=#c3a6a0>My Expertises</font>
+  ## <font color=#736262>My Expertises</font>
 
-  <font color=#c3a6a0>Editor > Yoga instructor</font>
+  <font color=#736262>Editor > Yoga instructor</font>
