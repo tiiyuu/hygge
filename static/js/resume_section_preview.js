@@ -19,6 +19,10 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
         background: data.bgColor
     }
 
+    const text_style = {
+        color: "#736262"
+    }
+
     return (
         <>
         <section class="section resume" id="resume">
@@ -28,7 +32,7 @@ const ResumeSectionPreview = ({ entry, getAsset, widgetFor, widgetsFor }) => {
                     <div class="col-lg-6">
                         <div class="resume__heading">
                             <div class="text-light">
-                                <span class="top-title pre-line">{ data.topTitle }</span>
+                                <span class="top-title pre-line" style={text_style}>{ data.topTitle }</span>
                                 { widgetFor('title') }
                             </div>
 
