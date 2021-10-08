@@ -48,7 +48,7 @@ collections:
           - { label: 'menu', name: 'menu', widget: 'list', allow_add: false, fields: [
               { label: 'name', name: 'name', widget: 'string' }] }
       - file: 'data/hero.yml'
-        label: '🧚‍♀️ Hero'
+        label: '🙋 Hero'
         name: 'hero'
         fields:
           - { label: 'Enable', name: 'enable', widget: 'boolean' }
