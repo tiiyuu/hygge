@@ -78,6 +78,6 @@ experience:
 tab1Target: education
 tab2Target: experience
 title: |-
-  ## My Expertises
+  ## <font color=#c3a6a0>My Expertises</font>
 
-  Editor > Yoga instructor
+  <font color=#c3a6a0>Editor > Yoga instructor</font>
