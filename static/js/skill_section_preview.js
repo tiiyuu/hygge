@@ -38,14 +38,14 @@ const SkillSectionPreview = ({ entry, getAsset, widgetFor }) => {
                 </svg>
             </div>
             <div class="skill__background_pattern">
-                <img src={`/${data.rightImage}`} alt="background-shape" />
+                <img src={`${data.rightImage}`} alt="background-shape" />
             </div>
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="skill__thumb">
                             <div class="skill__thumb_pattern">
-                                <img src={`/${data.leftImage}`} alt="figure-svg" />
+                                <img src={`${data.leftImage}`} alt="figure-svg" />
                             </div>
                             <div class="skill__thumb_image">
                                 <img src={ `/${data.image}` } alt="skill-img" style={mystyle}/>

@@ -4,7 +4,7 @@ const BlogSectionPreview = ({ entry, getAsset, widgetFor }) => {
         <>
         <section class="section blog-preview" id="blog">
             <div class="blog-preview__shape">
-                <img src={`/${data.spinImage}`} alt="blog shape" />
+                <img src={`${data.spinImage}`} alt="blog shape" />
             </div>
             <div class="container">
                 <div class="row mb-5">
