@@ -6,8 +6,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="resume__heading">
-                    <div class="text-light">
-                        <span class="top-title pre-line">{{ .topTitle }}</span>
+                    <div class="text-light" style="color: {{ .textColor }}">
+                        <span class="top-title pre-line" style="color: {{ .textColor }}">{{ .topTitle }}</span>
                         {{ .title | markdownify }}
                     </div>
 

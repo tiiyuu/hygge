@@ -1,5 +1,6 @@
 enable: true
 bgColor: "#f7f1f0"
+textColor: "#736262"
 topTitle: Experiences
 tab1Name: License
 tab2Name: Experiences
