@@ -11,7 +11,7 @@ media_folder: static/images
 public_folder: https://xuani-yoga.tk/images
 collections:
   - name: 'blog_post'
-    label: 'Blog'
+    label: '✏ Blog'
     folder: 'content/blog'
     description: 'Create a new post right now!'
     create: true
@@ -26,7 +26,7 @@ collections:
       - { label: 'Post Image', name: 'postImage', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown', buttons: ["bold", "italic", "code", "heading-one", "heading-two", "heading-three", "heading-four", "heading-five", "heading-six", "quote", "bulleted-list", "numbered-list"], editor_components: ["image", "url"] }
   - name: 'event_post'
-    label: 'Event'
+    label: '📆 Event'
     folder: 'content/event'
     description: '妮妮♥尼尼'
     create: true
@@ -37,7 +37,7 @@ collections:
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'layouts'
-    label: 'Layout'
+    label: '✨ Layout'
     files:
       - file: 'data/navBar.yml'
         label: 'Navigation Bar'
@@ -201,7 +201,7 @@ collections:
           - { label: 'btn Border Color', name: 'btnBorderColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'image', name: 'img', widget: 'image'}
   - name: 'config'
-    label: 'Setting'
+    label: '⚙ Setting'
     files:
       - file: 'config.toml'
         label: 'Website'
