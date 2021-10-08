@@ -1,5 +1,5 @@
 enable: true
-backImage: images/figure-svg.svg
+backImage: https://xuani-yoga.tk/images/figure-svg.svg
 bubbleColor: url(#c)
 boxColor: "#f7f1f0"
 topTitle: About
