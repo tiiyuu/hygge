@@ -3,7 +3,7 @@ const getVideo = (videoURL, videoThumb) => {
         return (
             <div class="hero_figure-popup">
                 <div class="thumb">
-                  <img src={`/${videoThumb}`} alt="popup" />
+                  <img src={`${videoThumb}`} alt="popup" />
                 </div>
 
                 <a type="button" class="popup-button text-center big">
@@ -35,7 +35,7 @@ const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
             </svg>
           </div>
           <div class="hero_footer-svg">
-            <img src={`/${data.leftImage}`} alt="" />
+            <img src={`${data.leftImage}`} alt="" />
           </div>
           <div class="container">
             <div class="row align-items-center">
@@ -67,9 +67,9 @@ const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
               <div class="col-lg-6">
                 <div class="hero_figure">
                   <div class="figure-svg">
-                    <img src={`/${data.rightImage}`} />
+                    <img src={`${data.rightImage}`} />
                   </div>
-                  <img src={`/${data.image}`} alt="hero-image" style={mystyle} />
+                  <img src={`${data.image}`} alt="hero-image" style={mystyle} />
                   { getVideo(data.videoURL, data.videoThumb) }
                 </div>
               </div>

@@ -24,10 +24,10 @@ const AboutSectionPreview = ({ entry, getAsset, widgetFor }) => {
                         <div class="about_content">
                             <div class="about_content-thumb">
                                 <div class="about-svg">
-                                    <img src={`/${data.backImage}`} alt="figure-svg" />
+                                    <img src={`${data.backImage}`} alt="figure-svg" />
                                 </div>
                                 <div class="about_content-thumb-image">
-                                    <img src={`/${data.image}`} alt="about-img" style={mystyle} />
+                                    <img src={`${data.image}`} alt="about-img" style={mystyle} />
                                 </div>
                             </div>
                             <div class="about_content-inner" style={box_style}>

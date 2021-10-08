@@ -15,7 +15,7 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
         <>
         <header class="breadCrumb">
           <div class="svg-img">
-            <img src={`/${data.leftImage}`} alt="bg" />
+            <img src={`${data.leftImage}`} alt="bg" />
           </div>
           <div class="animate-shape">
             <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
@@ -32,7 +32,7 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
             </svg>
           </div>
           <div class="animate-pattern">
-            <img src={`/${data.rightImage}`} alt="background-shape" />
+            <img src={`${data.rightImage}`} alt="background-shape" />
           </div>
           <div class="container">
             <div class="row">
@@ -64,7 +64,7 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
                               </svg>
                             </div>
                             <div class="icon">
-                              <img src={`/${f.img}`} alt="icon" />
+                              <img src={`${f.img}`} alt="icon" />
                             </div>
                           </div>
                           <h4>{ f.question }</h4>
@@ -118,7 +118,7 @@ const ContactPreview = ({ entry, getAsset, widgetFor }) => {
                 </div>
               </div>
               <div class="col-lg-6">
-                <img src={`/${data.img}`} />
+                <img src={`${data.img}`} />
               </div>
             </div>
           </div>

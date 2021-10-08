@@ -63,7 +63,7 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                 <div class="row footer__widget">
                     <div class="col-lg-4">
                         <div class="footer__widget_logo mb-5">
-                            <img src={`/${data.footerLogo}`} alt="widget-logo" />
+                            <img src={`${data.footerLogo}`} alt="widget-logo" />
                         </div>
                     </div>
                     <div class="col-lg-4">
