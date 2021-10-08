@@ -37,7 +37,7 @@ collections:
       - { label: 'thumbnail', name: 'thumbnail', widget: 'image' }
       - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'layouts'
-    label: 'Layouts'
+    label: 'Layout'
     files:
       - file: 'data/navBar.yml'
         label: 'Navigation Bar'
