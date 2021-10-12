@@ -1,5 +1,5 @@
 # Hugo + GitHub Pages + Netlify CMS
-十分鐘打造具有後臺內容管理功能的個人網站
+打造具有後臺內容管理功能的個人網站！
 
 👉 https://xuani-yoga.tk/
 
