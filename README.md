@@ -31,9 +31,8 @@ $ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git the
 ```
 * 將theme加入site configuration
 ```
-$ echo theme = "ananke" >> config.toml     # windows
+$ echo theme = "ananke" >> config.toml     # windows 不需要加跳脫字元"\"
 $ echo theme = \"ananke\" >> config.toml   # other OS
-(windows不需要加跳脫字元"\")
 ```
 * 啟動Hugo server，查看網站是否正常運作 http://localhost:1313/
 ```
