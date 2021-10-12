@@ -1,4 +1,6 @@
 # Hugo + GitHub Pages + Netlify CMS
+十分鐘打造具有後臺內容管理功能的個人網站
+
 👉 https://xuani-yoga.tk/
 
 ## 1. 建立Hugo Website
@@ -7,6 +9,7 @@
 windows直接下載[Release](https://github.com/gohugoio/hugo/releases)(建議下載extended版本), 其他OS參考[官方文件](https://gohugo.io/getting-started/installing/)
 
 下載完解壓縮，將路徑加入環境變數
+
 ![環境變數](https://imgur.com/716mcpz.png)
 
 在終端機檢查是否安裝成功
