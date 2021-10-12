@@ -44,8 +44,8 @@ $ hugo server
 $ hugo
 ```
 * 建立`.github/workflows/gh-pages.yml`，使用GitHub Actions自動佈署
-(未來hugo repo內容有變動，會自動執行 `$ hugo` 生成靜態網站資料)
-(會將 `public` 資料夾的靜態網站資料push到Branch: gh-pages)
+
+(未來hugo repo內容有變動，會自動執行 `$ hugo` 生成靜態網站資料將 `public` 資料夾的靜態網站資料push到Branch: gh-pages)
 ```yaml=
 name: github pages # Workflow名稱
 
