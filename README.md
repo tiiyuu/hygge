@@ -15,6 +15,7 @@ windows直接下載[Release](https://github.com/gohugoio/hugo/releases)(建議�
 在終端機檢查是否安裝成功
 ```
 $ hugo version
+hugo v0.84.0-2C4689F7B+extended windows/amd64 BuildDate=2021-06-18T17:14:27Z VendorInfo=gohugoio
 ```
 
 ### (2) 建立新的網站
