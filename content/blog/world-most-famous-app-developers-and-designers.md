@@ -1,5 +1,5 @@
 ---
-title: 焦慮睡不好？5款冥想APP推薦，帶你找回生活主導權！
+title: 10樣日常小物，輕鬆打造質感生活！
 date: 2020-07-13T12:49:27+06:00
 featureImage: images/allpost/allPost-1.jpg
 postImage: images/single-blog/feature-image.jpg
