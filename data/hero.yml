@@ -3,11 +3,11 @@ bgColor: "#f7f1f0"
 bubbleColor: rgba(247, 241, 240, 0.73)
 leftImage: https://xuani-yoga.tk/images/figure-svg.svg
 rightImage: https://xuani-yoga.tk/images/figure-svg.svg
-topTitle: 親愛的，今天過得好嗎？
+topTitle: 嗨，今天過得好嗎？
 content: |-
   # Living Cosily with Yoga and Xuani
 
-  這裡是萱妮的個人網站，集結「瑜珈專欄、自我成長、兩性議題」，期待與你分享不同的觀點及生活大小事：）
+  <font size="4">這裡是萱妮的個人網站，集結「瑜珈專欄、自我成長、兩性議題」，期待與你分享不同的觀點及生活大小事：）</font><br>
 image: https://xuani-yoga.tk/images/img_5958.jpg
 videoThumb: https://xuani-yoga.tk/images/xuani-4-.png
 videoURL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
