@@ -3,6 +3,12 @@ bgColor: "#f1f6f9"
 topTitle: Feedback
 title: "## What People are Say About Me?"
 testimonial:
+  - time: Nov 10, 2021
+    name: Lun
+    comment: |
+      現在每週都會期待上瑜珈課
+      上完課就會有一種可以再次面對新的一週的感覺
+    star: 5
   - time: Apr 28, 2021
     name: Coco
     comment: 老師太夯了啦😱  之後一定要把老師綁下來教私人課XD
