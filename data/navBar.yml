@@ -13,12 +13,12 @@ menu:
   - name: " Event"
     url: "#portfolio"
     weight: 4
-  - name: Experiences
-    url: "#resume"
-    weight: 5
   - name: " Blog"
     url: "#blog"
     weight: 6
+  - name: Experiences
+    url: "#resume"
+    weight: 5
   - name: " FAQ "
     url: contact
     weight: 7
