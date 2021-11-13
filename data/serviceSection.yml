@@ -16,7 +16,7 @@ services:
       焦慮、忙碌、走神、睡不好嗎？睡前為自己留些時間，試試看冥想吧！它將大大提升你的生活品質、提高專注力、增進工作效能。
 
       如果目前停不下來，那就先學著慢下來，放心，我們會陪你的。練習久了之後，相信我，你會愛上它的（Wink Wink)
-    image: https://xuani-yoga.tk/images/5.png
+    image: https://xuani-yoga.tk/images/only-for-3-.png
     fill: "#f7f1f0"
   - content: |-
       #### 瑜伽提斯
@@ -34,7 +34,7 @@ services:
       運用懸垂的吊床掛布，將身體懸掛在空中，藉由反重力的方式，增加身體的協調性、核心力量穩定性，並改善身體的柔軟度，還能讓平常做不到的體式變得輕鬆許多～
 
       如果你想：雕塑體態、強化核心穩定性、促進氣血循環、消下肢水腫，「空中瑜伽」非常適合！
-    image: https://xuani-yoga.tk/images/only-for-4-.png
+    image: https://xuani-yoga.tk/images/only-for-3-.png
     fill: "#f7f1f0"
   - content: >-
       #### 瑜伽輪
@@ -47,7 +47,7 @@ services:
 
 
       如果你想：舒緩肩頸腰背不適、順暢呼吸、雕塑線條、提高核心穩定性，試試「瑜伽輪」吧～
-    image: https://xuani-yoga.tk/images/7.png
+    image: https://xuani-yoga.tk/images/only-for-3-.png
     fill: "#f7f1f0"
   - content: >-
       #### 芳療瑜伽
@@ -60,7 +60,7 @@ services:
 
 
       若你也想徜徉於自然花草簇擁中，享受被萬物溫柔對待，那麼「芳療」系列你一定會喜歡的！
-    image: https://xuani-yoga.tk/images/6.png
+    image: https://xuani-yoga.tk/images/only-for-3-.png
     fill: "#f7f1f0"
   - content: "#### 兒童瑜伽
 
@@ -72,5 +72,5 @@ services:
 
       結合空中瑜伽擺盪、漂浮，有效訓練大腦對「速度」的感知能力，使前庭覺敏感的寶貝們，不再害怕坐電梯、搭乘手扶梯，讓家中寶貝「玩出勇氣」！\
       \r"
-    image: https://xuani-yoga.tk/images/9.png
+    image: https://xuani-yoga.tk/images/only-for-3-.png
     fill: "#f7f1f0"
