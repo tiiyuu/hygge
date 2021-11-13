@@ -1,7 +1,7 @@
 logo: https://xuani-yoga.tk/images/hygge-logo-.svg
 logoSize: 660%
 menu:
-  - name: 首頁
+  - name: Home
     url: "#home"
     weight: 1
   - name: About
