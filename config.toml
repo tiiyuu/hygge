@@ -2,12 +2,12 @@ languageCode = "en-us"
 theme = "portio"
 baseURL = "https://xuani-yoga.tk/"
 paginate = 6
-title = "HYGGE"
+title = "XUANI YOGA"
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-icon = "images/icon.png"
+icon = "https://xuani-yoga.tk/images/hygge-icon.png"
 formspreeURL = "https://formspree.io/f/mgerzrbo"
 googleAnalytics = "G-HRRB3RXD09"
 
@@ -17,66 +17,76 @@ googleAnalytics = "G-HRRB3RXD09"
 APIkey = "YOUR GOOGLE MAP API"
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.asciidocExt]
-    backend = "html5"
-    extensions = []
-    failureLevel = "fatal"
-    noHeaderOrFooter = true
-    preserveTOC = false
-    safeMode = "unsafe"
-    sectionNumbers = false
-    trace = false
-    verbose = false
-    workingFolderCurrent = false
-    [markup.asciidocExt.attributes]
-  [markup.blackFriday]
-    angledQuotes = false
-    footnoteAnchorPrefix = ""
-    footnoteReturnLinkContents = ""
-    fractions = true
-    hrefTargetBlank = false
-    latexDashes = true
-    nofollowLinks = false
-    noreferrerLinks = false
-    plainIDAnchors = true
-    skipHTML = false
-    smartDashes = true
-    smartypants = true
-    smartypantsQuotesNBSP = false
-    taskLists = true
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      definitionList = true
-      footnote = true
-      linkify = true
-      strikethrough = true
-      table = true
-      taskList = true
-      typographer = true
-    [markup.goldmark.parser]
-      autoHeadingID = true
-      autoHeadingIDType = "github"
-      [markup.goldmark.parser.attribute]
-        block = false
-        title = true
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-      xhtml = true
-  [markup.highlight]
-    anchorLineNos = false
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineAnchors = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
-  [markup.tableOfContents]
-    endLevel = 3
-    ordered = false
-    startLevel = 2
+defaultMarkdownHandler = "goldmark"
+
+[markup.asciidocExt]
+verbose = false
+trace = false
+sectionNumbers = false
+noHeaderOrFooter = true
+safeMode = "unsafe"
+extensions = []
+backend = "html5"
+failureLevel = "fatal"
+workingFolderCurrent = false
+preserveTOC = false
+
+[markup.asciidocExt.attributes]
+
+[markup.blackFriday]
+footnoteReturnLinkContents = ""
+nofollowLinks = false
+footnoteAnchorPrefix = ""
+angledQuotes = false
+smartDashes = true
+skipHTML = false
+smartypants = true
+taskLists = true
+fractions = true
+latexDashes = true
+smartypantsQuotesNBSP = false
+hrefTargetBlank = false
+plainIDAnchors = true
+noreferrerLinks = false
+
+[markup.goldmark]
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = "github"
+
+[markup.goldmark.parser.attribute]
+block = false
+title = true
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = true
+xhtml = true
+
+[markup.highlight]
+hl_Lines = ""
+noClasses = true
+anchorLineNos = false
+lineAnchors = ""
+lineNoStart = 1
+codeFences = true
+style = "monokai"
+tabWidth = 4
+lineNumbersInTable = true
+guessSyntax = false
+lineNos = false
+
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
