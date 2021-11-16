@@ -18,11 +18,11 @@ content1:
   - text: About Me
     url: "#about"
   - text: Frequently Ask Question
-    url: "#"
+    url: "#FAQ"
   - text: Privacy & Policy
     url: "#"
   - text: Latest Article
-    url: "#"
+    url: "#blog"
 title2: Contact
 content2:
   - text: "00000000"
