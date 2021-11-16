@@ -16,13 +16,13 @@ footerLogo: https://xuani-yoga.tk/images/hygge-logo.png
 title1: Sitemap
 content1:
   - text: About Me
-    url: "#about"
+    url: https://xuani-yoga.tk/#about
   - text: Frequently Ask Question
-    url: "#FAQ"
+    url: https://xuani-yoga.tk/contact/
   - text: Privacy & Policy
     url: "#"
   - text: Latest Article
-    url: "#blog"
+    url: https://xuani-yoga.tk/blog/
 title2: Contact
 content2:
   - text: "00000000"
