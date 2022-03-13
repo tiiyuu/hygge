@@ -12,22 +12,16 @@ btnTextColor: "#736262"
 btnLink: https://www.youtube.com/
 enable2: true
 bgColor: "#c3a6a0"
-footerLogo: https://xuani-yoga.tk/images/hygge-logo.png
+footerLogo: https://xuani-yoga.tk/images/xuanyogawhite.svg
 title1: Sitemap
 content1:
   - text: About Me
     url: https://xuani-yoga.tk/#about
-  - text: Frequently Ask Question
-    url: https://xuani-yoga.tk/contact/
-  - text: Privacy & Policy
-    url: "#"
   - text: Latest Article
     url: https://xuani-yoga.tk/blog/
 title2: Contact
 content2:
-  - text: "00000000"
-    icon: fa-phone
-  - text: xuani.yoga@gmail.com
+  - text: xuan.yogalife@gmail.com
     icon: fa-envelope
   - text: Taipei & Taoyuan
     icon: fa-map-marker
@@ -35,6 +29,4 @@ social:
   - icon: fa-facebook-official
     url: https://www.facebook.com/
   - icon: Example of instagram fa-instagram
-    url: https://www.instagram.com/
-  - icon: fa-comments
-    url: https://www.line.com/
+    url: https://www.instagram.com/xuan.yogalife/
