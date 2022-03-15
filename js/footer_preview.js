@@ -95,7 +95,7 @@ const FooterPreview = ({ entry, getAsset, widgetFor }) => {
                 <div class="row footer__footer">
                     <div class="col-lg-6">
                         <div class="footer__footer_copy text-light">
-                            <p>Copyright © 2021 Xuani & TingYu.<br />All rights reserved.</p>
+                            <p>Copyright © 2022 Xuanyoga.<br />All rights reserved.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
