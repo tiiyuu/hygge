@@ -1,13 +1,13 @@
 languageCode = "en-us"
 theme = "portio"
-baseURL = "https://xuani-yoga.tk/"
+baseURL = "https://xuanyoga.tk/"
 paginate = 6
 title = "XUAN YOGA & LIFESTYLE"
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-icon = "https://xuani-yoga.tk/images/hygge-icon.png"
+icon = "https://xuanyoga.tk/images/hygge-icon.png"
 formspreeURL = "https://formspree.io/f/mgerzrbo"
 googleAnalytics = "G-HRRB3RXD09"
 
