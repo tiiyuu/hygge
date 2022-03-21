@@ -1,13 +1,13 @@
 enable: true
 bgColor: "#f7f1f0"
 bubbleColor: rgba(247, 241, 240, 0.73)
-leftImage: https://xuaniyoga.tk/images/figure-svg.svg
-rightImage: https://xuaniyoga.tk/images/figure-svg.svg
+leftImage: https://xuanyoga.tk/images/figure-svg.svg
+rightImage: https://xuanyoga.tk/images/figure-svg.svg
 topTitle: 嗨，今天過得好嗎？
 content: |-
   # Living Cosily with Yoga and Xuan
 
   <font size="4">這裡是萱妮的個人網站，集結瑜珈專欄、自我成長等內容。</font><br>
-image: https://xuaniyoga.tk/images/img_5958.jpg
-videoThumb: https://xuaniyoga.tk/images/blog-shape.svg
+image: https://xuanyoga.tk/images/img_5958.jpg
+videoThumb: https://xuanyoga.tk/images/blog-shape.svg
 videoURL: https://www.instagram.com/xuan.yogalife/

@@ -12,13 +12,13 @@ btnTextColor: "#736262"
 btnLink: https://www.youtube.com/
 enable2: true
 bgColor: "#c3a6a0"
-footerLogo: https://xuaniyoga.tk/images/xuanyogawhite.svg
+footerLogo: https://xuanyoga.tk/images/xuanyogawhite.svg
 title1: Sitemap
 content1:
   - text: About Me
-    url: https://xuaniyoga.tk/#about
+    url: https://xuanyoga.tk/#about
   - text: Latest Article
-    url: https://xuaniyoga.tk/blog/
+    url: https://xuanyoga.tk/blog/
 title2: Contact
 content2:
   - text: xuan.yogalife@gmail.com
