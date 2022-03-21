@@ -247,10 +247,10 @@ CMS.registerEditorComponent({
 //         };
 //     },
 //     toBlock: function(obj) {
-//         return `![](https://xuani-yoga.tk/${obj.img_url})`;
+//         return `![](https://xuaniyoga.tk/${obj.img_url})`;
 //     },
 //     toPreview: function(obj) {
-//         return `![](https://xuani-yoga.tk/${obj.img_url})`;
+//         return `![](https://xuaniyoga.tk/${obj.img_url})`;
 //     },
 // });
 
