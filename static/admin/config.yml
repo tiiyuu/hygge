@@ -51,7 +51,6 @@ collections:
         label: '🙋 Hero'
         name: 'hero'
         fields:
-          - { label: 'Enable', name: 'enable', widget: 'boolean' }
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'bubble color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'Left Image', name: 'leftImage', widget: 'image' }
@@ -65,7 +64,6 @@ collections:
         label: '📙 About'
         name: 'about'
         fields:
-          - { label: 'Enable', name: 'enable', widget: 'boolean' }
           - { label: 'back Image', name: 'backImage', widget: 'image' }
           - { label: 'bubble color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'box color', name: 'boxColor', widget: 'color', enableAlpha: true, allowInput: true }
@@ -77,7 +75,6 @@ collections:
         label: '👩‍🏫 Class'
         name: 'service'
         fields:
-          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'background color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'bubble color', name: 'bubble2Color', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'back Image', name: 'bgImage', widget: 'image' }
@@ -91,14 +88,12 @@ collections:
         label: '📅 Event'
         name: 'work'
         fields:
-          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'top Title', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
       - file: 'data/resumeSection.yml'
         label: '💼 Experience'
         name: 'resume'
         fields:
-          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'top Title', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
@@ -114,7 +109,6 @@ collections:
         label: '💡 My hashtag#'
         name: 'skill_section'
         fields:
-          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'bubble color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'Left Image', name: 'leftImage', widget: 'image' }
           - { label: 'Right Image', name: 'rightImage', widget: 'image' }
@@ -128,7 +122,6 @@ collections:
         label: '💪 Feedback'
         name: 'testimonial'
         fields:
-          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'background color', name: 'bgColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'top Title', name: 'topTitle', widget: 'text' }
           - { label: 'title', name: 'title', widget: 'markdown' }
@@ -141,7 +134,6 @@ collections:
         label: '✍ Blog'
         name: 'blog'
         fields:
-          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'spin image', name: 'spinImage', widget: 'image' }
           - { label: 'top Title', name: 'topTitle', widget: 'string' }
           - { label: 'title', name: 'title', widget: 'markdown' }
@@ -180,7 +172,6 @@ collections:
         label: '🤔 FAQ'
         name: 'contact'
         fields:
-          - { label: 'enable', name: 'enable', widget: 'boolean' }
           - { label: 'bubble color', name: 'bubbleColor', widget: 'color', enableAlpha: true, allowInput: true }
           - { label: 'Left Image', name: 'leftImage', widget: 'image' }
           - { label: 'Right Image', name: 'rightImage', widget: 'image' }
