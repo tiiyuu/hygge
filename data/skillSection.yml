@@ -1,5 +1,5 @@
 enable: true
-bubbleColor: url(#d)
+bubbleColor: "#fdf8f5"
 leftImage: images/figure-svg.svg
 rightImage: images/background-pattern.svg
 topTitle: My hashtag#
