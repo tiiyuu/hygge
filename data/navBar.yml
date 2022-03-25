@@ -10,15 +10,9 @@ menu:
   - name: Class
     url: "#service"
     weight: 3
-  - name: " Event"
-    url: "#portfolio"
-    weight: 4
   - name: Experience
     url: "#resume"
     weight: 5
   - name: Blog
     url: "#blog"
     weight: 6
-  - name: " FAQ "
-    url: contact
-    weight: 7
