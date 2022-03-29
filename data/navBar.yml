@@ -1,4 +1,4 @@
-logo: https://xuanyoga.tk/images/xuanyoga-logo.svg
+logo: https://xuanyoga.tk/images/yogalogo.svg
 logoSize: 100%
 menu:
   - name: Home
@@ -20,5 +20,5 @@ menu:
     url: "#blog"
     weight: 6
   - name: FAQ
-    url: "contact"
+    url: contact
     weight: 7
