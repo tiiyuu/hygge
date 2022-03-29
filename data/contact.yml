@@ -1,30 +1,25 @@
-enable: false
 bubbleColor: "#fdf8f5"
 leftImage: https://xuanyoga.tk/images/figure-svg.svg
 rightImage: https://xuanyoga.tk/images/background-pattern.svg
-title: FAQ
+title: 常見問題
 breadcrumb: FAQ
 faq:
   - question: 如何預約課程？
-    answer: 請直接私訊官方Line ＠＿＿＿＿＿ 詢問，由小幫手為您處理唷！🥰
-    img: https://xuanyoga.tk/images/phone.svg
-    fillColor: "#f1f6f9"
-  - question: 若臨時請假，怎麼辦？
-    answer: |
-      若有臨時狀況可聯繫官方Line，由小幫手協助處理。課前一天若因個人因素取消或未依約前來上課恕不退費。
-    img: https://xuanyoga.tk/images/time.svg
-    fillColor: "#f1f6f9"
-  - question: 如何支付？
-    answer: 報名課程以「ATM轉帳方式」付款，麻煩匯款完成立即通知官方Line，小幫手會立即幫您保留上課名額😉3日內未付款則自動取消，亦不保留名額。請如期完成，有任何問題，請備註告知
-    img: https://xuanyoga.tk/images/location.svg
-    fillColor: "#f1f6f9"
-contact_form: Contact Form
+    answer: 萱妮老師目前以「企業包班」及「私人包班」為主，若有相關需求，請來信：xuan.yogalife@gmail.com，將由小幫手為您處理唷。🥰
+    img: https://xuanyoga.tk/images/yoga-07000.png
+    fillColor: "#f7f1f0"
+  - question: 文章何時更新？
+    answer: 萱妮老師不定時更新文章，若有想看的主題歡迎私訊IG😉（官網右下角👉🏻奉上連結，不客氣！）
+    img: https://xuanyoga.tk/images/yoga-12.png
+    fillColor: "#f7f1f0"
 name: Name
 email: Email
-message: Message
+message: （輸入訊息內容...）
 agree: I agree that my submitted data is being collected and stored.
-btnText: Send Message
+btnText: Send Message！
 btnTextColor: "#fff"
-btnBgColor: "#5d78ff"
-btnBorderColor: "#5d78ff"
-img: https://xuanyoga.tk/images/anatomy.png
+btnBgColor: "#736262"
+enable: false
+contact_form: Contact Form
+btnBorderColor: "#fff"
+img: https://xuanyoga.tk/images/img_1452.jpg
