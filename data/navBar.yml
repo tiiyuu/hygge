@@ -4,19 +4,19 @@ menu:
   - name: Home
     url: "#home"
     weight: 1
-  - name: About
+  - name: 關於
     url: "#about"
     weight: 2
-  - name: Class
+  - name: 課程
     url: "#service"
     weight: 3
-  - name: Event
+  - name: 近期活動
     url: "#portfolio"
     weigth: 4
-  - name: Experience
+  - name: 經歷
     url: "#resume"
     weight: 5
-  - name: Blog
+  - name: 文章
     url: "#blog"
     weight: 6
   - name: FAQ
