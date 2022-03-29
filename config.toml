@@ -2,12 +2,12 @@ languageCode = "en-us"
 theme = "portio"
 baseURL = "https://xuanyoga.tk/"
 paginate = 6
-title = "XUAN YOGA & LIFESTYLE"
+title = "XUAN YOGA & LIFESTYLE ｜瑜伽教學、生活風格"
 
 [params]
 blogPageURL = "blog"
 contactLink = "contact"
-icon = "https://xuanyoga.tk/images/xuanlogo.svg"
+icon = "https://xuanyoga.tk/images/0329icon.svg"
 formspreeURL = "https://formspree.io/f/mgerzrbo"
 googleAnalytics = "G-HRRB3RXD09"
 
