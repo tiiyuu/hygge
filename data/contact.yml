@@ -1,5 +1,5 @@
 enable: false
-bubbleColor: url(#d)
+bubbleColor: "#fdf8f5"
 leftImage: https://xuanyoga.tk/images/figure-svg.svg
 rightImage: https://xuanyoga.tk/images/background-pattern.svg
 title: FAQ
