@@ -1,7 +1,7 @@
 enable: true
-bgColor: "#f1f6f9"
+bgColor: "#f7f1f0"
 topTitle: Feedback
-title: "## What People are Say About Me?"
+title: "## What People Think of Me?"
 testimonial:
   - time: Nov 10, 2021
     name: Lun

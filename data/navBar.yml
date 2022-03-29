@@ -1,5 +1,5 @@
-logo: https://xuani-yoga.tk/images/shanipng.png
-logoSize: 50%
+logo: https://xuanyoga.tk/images/yogalogo.svg
+logoSize: 90%
 menu:
   - name: Home
     url: "#home"
@@ -10,15 +10,15 @@ menu:
   - name: Class
     url: "#service"
     weight: 3
-  - name: " Event"
+  - name: Event
     url: "#portfolio"
-    weight: 4
+    weigth: 4
   - name: Experience
     url: "#resume"
     weight: 5
   - name: Blog
     url: "#blog"
     weight: 6
-  - name: " FAQ "
+  - name: FAQ
     url: contact
     weight: 7
