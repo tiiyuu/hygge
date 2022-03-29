@@ -10,7 +10,7 @@ menu:
   - name: 課程
     url: "#service"
     weight: 3
-  - name: 近期活動
+  - name: 活動
     url: "#portfolio"
     weigth: 4
   - name: 經歷
