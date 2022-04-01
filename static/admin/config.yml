@@ -58,8 +58,8 @@ collections:
           - { label: 'top Title', name: 'topTitle', widget: 'text' }
           - { label: 'content', name: 'content', widget: 'markdown' }
           - { label: 'Image', name: 'image', widget: 'image' }
-          - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
-          - { label: 'VideoURL', name: 'videoURL', widget: 'text' }
+          # - { label: 'VideoThumb', name: 'videoThumb', widget: 'image' }
+          # - { label: 'VideoURL', name: 'videoURL', widget: 'text' }
       - file: 'data/aboutSection.yml'
         label: '📙 About'
         name: 'about'

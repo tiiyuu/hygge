@@ -23,11 +23,11 @@ fields:
 - type: file
   name: image
   label: image
-- type: file
-  name: videoThumb
-  label: videoThumb
-- type: text
-  name: videoURL
-  label: videoURL
+# - type: file
+#   name: videoThumb
+#   label: videoThumb
+# - type: text
+#   name: videoURL
+#   label: videoURL
 pages:
 - data/hero.yml
