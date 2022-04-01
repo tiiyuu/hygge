@@ -38,10 +38,10 @@ collections:
       - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'layouts'
     label: '✨ Layout'
-    description: >
-      　　∧＿∧\n
-      　（´・ω・)つ＿ ∧\n
-      　（つ　  / (・ω・｡)\n
+    description: |
+      　　∧＿∧
+      　（´・ω・)つ＿ ∧
+      　（つ　  / (・ω・｡)
       　   しーＪ　 (nnノ)
     files:
       - file: 'data/navBar.yml'
