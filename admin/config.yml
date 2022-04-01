@@ -38,11 +38,7 @@ collections:
       - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'layouts'
     label: '✨ Layout'
-    description:
-      - 　　∧＿∧
-      - 　（´・ω・)つ＿ ∧
-      - 　（つ　  / (・ω・｡)
-      - 　   しーＪ　 (nnノ)
+    description: 'ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ'
     files:
       - file: 'data/navBar.yml'
         label: '🧭 Navigation Bar'
