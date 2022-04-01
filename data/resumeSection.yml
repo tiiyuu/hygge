@@ -1,6 +1,5 @@
 enable: true
-bgColor: "#f7f1f0"
-topTitle: Experiences
+topTitle: "Experiences "
 tab1Name: Certification
 tab2Name: Experiences
 education:
@@ -42,34 +41,42 @@ experience:
       #### Master in Radio Television Film
 
 
-      許多人以為我是科班生，其實廣電系才是我大學主修🤣，大學畢業前也以為之後的生活，不是要拿麥克風，就是抱著筆電用眼過度，直到上了第一堂瑜伽課之後，就此一頭栽進瑜伽旅程，不希望誤人子弟，開始系統化學習並考取證照成為瑜伽老師🌳🧘‍♀️
+      時常被以為是科班生，但其實老師的主修是廣播電視電影學系🎬🎤📰
+
+
+      不瞞你說，大學畢業以前，我以為之後的職涯不外乎就是媒體業了，直到體驗第一堂瑜伽課之後，便一頭栽進瑜伽旅程。（不希望誤人子弟）開始系統化學習並考取證照成為瑜伽老師😉🌳🧘‍♀️
     time: 2017-2020
   - content: |-
       #### Kids Yoga
 
-      任職蒙特梭利幼兒園兒童墊上、空中浮力瑜伽講師
+      蒙特梭利幼兒園兒童墊上、空中浮力瑜伽講師
 
       #### Aroma Yoga
 
-      任職瑜伽教室團課教練
+      瑜伽教室芳療瑜伽老師
 
       #### Aerial Yoga
 
-      任職瑜伽教室、企業合作之空中瑜伽團課教練、私人一對一教練
+      瑜伽教室＆企業合作之空中瑜伽團課老師、私人一對一教練
 
       #### Yogalates
 
-      任職瑜伽教室、企業包班之瑜伽、瑜伽提斯教練、私人一對一教練
+      瑜伽教室＆企業包班之瑜伽、瑜伽提斯老師、私人一對一教練
     time: 2020-Now
   - content: |-
-      #### Yoga Editor
+      #### Editor
 
-      不僅是瑜伽老師，同時也是女性媒體平台的編輯，主要產製生活、瑜伽相關內容文章。
+      不僅是瑜伽老師，同時也是女性媒體平台的編輯。
+
+
+
+      主要產製生活相關內容文章，寫作題材包括：瑜伽專欄、美妝保養、旅遊美食等。
     time: 2021-2022
 tab1Target: education
 tab2Target: experience
 textColor: "#736262"
+bgColor: "#f7f1f0"
 title: |-
-  ## <font color=#736262>My Experiences</font>
+  ## <font color=#736262>證照／經歷</font>
 
-  <font color=#736262>Editor / Yoga teacher</font>
+  <font color=#736262>Yoga Teacher & Editor</font>
