@@ -38,7 +38,7 @@ collections:
       - { label: 'body', name: 'body', widget: 'markdown' }
   - name: 'layouts'
     label: '✨ Layout'
-    description: 'ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ'
+    description: 'ʕ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ•̫͡•ʕ•̫͡•ʔ•̫͡•ʔ'
     files:
       - file: 'data/navBar.yml'
         label: '🧭 Navigation Bar'
@@ -195,7 +195,6 @@ collections:
           - { label: 'image', name: 'img', widget: 'image'}
   - name: 'config'
     label: '⚙ Setting'
-    description: '🀐🀏🀎🀍🀌🀋🀊🀉🀇🀆🀅🀁'
     files:
       - file: 'config.toml'
         label: 'Website'
