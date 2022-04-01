@@ -1,7 +1,7 @@
 logo: https://xuanyoga.tk/images/yogalogo.svg
 logoSize: 90%
 menu:
-  - name: Home
+  - name: 首頁
     url: "#home"
     weight: 1
   - name: 關於
