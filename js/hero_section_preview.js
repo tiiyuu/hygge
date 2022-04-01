@@ -70,7 +70,7 @@ const HeroSectionPreview = ({ entry, getAsset, widgetFor }) => {
                     <img src={`${data.rightImage}`} />
                   </div>
                   <img src={`${data.image}`} alt="hero-image" style={mystyle} />
-                  { getVideo(data.videoURL, data.videoThumb) }
+                  {/* { getVideo(data.videoURL, data.videoThumb) } */}
                 </div>
               </div>
             </div>
