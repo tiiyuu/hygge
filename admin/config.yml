@@ -39,9 +39,9 @@ collections:
   - name: 'layouts'
     label: '✨ Layout'
     description: >
-      　　∧＿∧
-      　（´・ω・)つ＿ ∧
-      　（つ　  / (・ω・｡)
+      　　∧＿∧\n
+      　（´・ω・)つ＿ ∧\n
+      　（つ　  / (・ω・｡)\n
       　   しーＪ　 (nnノ)
     files:
       - file: 'data/navBar.yml'
