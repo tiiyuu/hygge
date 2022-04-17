@@ -3,10 +3,7 @@ bubbleColor: "#f7f1f0"
 bubble2Color: "#f7f1f0"
 bgImage: https://xuanyoga.tk/images/background-pattern.svg
 topTitle: Class
-title: |-
-  ## 瑜伽課程
-
-  在這裡，不用擔心找不到適合你的課程！
+title: "## 瑜伽課程"
 services:
   - content: |-
       #### 冥想引導
