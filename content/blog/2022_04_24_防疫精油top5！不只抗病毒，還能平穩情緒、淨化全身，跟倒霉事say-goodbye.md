@@ -4,10 +4,11 @@ date: 2022-04-24T14:27:03.247Z
 featureImage: https://xuanyoga.tk/images/0424ops-min.jpg
 postImage: https://xuanyoga.tk/images/0424op.jpg
 ---
-這兩年來「防疫」已經變成一件家常便飯的例行公事，除了隨時噴酒精消毒、戴口罩、運動提升免疫力之外，使用「抗病毒」的精油，也是許多質感寶貝的防疫程序。除了成分天然，有些精油還能舒壓、平穩情緒、淨化全身，掃除壞運氣。今天就來幫大家盤點5支「抗病毒」防疫必備TOP5 單方精油，趕緊看下去～
+這兩年來「防疫」已經變成一件家常便飯的例行公事，除了隨時噴酒精消毒、戴口罩、運動提升免疫力之外，「使用精油」也是許多質感寶貝的防疫程序。不僅成分天然，有些精油還能舒壓、平穩情緒、淨化全身，掃除壞運氣。今天就來跟大家分享「抗病毒」防疫必備TOP5 單方精油，趕緊看下去～
 <br>
 <br>
 <br>
+
 ### <center>澳洲尤加利 —— 疏通「上呼吸道不順」感冒前兆</center>
 
 ![](https://xuanyoga.tk/images/0424-1.jpg)
@@ -16,12 +17,11 @@ postImage: https://xuanyoga.tk/images/0424op.jpg
 
 提到「淨化空氣」的精油，絕對不能不提「呼吸道的清道夫」——尤加利，散發著沁入心脾的清透涼感氣味，除了抗菌、抗病毒，對於<font color=#C3A6A0>改善鼻子、咽喉等上呼吸道和耳朵的症狀相當有效</font>，能緩和鼻塞時的發炎現象、疏通鼻黏膜。在室內擴香可以預防感染、強化免疫力。
 
-
-
 <font size=3>⚠️注意事項：因尤加利有分許多種，建議一開始以「澳洲尤加利」為首選，氣味功效相對溫和，較不會刺激皮膚和粘膜唷。高血壓、癲癇患者及孕婦、嬰幼兒、蠶豆症患者忌用</font>
 <br>
 <br>
 <br>
+
 ### <center>桉油醇迷迭香 —— 沮喪、需要專注時使用<center/>
 
 ![](https://xuanyoga.tk/images/0424-2.jpg)
@@ -34,6 +34,7 @@ postImage: https://xuanyoga.tk/images/0424op.jpg
 <br>
 <br>
 <br>
+
 ### **<center>杜松** —— 水逆人「淨化」必備</center>
 
 ![](https://xuanyoga.tk/images/0424-3.jpg)
@@ -48,6 +49,7 @@ postImage: https://xuanyoga.tk/images/0424op.jpg
 <br>
 <br>
 <br>
+
 ### **<center>茶樹**——改善感冒症狀、長期疲勞者適用</center>
 
 ![](https://xuanyoga.tk/images/0424-4.jpg)
@@ -60,7 +62,8 @@ postImage: https://xuanyoga.tk/images/0424op.jpg
 <br>
 <br>
 <br>
-### **真正薰衣草** —— 好好睡覺、提升免疫力
+
+### **<center>真正薰衣草** —— 好好睡覺、提升免疫力**</center>**
 
 ![](https://xuanyoga.tk/images/0424-5.jpg)
 
@@ -73,8 +76,7 @@ postImage: https://xuanyoga.tk/images/0424op.jpg
 <font size=4><a href="https://www.niusnews.com/=P0ff8gw00" target="_blank"><font color="7D8E95">【 你可能想看：5款「助眠精油」功效、用法、搭配瑜伽姿勢一次看！甜橙助消化、廣藿香還能護膚？ 】</font></a></font>
 <br>
 <br>
-<br>
-\-
+<br>-
 
 ### 常見使用方法：
 
