@@ -3,6 +3,14 @@ bgColor: "#f7f1f0"
 topTitle: Feedback
 title: "## What People Think of Me?"
 testimonial:
+  - time: May 12, 2022
+    name: Yuan
+    comment: 我的人生第一堂瑜伽課就獻給老師了，完全不後悔，喜歡❤️ 還有一種相見恨晚的感覺😭
+    star: 5
+  - time: May 27, 2022
+    name: Alisa
+    comment: 老師上課給人很舒服自在的氛圍，做完瑜伽身心舒暢！聲音很像電台主持人，很療癒耶。謝謝老師的瑜伽課，變成我每週上班最期待的事！
+    star: 5
   - time: May 20, 2022
     name: Hoho
     comment: 老師的課在我們公司像在搶演唱會門票一樣....
