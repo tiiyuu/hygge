@@ -3,6 +3,11 @@ bgColor: "#f7f1f0"
 topTitle: Feedback
 title: "## What People Think of Me?"
 testimonial:
+  - time: May 20, 2022
+    name: Hoho
+    comment: 老師的課在我們公司像在搶演唱會門票一樣....
+      一開始沒有做瑜伽的習慣，後來被同部門同事大力推薦，就去上了一堂課當人生體驗。沒上還好一上完課就會知道為何大家都想上課了，晚上睡眠品質提升很多，睡很好，工作也變得很有效率。請老師一定要一直教下去造福蒼生，工程師們不能沒有您啊！
+    star: 5
   - time: Nov 10, 2021
     name: Lun
     comment: |
